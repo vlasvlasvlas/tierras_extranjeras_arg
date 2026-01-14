@@ -6,6 +6,8 @@ Visualizador web para explorar la extranjerizacion de tierras rurales por
 departamento y provincia en Argentina. Incluye mapa interactivo, tabla, charts,
 buscador y un panel de fuentes con descargas.
 
+**[🗺️ Ver Demo en Vivo](https://vlasvlasvlas.github.io/tierras_extranjeras_arg/)**
+
 ## Que es y para que sirve
 - Muestra que porcentaje del territorio rural esta en manos extranjeras por
   departamento y provincia.
@@ -13,14 +15,14 @@ buscador y un panel de fuentes con descargas.
   normal) y comparar provincias.
 - Ofrece acceso directo a los datos abiertos usados en la visualizacion.
 
-## Uso rapido (visor)
-Necesitas servir el sitio con un servidor estatico (por el uso de `fetch`).
+## Uso local (desarrollo)
+Para desarrollo local, servir con un servidor estatico:
 
 ```bash
-python3 -m http.server 8000
+python3 -m http.server 8080
 ```
 
-Luego abrir: `http://localhost:8000`
+Luego abrir: `http://localhost:8080`
 
 Nota: el visor carga Leaflet, Chart.js y tiles desde CDN, por lo que necesita
 conexion a internet.
@@ -47,11 +49,13 @@ conexion a internet.
 
 ## Datos y fuentes
 Fuentes principales (con enlaces a origen):
-- Registro Nacional de Tierras Rurales (RNTR):
-  https://www.argentina.gob.ar/justicia/registro-nacional-tierras-rurales
-- Instituto Geografico Nacional (IGN):
+- Datos de extranjerización por provincia:
+  https://www.argentina.gob.ar/justicia/tierrasrurales/datos/extranjerizacion-provincia
+- Observatorio de Tierras (CONICET):
+  https://iesyh.conicet.gov.ar/observatorio-de-tierras/
+- Instituto Geográfico Nacional (IGN):
   https://www.ign.gob.ar/
-- Investigacion "Quienes son los duenos de las tierras en la Argentina" (Chequeado):
+- Investigación "Quiénes son los dueños de las tierras en la Argentina" (Chequeado):
   https://chequeado.com/investigacion/quienes-son-los-duenos-de-las-tierras-en-la-argentina/
 
 Archivos locales relevantes:
@@ -125,3 +129,21 @@ Provincias:
 - Chart.js (charts)
 - js-yaml (parseo de YAML)
 - HTML/CSS/JS sin build step
+
+## Agradecimientos
+Este proyecto está basado en el trabajo del [Observatorio de Tierras de CONICET](http://www.bibliotecadigital.gob.ar/items/show/1564).
+
+Gracias a **@jclav** de **@geoinquietos** Argentina por la inspiración y apoyo a la comunidad geo.
+
+## Contribuciones
+Este es un **proyecto 100% abierto**. Podés agregar nuevas capas, mejorar visualizaciones,
+sumar datos o proponer cambios. ¡Las contribuciones son bienvenidas!
+
+Para contribuir:
+1. Hacé un fork del repositorio
+2. Creá tus cambios en una rama
+3. Enviá un Pull Request
+
+---
+
+Hecho con 💚 para la comunidad
