@@ -1,0 +1,306 @@
+[
+    {
+        "nombre": "Rusia",
+        "km2": 17098246,
+        "emoji": "🇷🇺"
+    },
+    {
+        "nombre": "Canadá",
+        "km2": 9984670,
+        "emoji": "🇨🇦"
+    },
+    {
+        "nombre": "Estados Unidos",
+        "km2": 9833517,
+        "emoji": "🇺🇸"
+    },
+    {
+        "nombre": "China",
+        "km2": 9596960,
+        "emoji": "🇨🇳"
+    },
+    {
+        "nombre": "Brasil",
+        "km2": 8515767,
+        "emoji": "🇧🇷"
+    },
+    {
+        "nombre": "Australia",
+        "km2": 7741220,
+        "emoji": "🇦🇺"
+    },
+    {
+        "nombre": "India",
+        "km2": 3287263,
+        "emoji": "🇮🇳"
+    },
+    {
+        "nombre": "Argentina",
+        "km2": 2780400,
+        "emoji": "🇦🇷"
+    },
+    {
+        "nombre": "México",
+        "km2": 1964375,
+        "emoji": "🇲🇽"
+    },
+    {
+        "nombre": "Perú",
+        "km2": 1285216,
+        "emoji": "🇵🇪"
+    },
+    {
+        "nombre": "Colombia",
+        "km2": 1141748,
+        "emoji": "🇨🇴"
+    },
+    {
+        "nombre": "Bolivia",
+        "km2": 1098581,
+        "emoji": "🇧🇴"
+    },
+    {
+        "nombre": "Venezuela",
+        "km2": 916445,
+        "emoji": "🇻🇪"
+    },
+    {
+        "nombre": "Chile",
+        "km2": 756102,
+        "emoji": "🇨🇱"
+    },
+    {
+        "nombre": "Francia",
+        "km2": 643801,
+        "emoji": "🇫🇷"
+    },
+    {
+        "nombre": "España",
+        "km2": 505370,
+        "emoji": "🇪🇸"
+    },
+    {
+        "nombre": "Paraguay",
+        "km2": 406752,
+        "emoji": "🇵🇾"
+    },
+    {
+        "nombre": "Alemania",
+        "km2": 357580,
+        "emoji": "🇩🇪"
+    },
+    {
+        "nombre": "Italia",
+        "km2": 301340,
+        "emoji": "🇮🇹"
+    },
+    {
+        "nombre": "Reino Unido",
+        "km2": 243610,
+        "emoji": "🇬🇧"
+    },
+    {
+        "nombre": "Uruguay",
+        "km2": 176215,
+        "emoji": "🇺🇾"
+    },
+    {
+        "nombre": "Grecia",
+        "km2": 131957,
+        "emoji": "🇬🇷"
+    },
+    {
+        "nombre": "Nicaragua",
+        "km2": 130370,
+        "emoji": "🇳🇮"
+    },
+    {
+        "nombre": "Cuba",
+        "km2": 109884,
+        "emoji": "🇨🇺"
+    },
+    {
+        "nombre": "Islandia",
+        "km2": 103000,
+        "emoji": "🇮🇸"
+    },
+    {
+        "nombre": "Corea del Sur",
+        "km2": 100210,
+        "emoji": "🇰🇷"
+    },
+    {
+        "nombre": "Portugal",
+        "km2": 92212,
+        "emoji": "🇵🇹"
+    },
+    {
+        "nombre": "Jordania",
+        "km2": 89342,
+        "emoji": "🇯🇴"
+    },
+    {
+        "nombre": "Austria",
+        "km2": 83871,
+        "emoji": "🇦🇹"
+    },
+    {
+        "nombre": "Irlanda",
+        "km2": 70273,
+        "emoji": "🇮🇪"
+    },
+    {
+        "nombre": "Costa Rica",
+        "km2": 51179,
+        "emoji": "🇨🇷"
+    },
+    {
+        "nombre": "Dinamarca",
+        "km2": 42952,
+        "emoji": "🇩🇰"
+    },
+    {
+        "nombre": "Países Bajos",
+        "km2": 41865,
+        "emoji": "🇳🇱"
+    },
+    {
+        "nombre": "Suiza",
+        "km2": 41277,
+        "emoji": "🇨🇭"
+    },
+    {
+        "nombre": "Bélgica",
+        "km2": 30528,
+        "emoji": "🇧🇪"
+    },
+    {
+        "nombre": "Albania",
+        "km2": 28748,
+        "emoji": "🇦🇱"
+    },
+    {
+        "nombre": "El Salvador",
+        "km2": 21041,
+        "emoji": "🇸🇻"
+    },
+    {
+        "nombre": "Israel",
+        "km2": 20770,
+        "emoji": "🇮🇱"
+    },
+    {
+        "nombre": "Eslovenia",
+        "km2": 20273,
+        "emoji": "🇸🇮"
+    },
+    {
+        "nombre": "Kuwait",
+        "km2": 17818,
+        "emoji": "🇰🇼"
+    },
+    {
+        "nombre": "Montenegro",
+        "km2": 13812,
+        "emoji": "🇲🇪"
+    },
+    {
+        "nombre": "Jamaica",
+        "km2": 10991,
+        "emoji": "🇯🇲"
+    },
+    {
+        "nombre": "Líbano",
+        "km2": 10400,
+        "emoji": "🇱🇧"
+    },
+    {
+        "nombre": "Chipre",
+        "km2": 9251,
+        "emoji": "🇨🇾"
+    },
+    {
+        "nombre": "Puerto Rico",
+        "km2": 9100,
+        "emoji": "🇵🇷"
+    },
+    {
+        "nombre": "Palestina",
+        "km2": 6020,
+        "emoji": "🇵🇸"
+    },
+    {
+        "nombre": "Trinidad y Tobago",
+        "km2": 5128,
+        "emoji": "🇹🇹"
+    },
+    {
+        "nombre": "Luxemburgo",
+        "km2": 2586,
+        "emoji": "🇱🇺"
+    },
+    {
+        "nombre": "Mauricio",
+        "km2": 2040,
+        "emoji": "🇲🇺"
+    },
+    {
+        "nombre": "Andorra",
+        "km2": 468,
+        "emoji": "🇦🇩"
+    },
+    {
+        "nombre": "Malta",
+        "km2": 316,
+        "emoji": "🇲🇹"
+    },
+    {
+        "nombre": "Maldivas",
+        "km2": 298,
+        "emoji": "🇲🇻"
+    },
+    {
+        "nombre": "Liechtenstein",
+        "km2": 160,
+        "emoji": "🇱🇮"
+    },
+    {
+        "nombre": "San Marino",
+        "km2": 61,
+        "emoji": "🇸🇲"
+    },
+    {
+        "nombre": "Mónaco",
+        "km2": 2,
+        "emoji": "🇲🇨"
+    },
+    {
+        "nombre": "Vaticano",
+        "km2": 0.49,
+        "emoji": "🇻🇦"
+    },
+    {
+        "nombre": "Ciudad de Buenos Aires",
+        "km2": 203,
+        "emoji": "🏙️",
+        "tipo": "ciudad"
+    },
+    {
+        "nombre": "Parque Nahuel Huapi",
+        "km2": 7050,
+        "emoji": "🏔️",
+        "tipo": "parque"
+    },
+    {
+        "nombre": "Parque Iguazú",
+        "km2": 550,
+        "emoji": "💧",
+        "tipo": "parque"
+    },
+    {
+        "nombre": "Cancha de fútbol",
+        "km2": 0.007,
+        "emoji": "⚽",
+        "tipo": "referencia"
+    }
+]

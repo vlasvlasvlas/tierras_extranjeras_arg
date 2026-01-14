@@ -53,7 +53,7 @@ const MapModule = {
      * Load GeoJSON layers
      */
     loadLayers() {
-        // Load provincias (base polygons - semi-transparent)
+        // Load provincias (base polygons - bottom layer)
         if (Config.data.provincias) {
             this.geojsonLayers.provincias = L.geoJSON(Config.data.provincias, {
                 style: (feature) => this.getPolygonStyle(feature, 'provincias'),
@@ -61,7 +61,7 @@ const MapModule = {
             }).addTo(this.map);
         }
 
-        // Load departamentos (polygons with color by nivel)
+        // Load departamentos (polygons with color by nivel - middle layer)
         if (Config.data.departamentos) {
             this.geojsonLayers.departamentos = L.geoJSON(Config.data.departamentos, {
                 style: (feature) => this.getPolygonStyle(feature, 'departamentos'),
@@ -69,7 +69,7 @@ const MapModule = {
             }).addTo(this.map);
         }
 
-        // Load puntos (circle markers with distinct colors)
+        // Load puntos (circle markers - top layer)
         if (Config.data.puntos) {
             this.geojsonLayers.puntos = L.geoJSON(Config.data.puntos, {
                 pointToLayer: (feature, latlng) => {
@@ -77,7 +77,7 @@ const MapModule = {
                     const nivel = props.nivel || 'normal';
                     const color = Config.getColor(nivel);
 
-                    return L.circleMarker(latlng, {
+                    const marker = L.circleMarker(latlng, {
                         radius: 6,
                         fillColor: color,
                         color: color,
@@ -85,9 +85,19 @@ const MapModule = {
                         opacity: 0,
                         fillOpacity: 0.85
                     });
+                    marker._baseStyle = { radius: 6, fillOpacity: 0.85, opacity: 0 };
+                    return marker;
                 },
                 onEachFeature: (feature, layer) => this.bindPointPopup(feature, layer)
             }).addTo(this.map);
+        }
+
+        // Ensure correct layer order: provincias < departamentos < puntos
+        if (this.geojsonLayers.provincias) {
+            this.geojsonLayers.provincias.bringToBack();
+        }
+        if (this.geojsonLayers.puntos) {
+            this.geojsonLayers.puntos.bringToFront();
         }
     },
 
@@ -143,8 +153,12 @@ const MapModule = {
     bindPopup(feature, layer, layerId) {
         const props = feature.properties;
 
-        // Highlight on hover
+        // Initialize filter state (visible by default)
+        layer._isFiltered = false;
+
+        // Highlight on hover - only if not filtered out
         layer.on('mouseover', () => {
+            if (layer._isFiltered) return; // Don't highlight if filtered out
             layer.setStyle({
                 weight: 3,
                 color: '#ffffff',
@@ -154,6 +168,7 @@ const MapModule = {
         });
 
         layer.on('mouseout', () => {
+            if (layer._isFiltered) return; // Keep filtered state
             this.geojsonLayers[layerId].resetStyle(layer);
         });
 
@@ -170,6 +185,11 @@ const MapModule = {
             if (num === undefined || num === null) return '-';
             return new Intl.NumberFormat('es-AR').format(Math.round(num));
         };
+        const formatPercent = (num) => {
+            if (num === undefined || num === null) return '-';
+            return `${num}%`;
+        };
+        const nivelColor = Config.getColor(props.nivel || 'sin_datos');
 
         let html = `<div class="popup-title">${props.nombre || 'Sin nombre'}</div>`;
 
@@ -191,7 +211,7 @@ const MapModule = {
             </div>
             <div class="popup-row">
                 <span class="popup-label">% Extranjerización:</span>
-                <span class="popup-value" style="color: ${Config.getColor(props.nivel)}">${props.porcentaje}%</span>
+                <span class="popup-value" style="color: ${nivelColor}">${formatPercent(props.porcentaje)}</span>
             </div>
         `;
 
@@ -204,18 +224,23 @@ const MapModule = {
     bindPointPopup(feature, layer) {
         const props = feature.properties;
 
-        // Highlight on hover
+        // Initialize filter state (visible by default)
+        layer._isFiltered = false;
+
+        // Highlight on hover - only if not filtered out
         layer.on('mouseover', () => {
+            if (layer._isFiltered) return; // Don't highlight if filtered out
             layer.setStyle({
-                radius: 11,
+                radius: 9,
                 fillOpacity: 1
             });
             layer.bringToFront();
         });
 
         layer.on('mouseout', () => {
+            if (layer._isFiltered) return; // Keep filtered state
             layer.setStyle({
-                radius: 8,
+                radius: 6,
                 fillOpacity: 0.85
             });
         });
@@ -241,11 +266,16 @@ const MapModule = {
                 const key = `${props.nombre}|${props.provincia || ''}`;
                 const visible = filteredKeys.has(key);
 
-                if (visible) {
-                    layer.setStyle({ fillOpacity: 0.6 });
-                } else {
-                    layer.setStyle({ fillOpacity: 0.05 });
-                }
+                // Update filter state for hover behavior
+                layer._isFiltered = !visible;
+
+                const baseStyle = this.getPolygonStyle(layer.feature, 'departamentos');
+                const dimmedOpacity = Math.max(baseStyle.fillOpacity * 0.1, 0.05);
+
+                layer.setStyle({
+                    ...baseStyle,
+                    fillOpacity: visible ? baseStyle.fillOpacity : dimmedOpacity
+                });
             });
         }
 
@@ -256,10 +286,13 @@ const MapModule = {
                 const key = `${props.nombre}|${props.provincia || ''}`;
                 const visible = filteredKeys.has(key);
 
+                // Update filter state for hover behavior
+                layer._isFiltered = !visible;
+
                 if (visible) {
-                    layer.setStyle({ fillOpacity: 0.9, opacity: 1, radius: 8 });
+                    layer.setStyle({ fillOpacity: 0.85, radius: 6, opacity: 0 });
                 } else {
-                    layer.setStyle({ fillOpacity: 0.1, opacity: 0.2, radius: 4 });
+                    layer.setStyle({ fillOpacity: 0.05, radius: 3, opacity: 0 });
                 }
             });
         }
@@ -274,29 +307,27 @@ const MapModule = {
      * Filter by porcentaje only (legacy support)
      */
     filterByPorcentaje(min, max) {
-        const filteredNames = new Set();
         const allData = Config.data.stats?.departamentos || [];
-
-        allData.forEach(d => {
+        const filteredData = allData.filter(d => {
             const p = d.porcentaje || 0;
-            if (p >= min && p <= max) {
-                filteredNames.add(d.nombre);
-            }
+            return p >= min && p <= max;
         });
 
-        this.applyFilter({ porcentajeMin: min, porcentajeMax: max }, filteredNames);
-        return filteredNames.size;
+        this.applyFilter({ porcentajeMin: min, porcentajeMax: max }, filteredData);
+        return filteredData.length;
     },
 
     /**
      * Zoom to a specific feature
      */
-    zoomToFeature(nombre, layerId = 'puntos') {
-        // Try puntos first (has all the data)
-        if (this.geojsonLayers.puntos) {
+    zoomToFeature(nombre, layerId = 'puntos', provincia = null) {
+        // Try puntos first (skip for provincias to avoid homonymous matches)
+        if (layerId !== 'provincias' && this.geojsonLayers.puntos) {
             let found = false;
             this.geojsonLayers.puntos.eachLayer(l => {
-                if (l.feature.properties.nombre === nombre) {
+                const props = l.feature.properties;
+                // Check name and optional province
+                if (props.nombre === nombre && (!provincia || props.provincia === provincia)) {
                     this.map.setView(l.getLatLng(), 10);
                     l.openPopup();
                     found = true;
@@ -310,7 +341,9 @@ const MapModule = {
         if (!layer) return;
 
         layer.eachLayer(l => {
-            if (l.feature.properties.nombre === nombre) {
+            const props = l.feature.properties;
+            // Check name and optional province
+            if (props.nombre === nombre && (!provincia || props.provincia === provincia)) {
                 if (l.getBounds) {
                     this.map.fitBounds(l.getBounds(), { padding: [50, 50] });
                 } else if (l.getLatLng) {
@@ -428,6 +461,37 @@ const MapModule = {
         if (markers.length) {
             this.geojsonLayers.propietarios = L.layerGroup(markers).addTo(this.map);
             console.log('✓ Propietarios loaded:', markers.length);
+        }
+
+        // Ensure correct layer order: provincias < departamentos < puntos < propietarios
+        this.fixLayerOrder();
+    },
+
+    /**
+     * Fix layer z-order: polygons at bottom, points on top
+     */
+    fixLayerOrder() {
+        // Order from bottom to top: provincias, departamentos, puntos, propietarios
+        if (this.geojsonLayers.provincias) {
+            this.geojsonLayers.provincias.bringToBack();
+        }
+        if (this.geojsonLayers.departamentos) {
+            this.geojsonLayers.departamentos.bringToBack();
+            // Then bring provincias to back again so departamentos is on top of it
+            if (this.geojsonLayers.provincias) {
+                this.geojsonLayers.provincias.bringToBack();
+            }
+        }
+        if (this.geojsonLayers.puntos) {
+            this.geojsonLayers.puntos.bringToFront();
+        }
+        // LayerGroup doesn't have bringToFront, so we iterate markers
+        if (this.geojsonLayers.propietarios) {
+            this.geojsonLayers.propietarios.eachLayer(layer => {
+                if (layer.bringToFront) {
+                    layer.bringToFront();
+                }
+            });
         }
     }
 };

@@ -1,0 +1,548 @@
+SOURCE: https://es.wikipedia.org/wiki/Anexo:Pa%C3%ADses_por_superficie
+
+
+== Lista de países y territorios dependientes por superficie ==
+{| class="wikitable sortable col3der" style="text-align: left"
+|-align="center" bgcolor="#CCCCCC"
+! width="1%" | #&nbsp;
+! width="25%" | Territorio
+! width="3%" | Superficie (km²)<ref name="unstats08">Fuente, a menos que se especifique lo contrario: {{Cita publicación|url=http://unstats.un.org/unsd/demographic/products/dyb/dyb2012/Table03.pdf|título=Demographic Yearbook – Table 3: Population by sex, rate of population increase, surface area and density|publicación=[[División de Estadísticas de las Naciones Unidas]]|fechaacceso=29 de noviembre de 2014|idioma=inglés|formato=PDF|año=2012}} http://unstats.un.org/unsd/demographic/products/dyb/dyb2012.htm Las entradas en esta tabla que dan cifras distintas de las cifras dadas en esta fuente se explican en la Nota asociada.</ref>
+! width="55%" | Datos
+|- 
+| - || ''[[Tierra|Planeta Tierra]]'' || 510&nbsp;072&nbsp;000 ||
+|- 
+| - || ''[[Océano]]s'' || 359&nbsp;685&nbsp;360 ||
+|- 
+| - || ''[[Continente|Tierras emergidas]]'' || 150&nbsp;386&nbsp;640 ||
+|- bgcolor="#FFFFFF"
+|1||{{bandera2|Rusia}}||17&nbsp;098&nbsp;246||País más grande del mundo, [[Asia]] y [[Europa]].<ref group="notas">Su [[Siberia|parte asiática]] (aproximadamente 13&nbsp;100&nbsp;000&nbsp;km²) es mayor que cualquier otro país asiático; y su [[Rusia europea|parte europea]] (aproximadamente 4&nbsp;960&nbsp;000&nbsp;km²) es mayor que cualquier otro país europeo.</ref>No incluye a [[Crimea]], ni otros [[Territorios ocupados de Ucrania por Rusia|territorios en disputa]].<ref group="notas">La península de [[Crimea]] (27&nbsp;000&nbsp;km²) es considerada por la mayoría de la comunidad internacional como parte de [[Ucrania]]. Incluyendo este territorio, Rusia totaliza una superficie de 17&nbsp;125&nbsp;191&nbsp;km².</ref>
+|- 
+| -||''{{Antártida}}''||13&nbsp;720&nbsp;000||Con territorios reclamados por 7 países<ref name="ARG" group="notas">[[Argentina]] reclama soberanía sobre [[Antártida Argentina|un sector]] de la [[Antártida]]; además mantiene un litigio por las [[islas del Atlántico Sur]] con el [[Reino Unido]] quien las administra; con ambos territorios, de soberanía aún indefinida, totalizaría 3&nbsp;748&nbsp;563&nbsp;km².</ref><ref name="AUS" group="notas" /> <ref name="CHI" group="notas" /><ref name="FRA" group="notas" /><ref name="NOR" group="notas" /><ref name="NZL" group="notas" />.<ref name="GBR" group="notas" />
+|- bgcolor="#EFEFEF"
+|2||{{bandera2|Canadá}}||9&nbsp;984&nbsp;670||País más grande de [[América]].
+|- bgcolor="#FFFFFF"
+|3||{{bandera2|Estados Unidos}}||9&nbsp;833&nbsp;517||No incluye [[Territorios no incorporados|territorios no incorporados]].<ref name="superficieEEUU">{{Cita web |url=http://www.oratlas.com/libro-mundial/estados-unidos/geografia |título=Estados Unidos - Geografía - Libro Mundial de Hechos |fechaacceso=6 de febrero de 2017 |autor=CIA}}</ref>
+|- bgcolor="#EFEFEF"
+|4||{{bandera2|República Popular China}}||9&nbsp;596&nbsp;960||No incluye territorios,<ref name="PRC" group="notas">La [[República Popular China]], incluyendo [[Hong Kong]] y [[Macao]], totaliza 9&nbsp;598&nbsp;093&nbsp;km²</ref> reclamos territoriales.<ref name="CHN" group="notas">La [[República de China]] administra el territorio de [[Taiwán]] y algunas islas menores cercanas. La [[República Popular China]] no reconoce a este estado y lo considera parte integral de su territorio, con el que totalizaría 9.634.072 km², incluyendo a Hong Kong y Macao.</ref><ref>{{Cita web|url=https://www.cia.gov/library/publications/resources/the-world-factbook/geos/ch.html|título=The World Factbook - China}}</ref>
+|- bgcolor="#FFFFFF"
+|5||{{bandera2|Brasil}}||8&nbsp;515&nbsp;767||País más grande de [[América del Sur|Sudamérica]] y [[América Latina|Latinoamérica]].
+|- bgcolor="#EFEFEF"
+|6||{{bandera2|Australia}}||7&nbsp;741&nbsp;220||País más grande de [[Oceanía]] e [[país insular|insular]] más grande del mundo. No incluye territorios ni reclamos territoriales.<ref name="AUS" group="notas">[[Australia]], incluyendo los territorios dependientes, totaliza 7&nbsp;741&nbsp;825&nbsp;km². Además, Australia reclama 6&nbsp;119&nbsp;818&nbsp;km² del [[Territorio Antártico Australiano]]</ref>
+|- bgcolor="#FFFFFF"
+|7||{{bandera2|India}}||3&nbsp;287&nbsp;263||No incluye reclamaciones territoriales.<ref group="notas">[[India]] reclama los territorios de [[Aksai Chin]] administrada por China y la [[Cachemira (región)|Cachemira]] bajo administración pakistaní, que tienen una superficie total de 120&nbsp;849&nbsp;km².</ref>
+|- bgcolor="#EFEFEF"
+|8||{{bandera2|Argentina}}||2&nbsp;780&nbsp;400||País más grande de [[Hispanoamérica]]. No incluye reclamaciones territoriales.<ref name="ARG" group="notas" />
+|- bgcolor="#FFFFFF"
+|9||{{bandera2|Kazajistán}}||2&nbsp;724&nbsp;900||[[Estado sin litoral|País sin salida al mar]] más grande del mundo.
+|- bgcolor="#EFEFEF"
+|10||{{bandera2|Argelia}}||2&nbsp;381&nbsp;741||País más grande de [[África]].
+|- bgcolor="#FFFFFF"
+|11||{{nowrap|{{bandera2|República Democrática del Congo}}}}||2&nbsp;344&nbsp;858||
+|- bgcolor="#EFEFEF"
+| -||''{{Bandera2|Reino de Dinamarca}}''
+|2&nbsp;192&nbsp;472
+|Está constituido por 3 países autónomos.<ref name=":0" group="notas">El [[Reino de Dinamarca]] posee 3 países constituyentes: [[Islas Feroe]], [[Dinamarca]] y [[Groenlandia]].
+</ref>
+|- 
+| -||''{{bandera2|Groenlandia}}''||2&nbsp;166&nbsp;086||País constituyente del [[Reino de Dinamarca]].<ref name=":0" group="notas" />
+|- bgcolor="#FFFFFF"
+|12||{{bandera2|Arabia Saudita}}||2&nbsp;149&nbsp;690||
+|- bgcolor="#EFEFEF"
+|13||{{bandera2|México}}||1&nbsp;964&nbsp;375||País más pequeño de [[América del Norte]]<ref group="notas">En la concepción [[hispanohablante]], América del Norte o Norteamérica, engloba el conjunto de países situados al norte de [[México]] y al propio México.</ref><ref>{{cita web|url=https://www.rae.es/dpd/Am%C3%A9rica%20del%20Norte|título=América del Norte. Diccionario panhispánico de dudas|autor=RAE|año=2005}}</ref>
+|- bgcolor="#FFFFFF"
+|14||{{bandera2|Indonesia}}||1&nbsp;904&nbsp;569||
+|- bgcolor="#EFEFEF"
+|15||{{bandera2|Sudán}}||1&nbsp;861&nbsp;484||No incluye reclamaciones territoriales.<ref name="SUD" group="notas">[[Sudán]] reclama el [[Triángulo de Hala'ib]], administrado por [[Egipto]], con el que totalizaría 1&nbsp;882&nbsp;064&nbsp;km².</ref>
+|- bgcolor="#FFFFFF"
+|16||{{bandera2|Libia}}||1&nbsp;759&nbsp;540||
+|- bgcolor="#EFEFEF"
+|17||{{bandera2|Irán}}||1&nbsp;648&nbsp;195||
+|- bgcolor="#FFFFFF"
+|18||{{bandera2|Mongolia}}||1&nbsp;564&nbsp;116||
+|- bgcolor="#EFEFEF"
+|19||{{bandera2|Perú}}||1&nbsp;285&nbsp;216||
+|- bgcolor="#FFFFFF"
+|20||{{bandera2|Chad}}||1&nbsp;284&nbsp;000||
+|- bgcolor="#EFEFEF"
+|21||{{bandera2|Níger}}||1&nbsp;267&nbsp;000||
+|- bgcolor="#FFFFFF"
+|22||{{bandera2|Angola}}||1&nbsp;246&nbsp;700||
+|- bgcolor="#EFEFEF"
+|23||{{bandera2|Malí}}||1&nbsp;240&nbsp;192||
+|- bgcolor="#FFFFFF"
+|24||{{bandera2|Sudáfrica}}||1&nbsp;219&nbsp;090||
+|- bgcolor="#EFEFEF"
+|25||{{bandera2|Colombia}}||1&nbsp;141&nbsp;748||
+|- bgcolor="#FFFFFF"
+|26||{{bandera2|Etiopía}}||1&nbsp;104&nbsp;300||
+|- bgcolor="#EFEFEF"
+|27||{{bandera2|Bolivia}}||1&nbsp;098&nbsp;581||
+|- bgcolor="#FFFFFF"
+|28||{{bandera2|Mauritania}}||1&nbsp;030&nbsp;700||
+|- bgcolor="#EFEFEF"
+|29||{{bandera2|Egipto}}||1&nbsp;001&nbsp;450||
+|- bgcolor="#FFFFFF"
+|30||{{bandera2|Tanzania}}||947&nbsp;300||
+|- bgcolor="#EFEFEF"
+|31||{{bandera2|Nigeria}}||923&nbsp;768||
+|- bgcolor="#FFFFFF"
+|32||{{bandera2|Venezuela}}||916&nbsp;445||No incluye reclamaciones territoriales.<ref group="notas">[[Venezuela]] reclama el [[territorio del Esequibo]], administrado por [[Guyana]], con la que totalizaría 1&nbsp;075&nbsp;987&nbsp;km².</ref>
+|- bgcolor="#EFEFEF"
+|33||{{bandera2|Pakistán}}||881&nbsp;913||No incluye reclamaciones territoriales.<ref group="notas">[[Pakistán]] administra los territorios de [[Cachemira (región)|Cachemira]] de: [[Azad Cachemira]] (13&nbsp;297km²) y [[Gilgit-Baltistán]] (72&nbsp;971km²). Si se incluyen además los [[Conflicto de Cachemira|reclamos paquistaníes]] sobre los territorios administrados por la [[India]] de: [[Territorio de Jammu y Cachemira|Jammu y Cachemira]] (42&nbsp;241km²) y [[Ladakh]] (59&nbsp;146km²), totalizaría una superficie terrestre total de 984&nbsp;010km².</ref><ref>{{cite web|url=http://www.geohive.com/cntry/pakistan.aspx|title=GeoHive – Pakistan population statistics|archive-date=2013-04-06}}</ref>
+|- bgcolor="#FFFFFF"
+|34||{{bandera2|Namibia}}||824&nbsp;292||
+|- bgcolor="#EFEFEF"
+|35||{{bandera2|Mozambique}}||799&nbsp;380||
+|- bgcolor="#FFFFFF"
+|36||{{bandera2|Turquía}}||783&nbsp;562||
+|- bgcolor="#EFEFEF"
+|37||{{bandera2|Chile}}||756&nbsp;102||País más largo del mundo.<ref>[https://www.gob.cl/en/about/ Sobre Chile]</ref> No incluye reclamaciones territoriales.<ref name="CHI" group="notas">[[Chile]] reclama el [[Territorio Chileno Antártico]], con el que totalizaría 2&nbsp;007&nbsp;207,6&nbsp;km².</ref> 
+|- bgcolor="#FFFFFF"
+|38||{{bandera2|Zambia}}||752&nbsp;618||
+|- bgcolor="#EFEFEF"
+|39||{{bandera2|Myanmar}}||676&nbsp;578||
+|- bgcolor="#FFFFFF"
+|40||{{bandera2|Afganistán}}||652&nbsp;230||
+|- bgcolor="#EFEFEF"
+|41||{{bandera2|Sudán del Sur}}||644&nbsp;329||
+|- bgcolor="#FFFFFF"
+|42||{{bandera2|Francia}}||643&nbsp;801||País más grande de la [[Unión Europea]]. Incluye la [[Francia Metropolitana]] (en Europa) y los cinco [[Departamento de ultramar|departamentos de ultramar]]. No incluye territorios dependientes ni reclamaciones territoriales.<ref name="FRA" group="notas">Francia está constituida por la [[Francia Metropolitana]] de 551&nbsp;695&nbsp;km² y los [[departamento de ultramar|departamentos de ultramar]] de [[Guayana Francesa]] (83&nbsp;534 km²), [[Isla Reunión|Reunión]] (2512&nbsp;km²), [[Guadalupe (Francia)|Guadalupe]] (1628&nbsp;km²), [[Martinica]] (1128&nbsp;km²) y [[Mayotte]] (374&nbsp;km²). Las [[ONU|Naciones Unidas]] le dan a la Francia Europea una superficie de 554 625 km2 y los enumera separadamente. Además, Francia posee diversos [[Territorio dependiente|territorios dependientes]] ([[Nueva Caledonia]], [[Polinesia Francesa]], [[San Martín (Francia)|San Martín]], [[San Bartolomé (Francia)|San Bartolomé]], [[San Pedro y Miquelón]], [[Wallis y Futuna]], los [[Territorios Australes Franceses]] y la [[isla Clipperton]]), con los que totalizaría 672&nbsp;051&nbsp;km². Finalmente, Francia reclama 432&nbsp;000 km² de la [[Tierra Adelia]], ubicada en la Antártida.</ref>
+|- bgcolor="#EFEFEF"
+|43||{{bandera2|Somalia}}||637&nbsp;657||Incluye el territorio de [[Somalilandia]].
+|- bgcolor="#FFFFFF"
+|44||{{bandera2|República Centroafricana}}||622&nbsp;984||
+|- bgcolor="#EFEFEF"
+|45||{{bandera2|Ucrania}}||603&nbsp;550||País más grande ubicado en su totalidad en [[Europa]]. Incluye el territorio disputado de [[Crimea]].<ref group="notas">La península de [[Crimea]] (27&nbsp;000&nbsp;km²) es considerada por la mayoría de la comunidad internacional como parte de [[Ucrania]], pero es administrada actualmente por [[Rusia]]. Sin este territorio, Ucrania totaliza una superficie de 576&nbsp;486&nbsp;km².</ref>
+|- bgcolor="#FFFFFF"
+|46||{{bandera2|Madagascar}}||587&nbsp;041||
+|- bgcolor="#EFEFEF"
+|47||{{bandera2|Botsuana}}||581&nbsp;730||
+|- bgcolor="#FFFFFF"
+|48||{{bandera2|Kenia}}||580&nbsp;367||
+|- bgcolor="#EFEFEF"
+|49||{{bandera2|Yemen}}||527&nbsp;968||
+|- bgcolor="#FFFFFF"
+|50||{{bandera2|Tailandia}}||513&nbsp;120||
+|- bgcolor="#EFEFEF"
+|51||{{bandera2|España}}||505&nbsp;370||No incluye reclamaciones territoriales.<ref name="ESP" group="notas">[[España]] reclama la península de [[Gibraltar]], perteneciente al [[Reino Unido]] y con el que totalizaría 505&nbsp;377 km².</ref>
+|- bgcolor="#FFFFFF"
+|52||{{bandera2|Turkmenistán}}||488&nbsp;100||
+|- bgcolor="#EFEFEF"
+|53||{{bandera2|Camerún}}||475&nbsp;440||
+|- bgcolor="#FFFFFF"
+|54||{{bandera2|Papúa Nueva Guinea}}||462&nbsp;840||
+|- bgcolor="#EFEFEF"
+|55||{{bandera2|Suecia}}||450&nbsp;295||
+|- bgcolor="#FFFFFF"
+|56||{{bandera2|Uzbekistán}}||447&nbsp;400||
+|- bgcolor="#EFEFEF"
+|57||{{bandera2|Marruecos}}||446&nbsp;550||No incluye el territorio del [[Sahara Occidental]].<ref name="MAR" group="notas">[[Marruecos]] ocupa desde 1975 gran parte el territorio del [[Sahara Occidental]], disputado por la [[República Árabe Saharaui Democrática]]. Incluyendo este territorio, Marruecos tendría una superficie total de 712&nbsp;550&nbsp;km².</ref>
+|- bgcolor="#FFFFFF"
+|58||{{bandera2|Iraq}}||438&nbsp;317||
+|- bgcolor="#EFEFEF"
+|59||{{bandera2|Paraguay}}||406&nbsp;752||
+|- bgcolor="#FFFFFF"
+|60||{{bandera2|Zimbabue}}||390&nbsp;757||
+|- bgcolor="#EFEFEF"
+|61||{{bandera2|Noruega}}||386&nbsp;224||Incluye los territorios de [[Svalbard]] y [[Jan Mayen]].<ref name="NOR" group="notas">[[Noruega]], incluyendo el territorio de la [[isla Bouvet]], totalizaría 386.273 km². Noruega reclama además la [[Tierra de la Reina Maud]] y la [[isla Pedro I]] en la Antártida, con la que totalizaría 2&nbsp;886&nbsp;516&nbsp;km².</ref>
+|- bgcolor="#FFFFFF"
+|62||{{bandera2|Japón}}||377&nbsp;975||No incluye reclamaciones territoriales.<ref name="area-2019">{{cite web |title=令和元年全国都道府県市区町村別面積調（１０月１日時点） |url=https://www.gsi.go.jp/KOKUJYOHO/MENCHO201910-index.html |publisher=[[Geospatial Information Authority of Japan]] |accessdate=2 de enero de 2020 |language=ja |date=26 de diciembre de 2019}}</ref>
+|- bgcolor="#EFEFEF"
+|63||{{bandera2|Alemania}}||357&nbsp;580||
+|- bgcolor="#FFFFFF"
+|64||{{bandera2|Congo}}||342&nbsp;000||
+|- bgcolor="#EFEFEF"
+|65||{{bandera2|Finlandia}}||338&nbsp;145||Incluye el territorio de [[Åland]].<ref name="FIN" group="notas">El territorio de [[Åland]] comprende 1&nbsp;580 km².</ref>
+|- bgcolor="#FFFFFF"
+|66||{{bandera2|Vietnam}}||331&nbsp;210||
+|- bgcolor="#EFEFEF"
+|67||{{bandera2|Malasia}}||330&nbsp;803||
+|- bgcolor="#FFFFFF"
+|68||{{bandera2|Costa de Marfil}}||322&nbsp;463||
+|- bgcolor="#EFEFEF"
+|69||{{bandera2|Polonia}}||312&nbsp;685||
+|- bgcolor="#FFFFFF"
+|70||{{bandera2|Omán}}||309&nbsp;500||
+|- bgcolor="#EFEFEF"
+|71||{{bandera2|Italia}}||301&nbsp;340||
+|- bgcolor="#FFFFFF"
+|72||{{bandera2|Filipinas}}||300&nbsp;000||
+|- bgcolor="#EFEFEF"
+|73||{{bandera2|Burkina Faso}}||274&nbsp;200||
+|- bgcolor="#FFFFFF"
+|74||{{bandera2|Nueva Zelanda}}||267&nbsp;710||No incluye territorios ni reclamaciones territoriales.<ref name="NZL" group="notas">[[Nueva Zelanda]], incluyendo los territorios de las [[Islas Cook]], [[Niue]] y [[Tokelau]], totaliza 268&nbsp;218&nbsp;km². Además, Nueva Zelanda reclama la [[Dependencia Ross]] en la Antártida, con la que totalizaría 718&nbsp;218 km².</ref>
+|- bgcolor="#EFEFEF"
+|75||{{bandera2|Gabón}}||267&nbsp;667||
+|- bgcolor="#FFFFFF"
+| -||{{bandera2|Sahara Occidental}}||266&nbsp;000||Territorio disputado con [[Estatus político del Sahara Occidental|estatus político indeterminado]].<ref name="MAR" group="notas" />
+|- bgcolor="#EFEFEF"
+|76||{{bandera2|Ecuador}}||256&nbsp;370||<ref name="Ecuador">{{cita web|autor=Cancillería de Ecuador|título=República del Ecuador|url=https://www.cancilleria.gob.ec/bolivia/wp-content/uploads/sites/22/2021/07/ECUADOR.pdf}}</ref>
+|- bgcolor="#FFFFFF"
+|77||{{bandera2|Guinea}}||245&nbsp;857||
+|- bgcolor="#EFEFEF"
+|78||{{bandera2|Reino Unido}}||243&nbsp;610||No incluye territorios ni reclamaciones territoriales.<ref name="GBR" group="notas">El [[Reino Unido]], incluyendo los 12 [[territorio Británico de Ultramar|territorios británicos de ultramar]], las [[Acrotiri y Dhekelia|bases soberanas]] y las tres [[dependencia de la Corona Británica|dependencias de la Corona]], totaliza 262&nbsp;738&nbsp;km². Además, el Reino Unido reclama el [[Territorio Antártico Británico]] en la Antártida, con el que totalizaría 1&nbsp;972&nbsp;138&nbsp;km².</ref>
+|- bgcolor="#FFFFFF"
+|79||{{bandera2|Uganda}}||241&nbsp;038||
+|- bgcolor="#EFEFEF"
+|80||{{bandera2|Ghana}}||238&nbsp;533||
+|- bgcolor="#FFFFFF"
+|81||{{bandera2|Rumania}}||238&nbsp;391||
+|- bgcolor="#EFEFEF"
+|82||{{bandera2|Laos}}||236&nbsp;800||
+|- bgcolor="#FFFFFF"
+|83||{{bandera2|Guyana}}||214&nbsp;969||Incluye el territorio de la [[Guayana Esequiba]] y la [[Región de Tigri]].<ref group="notas">Venezuela reclama 159&nbsp;542 km² y Surinam 15&nbsp;600 km² a [[Guyana]].</ref>
+|- bgcolor="#EFEFEF"
+|84||{{bandera2|Bielorrusia}}||207&nbsp;600||
+|- bgcolor="#FFFFFF"
+|85||{{bandera2|Kirguistán}}||199&nbsp;951||
+|- bgcolor="#EFEFEF"
+|86||{{bandera2|Senegal}}||196&nbsp;722||
+|- bgcolor="#FFFFFF"
+|87||{{bandera2|Siria}}||185&nbsp;180||Incluye los [[Altos del Golán]].<ref name="ISR" group="notas" />
+|- bgcolor="#EFEFEF"
+|88||{{bandera2|Camboya}}||181&nbsp;035||
+|- bgcolor="#FFFFFF"
+|89||{{bandera2|Uruguay}}||176&nbsp;215||
+|- bgcolor="#EFEFEF"
+|90||{{bandera2|Surinam}}||163&nbsp;820||País más pequeño de [[América del Sur]]. No incluye reclamaciones territoriales.<ref group="notas">Surinam reclama 15&nbsp;600 km² de la [[Región de Tigri]] a [[Guyana]], con la que totalizaría 179&nbsp;420&nbsp;km².</ref>
+|- bgcolor="#FFFFFF"
+|91||{{bandera2|Túnez}}||163&nbsp;610||
+|- bgcolor="#EFEFEF"
+|92||{{bandera2|Bangladés}}||148&nbsp;460||
+|- bgcolor="#FFFFFF"
+|93||{{bandera2|Nepal}}||147&nbsp;181||
+|- bgcolor="#EFEFEF"
+|94||{{bandera2|Tayikistán}}||143&nbsp;100||
+|- bgcolor="#FFFFFF"
+|95||{{bandera2|Grecia}}||131&nbsp;957||
+|- bgcolor="#EFEFEF"
+|96||{{bandera2|Nicaragua}}||130&nbsp;370||País más grande de [[América Central]].
+|- bgcolor="#FFFFFF"
+|97||{{bandera2|Corea del Norte}}||120&nbsp;538||
+|- bgcolor="#EFEFEF"
+|98||{{bandera2|Malaui}}||118&nbsp;484||
+|- bgcolor="#FFFFFF"
+|99||{{bandera2|Eritrea}}||117&nbsp;600||
+|- bgcolor="#EFEFEF"
+|100||{{bandera2|Honduras}}||112&nbsp;777||
+|- bgcolor="#FFFFFF"
+|101||{{bandera2|Benín}}||112&nbsp;622||
+|- bgcolor="#EFEFEF"
+|102||{{bandera2|Liberia}}||111&nbsp;369||
+|- bgcolor="#FFFFFF"
+|103||{{bandera2|Bulgaria}}||110&nbsp;879||
+|- bgcolor="#EFEFEF"
+|104||{{bandera2|Cuba}}||109&nbsp;884||País más grande del [[Caribe (región)|Caribe]] [[Antillas|insular]].
+|- bgcolor="#FFFFFF"
+|105||{{bandera2|Guatemala}}||108&nbsp;889||No incluye reclamaciones territoriales.<ref name="BLZ" group="notas">[[Guatemala]] reclama los territorios al sur del río Sibún, actualmente en poder de [[Belice]], que tienen una superficie total de 11&nbsp;030&nbsp;km². Véase al respecto en [[Diferendo territorial entre Belice y Guatemala]].</ref>
+|- bgcolor="#EFEFEF"
+|106||{{bandera2|Islandia}}||103&nbsp;000||
+|- bgcolor="#FFFFFF"
+|107||{{bandera2|Corea del Sur}}||100&nbsp;210||
+|- bgcolor="#EFEFEF"
+|108||{{bandera2|Hungría}}||93&nbsp;028||
+|- bgcolor="#FFFFFF"
+|109||{{bandera2|Portugal}}||92&nbsp;212||
+|- bgcolor="#EFEFEF"
+|110||{{bandera2|Jordania}}||89&nbsp;342||
+|- bgcolor="#FFFFFF"
+|111||{{bandera2|Serbia}}||88&nbsp;361||Incluye el territorio de [[Provincia autónoma de Kosovo y Metojia|Kosovo]].<ref name="SER" group="notas">[[Kosovo]] es un territorio (10&nbsp;887&nbsp;km²), el cual [[declaración de independencia de Kosovo|declaró su independencia]] de facto de [[Serbia]] en febrero de 2008, la que ha sido reconocida por varios países. El gobierno de Serbia y otros países, sin embargo, consideran a Kosovo como parte integral de su territorio. La superficie de Serbia sin Kosovo sería 77&nbsp;474&nbsp;km².</ref>
+|- bgcolor="#EFEFEF"
+|112||{{bandera2|Azerbaiyán}}||86&nbsp;600||
+|- bgcolor="#FFFFFF"
+|113||{{bandera2|Austria}}||83&nbsp;871||
+|- bgcolor="#EFEFEF"
+|114||{{bandera2|Emiratos Árabes Unidos}}||83&nbsp;600||
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Guayana Francesa|local}}''||83&nbsp;534||Administrado por [[Francia]].<ref name="FRA" group="notas" />
+|- bgcolor="#EFEFEF"
+|115||{{bandera2|República Checa}}||78&nbsp;867||
+|- bgcolor="#FFFFFF"
+|116||{{bandera2|Panamá}}||75&nbsp;517||
+|- bgcolor="#EFEFEF"
+|117||{{bandera2|Sierra Leona}}||71&nbsp;740||
+|- bgcolor="#FFFFFF"
+|118||{{bandera2|Irlanda}}||70&nbsp;273||
+|- bgcolor="#EFEFEF"
+|119||{{bandera2|Georgia}}||69&nbsp;700||Incluye los territorios de [[Abjasia]] y [[Osetia del Sur]].<ref name="GEO" group="notas">Los territorios de [[Abjasia]] (8600&nbsp;km²) y [[Osetia del Sur]] (3900&nbsp;km²) declararon su independencia a principios de los años 1990, la cual ha sido [[Reconocimiento internacional de la independencia de Abjasia y Osetia del Sur|reconocida]] por algunos estados en 2008. Sin embargo, la mayoría de la comunidad internacional los considera como parte de [[Georgia]], pese a no ejercer actualmente su control efectivo.</ref>
+|- bgcolor="#FFFFFF"
+|120||{{bandera2|Sri Lanka}}||65&nbsp;610||
+|- bgcolor="#EFEFEF"
+|121||{{bandera2|Lituania}}||65&nbsp;300||
+|- bgcolor="#FFFFFF"
+|122||{{bandera2|Letonia}}||64&nbsp;589||
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Svalbard}}''||62&nbsp;045||Administrado por [[Noruega]].<ref name="NOR" group="notas" />
+|- bgcolor="#FFFFFF"
+|123||{{bandera2|Togo}}||56&nbsp;785||
+|- bgcolor="#EFEFEF"
+|124||{{bandera2|Croacia}}||56&nbsp;594||
+|- bgcolor="#FFFFFF"
+|125||{{bandera2|Bosnia y Herzegovina}}||51&nbsp;197||
+|- bgcolor="#EFEFEF"
+|126||{{bandera2|Costa Rica}}||51&nbsp;179||
+|- bgcolor="#FFFFFF"
+|127||{{bandera2|Eslovaquia}}||49&nbsp;035||
+|- bgcolor="#EFEFEF"
+|128||{{bandera2|República Dominicana}}||48&nbsp;670||
+|- bgcolor="#FFFFFF"
+|129||{{bandera2|Estonia}}||45&nbsp;228||
+|- bgcolor="#EFEFEF"
+|130||{{bandera2|Dinamarca}}||42&nbsp;952||País constituyente del [[Reino de Dinamarca]].<ref name=":0" group="notas" />
+|- bgcolor="#FFFFFF"
+|131||{{bandera2|Países Bajos}}||41&nbsp;865||No incluye territorios.<ref name="NED" group="notas">Países Bajos incluye su territorio europeo (41&nbsp;543&nbsp;km²) y el [[Caribe Neerlandés]], con las Islas BES, [[Bonaire]] (288&nbsp;km²), [[San Eustaquio]] (21&nbsp;km²) y [[Isla de Saba|Saba]] (13&nbsp;km²). Las [[ONU|Naciones Unidas]] le dan a los Paises Bajos Europea una superficie de 41 528 km2 y los enumera separadamente. Los [[Países Bajos]], [[Aruba]], [[Curazao]] y [[San Martín (Países Bajos)|San Martín]] conforman el [[Reino de los Países Bajos]], que totaliza 42&nbsp;523 km²</ref>
+|- bgcolor="#EFEFEF"
+|132||{{bandera2|Suiza}}||41&nbsp;277||
+|- bgcolor="#FFFFFF"
+|133||{{bandera2|Bután}}||38&nbsp;394||
+|- bgcolor="#EFEFEF"
+| -||{{bandera2|República de China}} (Taiwán)||36&nbsp;197||Territorio disputado con [[Estatus político de la República de China|estatus político indeterminado]].<ref name="CHN" group="notas" />
+|- bgcolor="#FFFFFF"
+|134||{{bandera2|Guinea-Bissau}}||36&nbsp;125||
+|- bgcolor="#EFEFEF"
+|135||{{bandera2|Moldavia}}||33&nbsp;851||Incluye el territorio de [[Transnistria]].<ref name="MDA" group="notas">El territorio de [[Transnistria]] (4163&nbsp;km²) es reconocido internacionalmente como parte integral de [[Moldavia]]. Sin embargo, gran parte de la región forma parte de una república independiente de facto.</ref>
+|- bgcolor="#FFFFFF"
+|136||{{bandera2|Bélgica}}||30&nbsp;528||
+|- bgcolor="#EFEFEF"
+|137||{{bandera2|Lesoto}}||30&nbsp;355||
+|- bgcolor="#FFFFFF"
+|138||{{bandera2|Armenia}}||29&nbsp;743||
+|- bgcolor="#EFEFEF"
+|139||{{bandera2|Islas Salomón}}||28&nbsp;896||
+|- bgcolor="#FFFFFF"
+|140||{{bandera2|Albania}}||28&nbsp;748||
+|- bgcolor="#EFEFEF"
+|141||{{bandera2|Guinea Ecuatorial}}||28&nbsp;051||
+|- bgcolor="#FFFFFF"
+|142||{{bandera2|Burundi}}||27&nbsp;830||
+|- bgcolor="#EFEFEF"
+|143||{{bandera2|Haití}}||27&nbsp;750||
+|- bgcolor="#FFFFFF"
+|144||{{bandera2|Ruanda}}||26&nbsp;338||
+|- bgcolor="#EFEFEF"
+|145||{{bandera2|República de Macedonia}}||25&nbsp;713||
+|- bgcolor="#FFFFFF"
+|146||{{bandera2|Yibuti}}||23&nbsp;200||
+|- bgcolor="#EFEFEF"
+|147||{{bandera2|Belice}}||22&nbsp;966||Incluye territorios reclamados por Guatemala.<ref name="BLZ" group="notas" />
+|- bgcolor="#FFFFFF"
+|148||{{bandera2|El Salvador}}||21&nbsp;041||País más pequeño de [[América Central]].
+|- bgcolor="#EFEFEF"
+|149||{{bandera2|Israel}}||20&nbsp;770||No incluye territorios anexados en disputa.<ref name="ISR" group="notas">La superficie de [[Israel]] es de 20&nbsp;770 km² que corresponden al territorio dentro de la [[Línea Verde (Israel)|Línea Verde]]. Si se incluyen los territorios anexados de los [[Altos del Golán]] (c. 1&nbsp;200 km²) y [[Jerusalén Este]] (c. 64 km²) totalizaría 22&nbsp;072 km².</ref>
+|- bgcolor="#FFFFFF"
+|150||{{bandera2|Eslovenia}}||20&nbsp;273||
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Nueva Caledonia}}''||18&nbsp;575||Administrado por [[Francia]].<ref name="FRA" group="notas" />
+|- bgcolor="#FFFFFF"
+|151||{{bandera2|Fiyi}}||18&nbsp;274||
+|- bgcolor="#EFEFEF"
+|152||{{bandera2|Kuwait}}||17&nbsp;818||
+|- bgcolor="#FFFFFF"
+|153||{{bandera2|Eswatini}}||17&nbsp;364||
+|- bgcolor="#EFEFEF"
+|154||{{bandera2|Timor Oriental}}||14&nbsp;874||
+|- bgcolor="#FFFFFF"
+|155||{{bandera2|Bahamas}}||13&nbsp;880||
+|- bgcolor="#EFEFEF"
+|156||{{bandera2|Montenegro}}||13&nbsp;812||
+|- bgcolor="#FFFFFF"
+|157||{{bandera2|Vanuatu}}||12&nbsp;189||
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Islas Malvinas}}''||12&nbsp;173||Administradas por el [[Reino Unido]], estatus disputado con la [[Argentina]].<ref name="GBR" group="notas" /><ref name="ARG" group="notas" />
+|- bgcolor="#FFFFFF"
+|158||{{Bandera2|Catar}}||11&nbsp;571||
+|- bgcolor="#EFEFEF"
+|159||{{bandera2|Gambia}}||11&nbsp;295||
+|- bgcolor="#FFFFFF"
+|160||{{bandera2|Jamaica}}||10&nbsp;991||
+|- bgcolor="#EFEFEF"
+| -||{{bandera2|Kosovo}}||10&nbsp;887||Estado con reconocimiento limitado, reclamado por Serbia.<ref name="SER" group="notas" />
+|- bgcolor="#FFFFFF"
+|161||{{bandera2|Líbano}}||10&nbsp;400||
+|- bgcolor="#EFEFEF"
+|162||{{bandera2|Chipre}}||9251|| Incluye el territorio disputado de [[Chipre del Norte]]<ref name="CYP" group="notas">La [[isla de Chipre]] incluye, además del territorio bajo control efectivo de la [[República de Chipre]], a la no reconocida (expecto por Turquía) pero independiente de facto [[República Turca del Norte de Chipre]] (3355&nbsp;km²), a la [[Línea Verde (Chipre)|zona de amortiguamiento]] (346&nbsp;km²) que divide la isla, y a las [[Bases Soberanas del Reino Unido|bases soberanas]] del Reino Unido de [[Acrotiri y Dhekelia]] (254&nbsp;km²)</ref>
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Puerto Rico}}''||9100||País más pequeño de [[América Latina]] y de [[Hispanoamérica]]. Administrado por los [[Estados Unidos]].
+|- bgcolor="#EFEFEF"
+| -||{{bandera2|Abjasia}}||8660||Estado con reconocimiento limitado, reclamado por Georgia.<ref name="GEO" group="notas"/>
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Territorios Australes Franceses}}''||7668||Administrado por [[Francia]].<ref name="FRA" group="notas" />
+|- bgcolor="#EFEFEF"
+|163||{{bandera2|Palestina}}||6020||Incluye [[Cisjordania]] y la [[Franja de Gaza]].<ref name="ISR" group="notas" /> No incluye reclamaciones territoriales.
+|- bgcolor="#FFFFFF"
+|164||{{bandera2|Brunéi}}||5765||
+|- bgcolor="#EFEFEF"
+|165||{{bandera2|Trinidad y Tobago}}||5128||
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Polinesia Francesa}}''||4167||Administrado por [[Francia]].<ref name="FRA" group="notas" />
+|- bgcolor="#EFEFEF"
+| -||{{bandera2|Transnistria}}||4163||Estado con reconocimiento limitado, reclamado por Moldavia.<ref name="MDA" group="notas"/>
+|- bgcolor="#FFFFFF"
+|166||{{bandera2|Cabo Verde}}||4033||
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Georgias del Sur}}''||3903||Administradas por el [[Reino Unido]], estatus disputado con la [[Argentina]].<ref name="GBR" group="notas" /><ref name="ARG" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||{{bandera2|Osetia del Sur}}||3900||Estado con reconocimiento limitado, reclamado por Georgia.<ref name="GEO" group="notas"/>
+|- bgcolor="#EFEFEF"
+| -||{{bandera2|Chipre del Norte}}||3355||Estado con reconocimiento limitado, reclamado por Chipre.<ref name="CYP" group="notas"/>
+|- bgcolor="#FFFFFF"
+|167||{{bandera2|Samoa}}||2831||
+|- bgcolor="#EFEFEF"
+|168||{{bandera2|Luxemburgo}}||2586||
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Réunion|local}}''||2512||Administrado por [[Francia]].<ref name="FRA" group="notas" />
+|- bgcolor="#EFEFEF"
+|169||{{bandera2|Mauricio}}||2040||
+|- bgcolor="#FFFFFF"
+|170||{{bandera2|Comoras}}||1862||No incluye reclamaciones territoriales.<ref group="notas">Sin incluir [[Mayotte]], un [[departamento de ultramar|departamento de ultramar francés]].</ref>
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Guadalupe|local}}''||1628||Administrado por [[Francia]].<ref name="FRA" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Åland}}''||1580||Administrado por [[Finlandia]].<ref group="notas">Región autónoma sujeta a un tratado internacional [[Tratado de París (1856)|tratado internacional]].</ref>
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Islas Feroe}}''||1393||País constituyente del [[Reino de Dinamarca]].<ref name=":0" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Martinica}}''||1128||Administrado por [[Francia]].<ref name="FRA" group="notas" />
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Hong Kong}}''||1104||Administrado por la [[República Popular China]].<ref name="PRC" group="notas" />
+|- bgcolor="#FFFFFF"
+|171||{{bandera2|Santo Tomé y Príncipe}}||964||
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Islas Turcas y Caicos}}''||948||
+|- bgcolor="#FFFFFF"
+|172||{{bandera2|Kiribati}}||811||
+|- bgcolor="#EFEFEF"
+|173||{{bandera2|Baréin}}||760||País más pequeño del [[Oriente Medio]] y del [[mundo árabe]].
+|- bgcolor="#FFFFFF"
+|174||{{bandera2|Dominica}}||751||
+|- bgcolor="#EFEFEF"
+|175||{{bandera2|Tonga}}||747||
+|- bgcolor="#FFFFFF"
+|176||{{bandera2|Singapur}}||728||
+|- bgcolor="#EFEFEF"
+|177||{{bandera2|Micronesia}}||702||
+|- bgcolor="#FFFFFF"
+|178||{{bandera2|Santa Lucía}}||616||
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Isla de Man}}''||572||Administrado por la [[Dependencia de la Corona Británica|Corona británica]].<ref name="GBR" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Guam}}''||544||Administrado por los [[Estados Unidos]].
+|- bgcolor="#EFEFEF"
+|179||{{bandera2|Andorra}}||468||
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Islas Marianas del Norte}}''||464||Administrado por los [[Estados Unidos]].
+|- bgcolor="#EFEFEF"
+|180||{{bandera2|Palau}}||459||
+|- bgcolor="#FFFFFF"
+|181||{{bandera2|Seychelles}}||455||País más pequeño de [[África]].
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Curaçao}}''||444||Administrado por los [[Países Bajos]].<ref name="NED" group="notas" />
+|- bgcolor="#FFFFFF"
+|182||{{bandera2|Antigua y Barbuda}}||443||
+|- bgcolor="#EFEFEF"
+|183||{{bandera2|Barbados}}||430||
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Islas Heard y McDonald}}''||412||Administrado por [[Australia]].<ref name="AUS" group="notas" />
+|- bgcolor="#EFEFEF"
+|184||{{bandera2|San Vicente y las Granadinas}}||389||
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Jan Mayen}}''||377||Administrado por [[Noruega]].<ref name="NOR" group="notas" />
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Mayotte|local}}''||374||Administrado por [[Francia]].<ref name="FRA" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Islas Vírgenes Estadounidenses}}''||346||Administrado por los [[Estados Unidos]]. No se consideran aguas interiores.
+|- bgcolor="#EFEFEF"
+|185||{{bandera2|Granada}}||344||
+|- bgcolor="#FFFFFF"
+|186||{{bandera2|Malta}}||316||
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Santa Helena, Ascensión y Tristán de Acuña}}''||308||Administrado por el [[Reino Unido]].<ref name="GBR" group="notas" />
+|- bgcolor="#FFFFFF"
+|187||{{bandera2|Maldivas}}||298||País más pequeño de [[Asia]].
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Bonaire}}''||288||Administrado por los [[Países Bajos]].<ref name="NED" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Islas Caimán}}''||264||Administrado por el [[Reino Unido]].<ref name="GBR" group="notas" />
+|- bgcolor="#EFEFEF"
+|188||{{bandera2|San Cristóbal y Nieves}}||261||País más pequeño de [[América]].
+|- bgcolor="#FFFFFF"
+| -||{{bandera2|Niue}}||260||Estado asociado a [[Nueva Zelanda]].<ref name="NZL" group="notas" />
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Acrotiri y Dhekelia}}''||254||Administrado por el [[Reino Unido]].<ref name="GBR" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|San Pedro y Miquelón|local}}''||242||Administrado por [[Francia]].<ref name="FRA" group="notas" />
+|- bgcolor="#EFEFEF"
+| -||{{bandera2|Islas Cook}}||236||Estado asociado a [[Nueva Zelanda]].<ref name="NZL" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Samoa Americana}}''||199||Administrado por los [[Estados Unidos]].
+|- bgcolor="#EFEFEF"
+|189||{{bandera2|Islas Marshall}}||181||
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Aruba}}''||180||Administrado por los [[Países Bajos]].<ref name="NED" group="notas" />
+|- bgcolor="#EFEFEF"
+|190||{{bandera2|Liechtenstein}}||160||
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Islas Vírgenes Británicas}}''||151||Administrado por el [[Reino Unido]].<ref name="GBR" group="notas" />
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Wallis y Futuna}}''||142||Administrado por [[Francia]].<ref name="FRA" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Isla de Navidad}}''||135||Administrado por [[Australia]].<ref name="AUS" group="notas" />
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Jersey}}''||116||Administrado por la [[Dependencia de la Corona Británica|Corona británica]].<ref name="GBR" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Montserrat}}''||102||Administrado por el [[Reino Unido]].<ref name="GBR" group="notas" />
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Anguila}}''||91||Administrado por el [[Reino Unido]].<ref name="GBR" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Guernsey}}''||78||Administrado por la [[Dependencia de la Corona Británica|Corona británica]].<ref name="GBR" group="notas" />
+|- bgcolor="#EFEFEF"
+|191||{{bandera2|San Marino}}||61||
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Territorio Británico del Océano Índico}}''||60||Administrado por el [[Reino Unido]].<ref name="GBR" group="notas" />
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|San Martín (Francia)|local}}''||54||Administrado por [[Francia]].<ref name="FRA" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Bermudas}}''||54||Administradas por el [[Reino Unido]].<ref name="GBR" group="notas" />
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Isla Bouvet}}''||49||Administrada por [[Noruega]].<ref name="NOR" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Islas Pitcairn}}''||47||Administradas por el [[Reino Unido]].<ref name="GBR" group="notas" />
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Norfolk}}''||36||Administrado por [[Australia]].<ref name="AUS" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{nowrap|{{bandera|Estados Unidos}} [[Islas Ultramarinas Menores de los Estados Unidos]]}}''||34||Administrado por los [[Estados Unidos]].
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Sint Maarten}}''||34||Administrado por los [[Países Bajos]].<ref name="NED" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Macao}}''||28||Administrado por la [[República Popular China]].<ref name="PRC" group="notas" />
+|- bgcolor="#EFEFEF"
+|192||{{bandera2|Tuvalu}}||26||
+|- bgcolor="#FFFFFF"
+|193||{{bandera2|Nauru}}||21||País más pequeño de [[Oceanía]], [[república]] más pequeña del mundo, y [[país insular]] más pequeño del mundo.
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|San Bartolomé|local}}''||21||Administrado por [[Francia]].<ref name="FRA" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|San Eustaquio}}''||21||Administrado por los [[Países Bajos]].<ref name="NED" group="notas" />
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Islas Cocos}}''||14||Administradas por [[Australia]].<ref name="AUS" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Saba}}''||13||Administrado por los [[Países Bajos]].<ref name="NED" group="notas" />
+|- bgcolor="#EFEFEF"
+| -||''{{bandera2|Tokelau}}''||12||Administrado por [[Nueva Zelanda]].<ref name="NZL" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{bandera2|Gibraltar}}''||7||Administrado por [[Reino Unido]].<ref name="ESP" group="notas" />
+|- bgcolor="#EFEFEF"
+| -||''{{bandera|Francia}} [[Isla Clipperton]]''||6||Administrada por [[Francia]].<ref name="FRA" group="notas" />
+|- bgcolor="#FFFFFF"
+| -||''{{bandera|Australia}} [[Islas Ashmore y Cartier]]''||5||Administradas por [[Australia]].<ref name="AUS" group="notas" />
+|- bgcolor="#EFEFEF"
+| -||''[[Islas Spratly]]''||4||[[Islas Spratly#Litigio|Territorio disputado]].
+|- bgcolor="#FFFFFF"
+| -||''{{bandera|Australia}} [[Territorio de las Islas del Mar del Coral|Islas del Mar del Coral]]''||3||Administrado por [[Australia]].<ref name="AUS" group="notas" />
+|- bgcolor="#EFEFEF"
+|194||{{bandera2|Mónaco}}||2||País con salida al mar más pequeño del mundo.
+|- bgcolor="#FFFFFF"
+|195||{{bandera2|Ciudad del Vaticano}}||0,49||País más pequeño del mundo. Sin salida al mar.
+|}
+
+

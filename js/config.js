@@ -102,8 +102,21 @@ const Config = {
             // Apply colors as CSS variables
             if (this.app.colors) {
                 const root = document.documentElement;
+                const colorKeyAliases = {
+                    background: 'bg',
+                    sobre_promedio: 'sobre',
+                    textMuted: 'text-muted'
+                };
+                const toCssKey = (key) => {
+                    const aliased = colorKeyAliases[key] || key;
+                    return aliased
+                        .replace(/_/g, '-')
+                        .replace(/([a-z])([A-Z])/g, '$1-$2')
+                        .toLowerCase();
+                };
+
                 Object.entries(this.app.colors).forEach(([key, value]) => {
-                    root.style.setProperty(`--color-${key.replace(/_/g, '-')}`, value);
+                    root.style.setProperty(`--color-${toCssKey(key)}`, value);
                 });
             }
         }
@@ -116,7 +129,8 @@ const Config = {
         const colors = this.app?.colors || {};
         switch (nivel) {
             case 'alto': return colors.alto || '#e74c3c';
-            case 'sobre_promedio': return colors.sobre_promedio || '#f39c12';
+            case 'sobre_promedio': return colors.sobre_promedio || colors.sobre || '#f39c12';
+            case 'sin_datos': return colors.sin_datos || '#555555';
             default: return colors.normal || '#27ae60';
         }
     },

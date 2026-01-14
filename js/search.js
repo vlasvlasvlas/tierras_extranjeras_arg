@@ -125,7 +125,8 @@ const SearchModule = {
             this.resultsContainer.innerHTML = results.map(item => `
                 <div class="search-result-item" 
                      data-type="${item.type}" 
-                     data-nombre="${item.nombre}">
+                     data-nombre="${item.nombre}"
+                     data-provincia="${item.provincia || ''}">
                     <div class="search-result-name">${item.nombre}</div>
                     <div class="search-result-meta">
                         ${item.type === 'departamento' ? item.provincia + ' · ' : ''}
@@ -139,9 +140,10 @@ const SearchModule = {
                 item.addEventListener('click', () => {
                     const type = item.dataset.type;
                     const nombre = item.dataset.nombre;
+                    const provincia = item.dataset.provincia || null;
 
                     if (nombre) {
-                        this.selectResult(nombre, type);
+                        this.selectResult(nombre, type, provincia);
                     }
                 });
             });
@@ -160,7 +162,7 @@ const SearchModule = {
     /**
      * Handle result selection
      */
-    selectResult(nombre, type) {
+    selectResult(nombre, type, provincia = null) {
         // Clear input
         this.input.value = nombre;
         this.hideResults();
@@ -171,7 +173,7 @@ const SearchModule = {
         // Zoom to feature
         setTimeout(() => {
             const layerId = type === 'provincia' ? 'provincias' : 'departamentos';
-            MapModule.zoomToFeature(nombre, layerId);
+            MapModule.zoomToFeature(nombre, layerId, provincia);
         }, 100);
     }
 };

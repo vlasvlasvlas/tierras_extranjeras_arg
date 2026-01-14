@@ -36,6 +36,16 @@
                 <input type="text" id="search-input" placeholder="Buscar departamento o provincia...">
                 <div id="search-results" class="search-results"></div>
             </div>
+
+            <!-- Git Link -->
+            <a href="https://github.com/vlasvlasvlas/tierras_extranjeras_arg" target="_blank" class="github-link"
+                title="Ver en GitHub">
+                <svg height="24" width="24" viewBox="0 0 16 16" fill="currentColor">
+                    <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                    </path>
+                </svg>
+            </a>
         </div>
     </header>
 
@@ -118,27 +128,87 @@
     <main class="main-content">
         <!-- Map View -->
         <section id="map-view" class="view active">
-            <!-- Map Container -->
-            <div id="map"></div>
+            <!-- Hero Impact Card -->
+            <div class="impact-hero" id="impact-hero">
+                <div class="hero-header">
+                    <span class="hero-icon">🚨</span>
+                    <h2 class="hero-title">¿Cuánto territorio es?</h2>
+                </div>
 
-            <!-- Legend -->
-            <div class="legend" id="legend">
-                <div class="legend-title">Nivel de Extranjerización</div>
-                <div class="legend-item">
-                    <span class="legend-color" style="background: #e74c3c"></span>
-                    <span>Alto (&gt;10%)</span>
+                <div class="hero-value" id="hero-hectares">13.2 millones de hectáreas</div>
+                <div class="hero-subtext" id="hero-context">en manos de capitales extranjeros</div>
+
+                <div class="hero-comparisons" id="hero-comparisons">
+                    <div class="comparison-card">
+                        <span class="comparison-flag">🇬🇧</span>
+                        <div class="comparison-content">
+                            <div class="comparison-title">= Toda Inglaterra</div>
+                            <div class="comparison-subtitle">13 millones de hectáreas</div>
+                        </div>
+                    </div>
+                    <div class="comparison-card">
+                        <span class="comparison-flag">🇧🇪</span>
+                        <div class="comparison-content">
+                            <div class="comparison-title">= 4x Bélgica</div>
+                            <div class="comparison-subtitle">3 millones de hectáreas c/u</div>
+                        </div>
+                    </div>
+                    <div class="comparison-card">
+                        <span class="comparison-flag">🇮🇱</span>
+                        <div class="comparison-content">
+                            <div class="comparison-title">= 6x Israel</div>
+                            <div class="comparison-subtitle">2.2 millones de hectáreas c/u</div>
+                        </div>
+                    </div>
+                    <div class="comparison-card">
+                        <span class="comparison-flag">🏟️</span>
+                        <div class="comparison-content">
+                            <div class="comparison-title">= 18 millones de canchas de fútbol</div>
+                            <div class="comparison-subtitle">0.7 hectáreas por cancha</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="legend-item">
-                    <span class="legend-color" style="background: #f39c12"></span>
-                    <span>Sobre promedio (6-10%)</span>
+
+                <div class="hero-legal" id="hero-legal">
+                    36 departamentos superan el límite legal del 15% establecido por la Ley de Tierras
                 </div>
-                <div class="legend-item">
-                    <span class="legend-color" style="background: #27ae60"></span>
-                    <span>Normal (&lt;6%)</span>
+            </div>
+
+            <!-- Map Container -->
+            <div id="map">
+                <!-- Dynamic Impact Card -->
+                <div class="impact-panel" id="impact-panel">
+                    <div class="impact-header">
+                        <span class="impact-icon">🚨</span>
+                        <span class="impact-title">Equivale a</span>
+                    </div>
+                    <div class="impact-value" id="impact-hectares">13.2M ha</div>
+                    <div class="impact-comparison" id="impact-comparison">
+                        <span class="comparison-emoji">🌍</span>
+                        <span class="comparison-text">= toda Inglaterra</span>
+                    </div>
+                    <div class="impact-subtext" id="impact-subtext">en manos extranjeras</div>
                 </div>
-                <div class="legend-item">
-                    <span class="legend-color" style="background: #555555"></span>
-                    <span>Sin datos</span>
+
+                <!-- Legend -->
+                <div class="legend" id="legend">
+                    <div class="legend-title">Nivel de Extranjerización</div>
+                    <div class="legend-item">
+                        <span class="legend-color" style="background: #e74c3c"></span>
+                        <span>Alto (&gt;10%)</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-color" style="background: #f39c12"></span>
+                        <span>Sobre promedio (6-10%)</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-color" style="background: #27ae60"></span>
+                        <span>Normal (&lt;6%)</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-color" style="background: #555555"></span>
+                        <span>Sin datos</span>
+                    </div>
                 </div>
             </div>
         </section>
@@ -161,6 +231,12 @@
                         <!-- Data will be inserted here -->
                     </tbody>
                 </table>
+                <!-- Pagination Controls -->
+                <div class="table-pagination">
+                    <button id="btn-prev" class="pagination-btn" disabled>← Anterior</button>
+                    <span id="page-info">Página 1</span>
+                    <button id="btn-next" class="pagination-btn">Siguiente →</button>
+                </div>
             </div>
         </section>
 
@@ -218,6 +294,59 @@
                         target="_blank" class="info-link">
                         Investigación Chequeado →
                     </a>
+                </div>
+
+                <div class="info-card impact-card"
+                    style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: 2px solid #e74c3c;">
+                    <h2>🚨 ¿Cuánto territorio es?</h2>
+                    <div class="impact-stats">
+                        <div class="impact-main"
+                            style="font-size: 2.5rem; font-weight: bold; color: #e74c3c; margin: 1rem 0;">
+                            13.2 millones de hectáreas
+                        </div>
+                        <p style="font-size: 1.1rem; color: #bdc3c7; margin-bottom: 1.5rem;">
+                            en manos de capitales extranjeros
+                        </p>
+
+                        <div class="impact-comparisons" style="display: grid; gap: 0.8rem;">
+                            <div class="comparison-item"
+                                style="display: flex; align-items: center; gap: 0.8rem; padding: 0.8rem; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                                <span style="font-size: 2rem;">🇬🇧</span>
+                                <div>
+                                    <strong style="color: #3498db;">= Toda Inglaterra</strong>
+                                    <div style="font-size: 0.85rem; color: #7f8c8d;">13 millones de hectáreas</div>
+                                </div>
+                            </div>
+                            <div class="comparison-item"
+                                style="display: flex; align-items: center; gap: 0.8rem; padding: 0.8rem; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                                <span style="font-size: 2rem;">🇧🇪</span>
+                                <div>
+                                    <strong style="color: #3498db;">= 4x Bélgica</strong>
+                                    <div style="font-size: 0.85rem; color: #7f8c8d;">3 millones de hectáreas c/u</div>
+                                </div>
+                            </div>
+                            <div class="comparison-item"
+                                style="display: flex; align-items: center; gap: 0.8rem; padding: 0.8rem; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                                <span style="font-size: 2rem;">🇮🇱</span>
+                                <div>
+                                    <strong style="color: #3498db;">= 6x Israel</strong>
+                                    <div style="font-size: 0.85rem; color: #7f8c8d;">2.2 millones de hectáreas c/u</div>
+                                </div>
+                            </div>
+                            <div class="comparison-item"
+                                style="display: flex; align-items: center; gap: 0.8rem; padding: 0.8rem; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                                <span style="font-size: 2rem;">🏟️</span>
+                                <div>
+                                    <strong style="color: #3498db;">= 18 millones de canchas de fútbol</strong>
+                                    <div style="font-size: 0.85rem; color: #7f8c8d;">0.7 hectáreas por cancha</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p style="margin-top: 1.5rem; font-size: 0.9rem; color: #e67e22; font-style: italic;">
+                            36 departamentos superan el límite legal del 15% establecido por la Ley de Tierras
+                        </p>
+                    </div>
                 </div>
 
                 <div class="info-card">
@@ -301,8 +430,13 @@
     <script src="js/table.js"></script>
     <script src="js/charts.js"></script>
     <script src="js/search.js"></script>
+    <script src="js/impact.js"></script>
     <script src="js/data-sources.js"></script>
     <script src="js/app.js"></script>
+
+    <!-- Stats -->
+    <script data-goatcounter="https://tierrasextranjerasarg.goatcounter.com/count" async
+        src="//gc.zgo.at/count.js"></script>
 </body>
 
 </html>

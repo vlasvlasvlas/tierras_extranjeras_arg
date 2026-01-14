@@ -126,13 +126,14 @@ const Filters = {
             this.applyFilters();
         });
 
-        // Slider events with debounce
+        // Slider events with debounce for smooth dragging
         let debounceTimer;
         const debounce = (fn, delay) => {
             clearTimeout(debounceTimer);
             debounceTimer = setTimeout(fn, delay);
         };
 
+        // Min slider - update UI immediately, apply filters with debounce
         this.elements.minSlider.addEventListener('input', () => {
             this.state.porcentajeMin = parseInt(this.elements.minSlider.value);
             if (this.state.porcentajeMin > this.state.porcentajeMax) {
@@ -143,6 +144,13 @@ const Filters = {
             debounce(() => this.applyFilters(), 100);
         });
 
+        // Min slider - ensure filter applies when released (no debounce)
+        this.elements.minSlider.addEventListener('change', () => {
+            clearTimeout(debounceTimer);
+            this.applyFilters();
+        });
+
+        // Max slider - update UI immediately, apply filters with debounce
         this.elements.maxSlider.addEventListener('input', () => {
             this.state.porcentajeMax = parseInt(this.elements.maxSlider.value);
             if (this.state.porcentajeMax < this.state.porcentajeMin) {
@@ -151,6 +159,12 @@ const Filters = {
             }
             this.updateSliderUI();
             debounce(() => this.applyFilters(), 100);
+        });
+
+        // Max slider - ensure filter applies when released (no debounce)
+        this.elements.maxSlider.addEventListener('change', () => {
+            clearTimeout(debounceTimer);
+            this.applyFilters();
         });
 
         // Reset button
@@ -226,6 +240,11 @@ const Filters = {
         // Update Charts
         if (window.ChartsModule) {
             ChartsModule.applyFilter(filteredData);
+        }
+
+        // Update Impact Panel with dynamic comparison
+        if (window.ImpactModule) {
+            ImpactModule.updateFromData(filteredData, this.allData);
         }
     },
 

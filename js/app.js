@@ -27,6 +27,16 @@ const App = {
             SearchModule.init();
             DataSourcesModule.init();  // Data sources view
 
+            // Initialize Impact module (async load of country data)
+            if (window.ImpactModule) {
+                await ImpactModule.init();
+                // Trigger initial update with all data
+                const allFeatures = Config.data.puntos.features.map(f => f.properties);
+                ImpactModule.updateFromData(allFeatures, allFeatures);
+                // Also initialize hero card
+                ImpactModule.updateHero(allFeatures, allFeatures);
+            }
+
             // Setup tab navigation
             this.setupTabs();
 
@@ -83,17 +93,21 @@ const App = {
         layerControls.className = 'layer-controls';
         layerControls.innerHTML = `
             <div class="legend-title" style="margin-top: 1rem;">Capas</div>
+            <label class="layer-toggle" style="margin-bottom: 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 0.5rem;">
+                <input type="checkbox" id="layer-propietarios" checked>
+                <span style="color: #9b59b6;">🏛️ Propietarios destacados</span>
+            </label>
             <label class="layer-toggle">
-                <input type="checkbox" id="layer-provincias" checked>
-                <span>Provincias</span>
+                <input type="checkbox" id="layer-puntos" checked>
+                <span>Puntos de datos</span>
             </label>
             <label class="layer-toggle">
                 <input type="checkbox" id="layer-departamentos" checked>
                 <span>Departamentos</span>
             </label>
             <label class="layer-toggle">
-                <input type="checkbox" id="layer-puntos" checked>
-                <span>Puntos de datos</span>
+                <input type="checkbox" id="layer-provincias" checked>
+                <span>Provincias</span>
             </label>
         `;
         legend.appendChild(layerControls);
@@ -107,6 +121,9 @@ const App = {
         });
         document.getElementById('layer-puntos').addEventListener('change', (e) => {
             this.toggleLayer('puntos', e.target.checked);
+        });
+        document.getElementById('layer-propietarios').addEventListener('change', (e) => {
+            this.toggleLayer('propietarios', e.target.checked);
         });
     },
 

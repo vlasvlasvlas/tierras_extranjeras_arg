@@ -5,6 +5,9 @@
 
 const TableModule = {
     data: [],
+    currentFilteredData: [], // Store current filtered dataset
+    currentPage: 1,
+    rowsPerPage: 20,
     sortColumn: 'porcentaje',
     sortDirection: 'desc',
 
@@ -13,6 +16,7 @@ const TableModule = {
      */
     init() {
         this.data = Config.data.stats?.departamentos || [];
+        this.currentFilteredData = [...this.data]; // Initialize with all data
         this.render();
         this.bindEvents();
         console.log('✓ Table initialized');
@@ -21,9 +25,25 @@ const TableModule = {
     /**
      * Render the table body
      */
-    render(filteredData = null) {
+    render() {
         const tableBody = document.getElementById('table-body');
-        const data = filteredData || this.getSortedData();
+
+        // 1. Sort the full filtered dataset first
+        this.currentFilteredData = this.sortData(this.currentFilteredData);
+
+        // 2. Pagination Logic
+        const totalRows = this.currentFilteredData.length;
+        const totalPages = Math.ceil(totalRows / this.rowsPerPage) || 1;
+
+        // Ensure currentPage is valid
+        if (this.currentPage > totalPages) this.currentPage = totalPages;
+        if (this.currentPage < 1) this.currentPage = 1;
+
+        const startIndex = (this.currentPage - 1) * this.rowsPerPage;
+        const endIndex = Math.min(startIndex + this.rowsPerPage, totalRows);
+
+        // Slice data for current page
+        const pageData = this.currentFilteredData.slice(startIndex, endIndex);
 
         const formatNumber = (num) => {
             if (num === undefined || num === null) return '-';
@@ -38,25 +58,73 @@ const TableModule = {
             }
         };
 
-        tableBody.innerHTML = data.map(row => `
-            <tr data-nombre="${row.nombre}">
-                <td>${row.nombre || '-'}</td>
-                <td>${row.provincia || '-'}</td>
-                <td style="color: ${Config.getColor(row.nivel)}">${row.porcentaje}%</td>
-                <td>${formatNumber(row.extranjerizada_ha)}</td>
-                <td>${formatNumber(row.total_ha)}</td>
-                <td><span class="nivel-badge ${row.nivel}">${getNivelLabel(row.nivel)}</span></td>
-            </tr>
-        `).join('');
+        // Render rows
+        if (totalRows === 0) {
+            tableBody.innerHTML = '<tr><td colspan="6" style="text-align:center; padding: 2rem;">No se encontraron resultados</td></tr>';
+        } else {
+            tableBody.innerHTML = pageData.map(row => `
+                <tr data-nombre="${row.nombre}">
+                    <td>${row.nombre || '-'}</td>
+                    <td>${row.provincia || '-'}</td>
+                    <td style="color: ${Config.getColor(row.nivel)}">${row.porcentaje}%</td>
+                    <td>${formatNumber(row.extranjerizada_ha)}</td>
+                    <td>${formatNumber(row.total_ha)}</td>
+                    <td><span class="nivel-badge ${row.nivel}">${getNivelLabel(row.nivel)}</span></td>
+                </tr>
+            `).join('');
+        }
+
+        this.updatePaginationControls(totalRows, totalPages);
     },
 
     /**
-     * Get sorted data
+     * Update pagination UI
      */
-    getSortedData() {
-        const sorted = [...this.data];
+    updatePaginationControls(totalRows, totalPages) {
+        const pageInfo = document.getElementById('page-info');
+        const btnPrev = document.getElementById('btn-prev');
+        const btnNext = document.getElementById('btn-next');
 
-        sorted.sort((a, b) => {
+        if (pageInfo) {
+            pageInfo.textContent = `Página ${this.currentPage} de ${totalPages} (${totalRows} resultados)`;
+        }
+
+        if (btnPrev) {
+            btnPrev.disabled = this.currentPage === 1;
+        }
+
+        if (btnNext) {
+            btnNext.disabled = this.currentPage === totalPages || totalPages === 0;
+        }
+    },
+
+    nextPage() {
+        const totalPages = Math.ceil(this.currentFilteredData.length / this.rowsPerPage);
+        if (this.currentPage < totalPages) {
+            this.currentPage++;
+            this.render();
+            this.scrollToTop();
+        }
+    },
+
+    prevPage() {
+        if (this.currentPage > 1) {
+            this.currentPage--;
+            this.render();
+            this.scrollToTop();
+        }
+    },
+
+    scrollToTop() {
+        const tableContainer = document.querySelector('.table-container');
+        if (tableContainer) tableContainer.scrollTop = 0;
+    },
+
+    /**
+     * Get sorted data (Helper)
+     */
+    sortData(data) {
+        return [...data].sort((a, b) => {
             let valA = a[this.sortColumn];
             let valB = b[this.sortColumn];
 
@@ -75,8 +143,6 @@ const TableModule = {
             if (valA > valB) return this.sortDirection === 'asc' ? 1 : -1;
             return 0;
         });
-
-        return sorted;
     },
 
     /**
@@ -122,6 +188,10 @@ const TableModule = {
             }
         });
 
+        // Pagination Events
+        document.getElementById('btn-prev')?.addEventListener('click', () => this.prevPage());
+        document.getElementById('btn-next')?.addEventListener('click', () => this.nextPage());
+
         // Set initial sort indicator
         const initialTh = document.querySelector(`#data-table th[data-sort="${this.sortColumn}"]`);
         if (initialTh) {
@@ -130,44 +200,12 @@ const TableModule = {
     },
 
     /**
-     * Filter table by porcentaje range
-     */
-    filterByPorcentaje(min, max) {
-        const filtered = this.data.filter(row => {
-            const p = row.porcentaje || 0;
-            return p >= min && p <= max;
-        });
-        this.render(this.sortData(filtered));
-        return filtered.length;
-    },
-
-    /**
      * Apply global filter (called from Filters module)
      */
     applyFilter(filteredData) {
-        this.render(this.sortData(filteredData));
-    },
-
-    /**
-     * Sort given data
-     */
-    sortData(data) {
-        return [...data].sort((a, b) => {
-            let valA = a[this.sortColumn];
-            let valB = b[this.sortColumn];
-
-            if (typeof valA === 'string') {
-                valA = valA.toLowerCase();
-                valB = (valB || '').toLowerCase();
-            }
-
-            if (valA === null || valA === undefined) return 1;
-            if (valB === null || valB === undefined) return -1;
-
-            if (valA < valB) return this.sortDirection === 'asc' ? -1 : 1;
-            if (valA > valB) return this.sortDirection === 'asc' ? 1 : -1;
-            return 0;
-        });
+        this.currentFilteredData = [...filteredData]; // Store filtered data
+        this.currentPage = 1; // Reset to first page
+        this.render();
     }
 };
 

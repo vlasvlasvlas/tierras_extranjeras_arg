@@ -10,6 +10,7 @@ import json
 import re
 import sqlite3
 import unicodedata
+from collections import defaultdict
 from pathlib import Path
 
 # Paths
@@ -34,12 +35,67 @@ def normalize_name(name: str) -> str:
     name = unicodedata.normalize('NFKD', name).encode('ASCII', 'ignore').decode('ASCII')
     # Lowercase and strip
     name = name.lower().strip()
+    # Remove punctuation and collapse whitespace
+    name = re.sub(r'[.,]', ' ', name)
+    name = re.sub(r'\s+', ' ', name).strip()
     # Remove common prefixes
     prefixes = ['provincia de ', 'partido de ', 'departamento de ', 'departamento ']
     for prefix in prefixes:
         if name.startswith(prefix):
             name = name[len(prefix):]
     return name
+
+
+def normalize_provincia(name: str) -> str:
+    """Normalize province names including common abbreviations."""
+    normalized = normalize_name(name)
+    normalized = re.sub(r'\bant\s*arg\b', 'antartida', normalized)
+    normalized = re.sub(r'\batl\s*sur\b', 'atlantico sur', normalized)
+    normalized = normalized.replace('atlsur', 'atlantico sur')
+    normalized = normalized.replace('islas del ', 'islas ')
+    return normalized
+
+
+def tokenize_normalized(name: str) -> set:
+    """Tokenize a normalized name, removing common stopwords."""
+    stopwords = {
+        'de', 'del', 'la', 'las', 'el', 'los', 'y',
+        'general', 'coronel', 'mayor', 'presidente'
+    }
+    replacements = {
+        'pte': 'presidente',
+        'presidencia': 'presidente',
+        'gonzales': 'gonzalez',
+        'gral': 'general'
+    }
+    number_map = {
+        'tres': '3',
+        'nueve': '9',
+        'veinticinco': '25'
+    }
+    tokens = set()
+    for token in name.split():
+        token = replacements.get(token, token)
+        token = number_map.get(token, token)
+        if len(token) == 1 and not token.isdigit():
+            continue
+        if token in stopwords:
+            continue
+        tokens.add(token)
+        if token.startswith('la') and len(token) > 2:
+            tokens.add(token[2:])
+    return tokens
+
+
+CAPITAL_NAME_BY_PROV = {
+    'misiones': 'posadas',
+    'catamarca': 'san fernando del valle de catamarca',
+    'tucuman': 'san miguel de tucuman',
+    'la pampa': 'santa rosa',
+    'la rioja': 'la rioja',
+    'corrientes': 'corrientes',
+    'santa fe': 'santa fe'
+}
 
 
 def parse_html_description(description: str) -> dict:
@@ -157,13 +213,15 @@ def load_tierras_data(conn: sqlite3.Connection) -> dict:
             data = parse_html_description(description)
         
         if prov_name:
-            normalized = normalize_name(prov_name)
+            normalized = normalize_provincia(prov_name)
             data['nombre_original'] = prov_name
             data['nivel'] = get_nivel(data.get('porcentaje'))
             provincias_data[normalized] = data
     
     # Load departamentos from all 3 layers
     departamentos_data = {}
+    departamentos_by_name = defaultdict(list)
+    departamentos_by_prov = defaultdict(list)
     layers = [
         "Departamentos con alto nivel de extranjerización de tierras",
         "Departamentos por encima del promedio nacional",
@@ -177,14 +235,42 @@ def load_tierras_data(conn: sqlite3.Connection) -> dict:
             data['nombre_original'] = name
             data['nivel'] = get_nivel(data.get('porcentaje'))
             
-            # Create lookup key from name (normalize)
-            normalized = normalize_name(name)
-            departamentos_data[normalized] = data
+            provincia = data.get('provincia')
+            normalized_name = normalize_name(name)
+            normalized_prov = normalize_provincia(provincia)
+
+            if normalized_prov:
+                key = f"{normalized_prov}|{normalized_name}"
+                departamentos_data[key] = data
+
+            departamentos_by_name[normalized_name].append(data)
+            if normalized_prov:
+                departamentos_by_prov[normalized_prov].append({
+                    'tokens': tokenize_normalized(normalized_name),
+                    'data': data
+                })
     
     return {
         'provincias': provincias_data,
-        'departamentos': departamentos_data
+        'departamentos': departamentos_data,
+        'departamentos_by_name': dict(departamentos_by_name),
+        'departamentos_by_prov': dict(departamentos_by_prov)
     }
+
+
+def build_province_code_map(conn: sqlite3.Connection) -> dict:
+    """Build a province code -> name map from IGN provincias."""
+    cursor = conn.cursor()
+    cursor.execute('SELECT in1, nam, fna FROM ignprovincia')
+    code_map = {}
+
+    for in1, nam, fna in cursor.fetchall():
+        if in1 is None:
+            continue
+        code = str(in1).zfill(2)
+        code_map[code] = nam or fna
+
+    return code_map
 
 
 def process_ign_provincias(conn: sqlite3.Connection, tierras_data: dict) -> dict:
@@ -204,7 +290,7 @@ def process_ign_provincias(conn: sqlite3.Connection, tierras_data: dict) -> dict
             continue
         
         # Try to match with Tierras data
-        normalized = normalize_name(nam or fna)
+        normalized = normalize_provincia(nam or fna)
         tierras = tierras_data['provincias'].get(normalized, {})
         
         if tierras:
@@ -234,7 +320,7 @@ def process_ign_provincias(conn: sqlite3.Connection, tierras_data: dict) -> dict
     }
 
 
-def process_ign_departamentos(conn: sqlite3.Connection, tierras_data: dict) -> dict:
+def process_ign_departamentos(conn: sqlite3.Connection, tierras_data: dict, province_code_map: dict) -> dict:
     """Process IGN departamentos polygons and join with Tierras data."""
     print("Processing IGN departamentos polygons...")
     cursor = conn.cursor()
@@ -250,23 +336,52 @@ def process_ign_departamentos(conn: sqlite3.Connection, tierras_data: dict) -> d
         if not geometry:
             continue
         
-        # Try to match with Tierras data
-        normalized = normalize_name(nam or fna)
-        tierras = tierras_data['departamentos'].get(normalized, {})
-        
-        if tierras:
+        # Try to match with Tierras data using province + departamento
+        dept_name = nam or fna
+        normalized_name = normalize_name(dept_name)
+        prov_code = str(in1)[:2] if in1 is not None else None
+        prov_name = province_code_map.get(prov_code) if prov_code else None
+        normalized_prov = normalize_provincia(prov_name)
+
+        tierras = None
+        if normalized_prov:
+            key = f"{normalized_prov}|{normalized_name}"
+            tierras = tierras_data['departamentos'].get(key)
+
+        if tierras is None and not normalized_prov:
+            matches = tierras_data.get('departamentos_by_name', {}).get(normalized_name, [])
+            if len(matches) == 1:
+                tierras = matches[0]
+
+        if tierras is None and normalized_prov:
+            ign_tokens = tokenize_normalized(normalized_name)
+            candidates = []
+            for item in tierras_data.get('departamentos_by_prov', {}).get(normalized_prov, []):
+                tokens = item.get('tokens', set())
+                if tokens <= ign_tokens or ign_tokens <= tokens:
+                    candidates.append(item.get('data'))
+            if len(candidates) == 1:
+                tierras = candidates[0]
+
+        if tierras is None and normalized_prov and normalized_name in {'capital', 'la capital'}:
+            capital_name = CAPITAL_NAME_BY_PROV.get(normalized_prov)
+            if capital_name:
+                key = f"{normalized_prov}|{capital_name}"
+                tierras = tierras_data['departamentos'].get(key)
+
+        if tierras is not None:
             matched += 1
         
         props = {
             'fid': fid,
-            'nombre': nam or fna,
+            'nombre': dept_name,
             'nombre_completo': fna,
             'codigo': in1,
-            'provincia': tierras.get('provincia'),
-            'total_ha': tierras.get('total_ha'),
-            'extranjerizada_ha': tierras.get('extranjerizada_ha'),
-            'porcentaje': tierras.get('porcentaje'),
-            'nivel': tierras.get('nivel', 'sin_datos')
+            'provincia': (tierras or {}).get('provincia') or prov_name,
+            'total_ha': (tierras or {}).get('total_ha'),
+            'extranjerizada_ha': (tierras or {}).get('extranjerizada_ha'),
+            'porcentaje': (tierras or {}).get('porcentaje'),
+            'nivel': (tierras or {}).get('nivel', 'sin_datos')
         }
         
         features.append({
@@ -399,8 +514,9 @@ def main():
         
         # Process IGN polygons with Tierras data
         print("\nProcessing polygons from IGN...")
+        province_code_map = build_province_code_map(ign_provs_conn)
         provincias = process_ign_provincias(ign_provs_conn, tierras_data)
-        departamentos = process_ign_departamentos(ign_deptos_conn, tierras_data)
+        departamentos = process_ign_departamentos(ign_deptos_conn, tierras_data, province_code_map)
         
         # Process original points from Tierras
         print("\nProcessing points from Tierras...")
