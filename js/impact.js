@@ -61,8 +61,7 @@ const ImpactModule = {
             // Fallback to hardcoded comparisons
             this.paises = [
                 { nombre: 'Inglaterra', hectareas: 13000000, emoji: '🇬🇧' },
-                { nombre: 'Bélgica', hectareas: 3050000, emoji: '🇧🇪' },
-                { nombre: 'Israel', hectareas: 2200000, emoji: '🇮🇱' }
+                { nombre: 'Bélgica', hectareas: 3050000, emoji: '🇧🇪' }
             ];
         }
     },
@@ -223,7 +222,7 @@ const ImpactModule = {
         }
 
         this.update(totalFiltered, context);
-        
+
         // Also update hero card
         this.updateHero(filteredData, allData);
     },
@@ -264,16 +263,16 @@ const ImpactModule = {
         } else {
             // WITH FILTERS: Use dynamic comparisons
             const comparisons = this.findTopComparisons(totalHectares, 4);
-            this.renderHeroComparisons(comparisons);
+            this.renderHeroComparisons(comparisons, totalHectares);
         }
 
         // Update legal text
         const overLimit = filteredData.filter(d => d.porcentaje > 15).length;
         if (overLimit > 0) {
-            this.elements.heroLegal.textContent = 
+            this.elements.heroLegal.textContent =
                 `${overLimit} departamento${overLimit !== 1 ? 's' : ''} super${overLimit !== 1 ? 'an' : 'a'} el límite legal del 15% establecido por la Ley de Tierras`;
         } else {
-            this.elements.heroLegal.textContent = 
+            this.elements.heroLegal.textContent =
                 'Ningún departamento supera el límite legal del 15%';
         }
     },
@@ -304,7 +303,7 @@ const ImpactModule = {
         for (const pais of this.paises) {
             const ratio = hectares / pais.hectareas;
             const diff = Math.abs(ratio - 1);
-            
+
             // Exact match (within 20%)
             if (ratio >= 0.8 && ratio <= 1.2) {
                 comparisons.push({
@@ -362,20 +361,6 @@ const ImpactModule = {
                 </div>
             </div>
             <div class="comparison-card">
-                <span class="comparison-flag">🇧🇪</span>
-                <div class="comparison-content">
-                    <div class="comparison-title">= 4x Bélgica</div>
-                    <div class="comparison-subtitle">3 millones de hectáreas c/u</div>
-                </div>
-            </div>
-            <div class="comparison-card">
-                <span class="comparison-flag">🇮🇱</span>
-                <div class="comparison-content">
-                    <div class="comparison-title">= 6x Israel</div>
-                    <div class="comparison-subtitle">2.2 millones de hectáreas c/u</div>
-                </div>
-            </div>
-            <div class="comparison-card">
                 <span class="comparison-flag">🏟️</span>
                 <div class="comparison-content">
                     <div class="comparison-title">= 18 millones de canchas de fútbol</div>
@@ -388,31 +373,52 @@ const ImpactModule = {
     /**
      * Render DYNAMIC comparisons (when filters applied)
      */
-    renderHeroComparisons(comparisons) {
+    renderHeroComparisons(comparisons, totalHectares) {
         if (!this.elements.heroComparisons) return;
 
-        if (comparisons.length === 0) {
-            this.elements.heroComparisons.innerHTML = `
-                <div class="comparison-card">
-                    <span class="comparison-flag">📍</span>
-                    <div class="comparison-content">
-                        <div class="comparison-title">Territorio significativo</div>
-                        <div class="comparison-subtitle">Sin comparaciones exactas</div>
-                    </div>
-                </div>
-            `;
-            return;
-        }
+        let html = '';
 
-        this.elements.heroComparisons.innerHTML = comparisons.map(c => `
+        // 1. Add BEST Country Comparison
+        if (comparisons.length > 0) {
+            const c = comparisons[0];
+            html += `
             <div class="comparison-card">
                 <span class="comparison-flag">${c.emoji}</span>
                 <div class="comparison-content">
                     <div class="comparison-title">${c.title}</div>
                     <div class="comparison-subtitle">${c.subtitle}</div>
                 </div>
-            </div>
-        `).join('');
+            </div>`;
+        } else {
+            html += `
+            <div class="comparison-card">
+                <span class="comparison-flag">📍</span>
+                <div class="comparison-content">
+                    <div class="comparison-title">Territorio significativo</div>
+                    <div class="comparison-subtitle">Sin comparaciones exactas</div>
+                </div>
+            </div>`;
+        }
+
+        // 2. Add Football Comparison (ALWAYS)
+        // 1 football pitch approx 0.7 hectares
+        if (totalHectares > 0) {
+            const canchas = Math.round(totalHectares / 0.7);
+            const canchasText = canchas >= 1000000
+                ? `${(canchas / 1000000).toFixed(1)} millones`
+                : canchas.toLocaleString('es-AR');
+
+            html += `
+            <div class="comparison-card">
+                <span class="comparison-flag">🏟️</span>
+                <div class="comparison-content">
+                    <div class="comparison-title">= ${canchasText} canchas de fútbol</div>
+                    <div class="comparison-subtitle">0.7 hectáreas por cancha</div>
+                </div>
+            </div>`;
+        }
+
+        this.elements.heroComparisons.innerHTML = html;
     }
 };
 

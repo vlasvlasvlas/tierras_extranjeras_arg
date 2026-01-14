@@ -21,82 +21,85 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="header-content">
-            <div class="logo">
-                <span class="logo-icon">🗺️</span>
-                <div class="logo-text">
-                    <h1 id="app-title">Tierras Extranjerizadas</h1>
-                    <p id="app-subtitle">Argentina</p>
+    <!-- Sticky Top Container -->
+    <div class="sticky-top-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">🗺️</span>
+                    <div class="logo-text">
+                        <h1 id="app-title">Tierras Extranjerizadas</h1>
+                        <p id="app-subtitle">Argentina</p>
+                    </div>
                 </div>
-            </div>
-            <!-- Search -->
-            <div class="header-search">
-                <input type="text" id="search-input" placeholder="Buscar departamento o provincia...">
-                <div id="search-results" class="search-results"></div>
-            </div>
-
-            <!-- Git Link -->
-            <a href="https://github.com/vlasvlasvlas/tierras_extranjeras_arg" target="_blank" class="github-link"
-                title="Ver en GitHub">
-                <svg height="24" width="24" viewBox="0 0 16 16" fill="currentColor">
-                    <path
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
-                    </path>
-                </svg>
-            </a>
-        </div>
-    </header>
-
-    <!-- Global Filters Panel -->
-    <div class="filters-panel">
-        <div class="filters-container">
-            <!-- Provincia Filter -->
-            <div class="filter-group">
-                <label for="filter-provincia">Provincia</label>
-                <select id="filter-provincia">
-                    <option value="">Todas las provincias</option>
-                </select>
-            </div>
-
-            <!-- Departamento Filter -->
-            <div class="filter-group">
-                <label for="filter-departamento">Departamento</label>
-                <select id="filter-departamento">
-                    <option value="">Todos los departamentos</option>
-                </select>
-            </div>
-
-            <!-- Nivel Filter -->
-            <div class="filter-group">
-                <label for="filter-nivel">Nivel</label>
-                <select id="filter-nivel">
-                    <option value="">Todos los niveles</option>
-                    <option value="alto">🔴 Alto (&gt;10%)</option>
-                    <option value="sobre_promedio">🟠 Sobre promedio (6-10%)</option>
-                    <option value="normal">🟢 Normal (&lt;6%)</option>
-                </select>
-            </div>
-
-            <!-- Porcentaje Slider -->
-            <div class="filter-group filter-group-slider">
-                <label>% Extranjerización: <span id="filter-value">0% - 100%</span></label>
-                <div class="slider-container">
-                    <input type="range" id="filter-min" class="slider" min="0" max="100" value="0">
-                    <input type="range" id="filter-max" class="slider" min="0" max="100" value="100">
-                    <div class="slider-track"></div>
-                    <div class="slider-range" id="slider-range"></div>
+                <!-- Search -->
+                <div class="header-search">
+                    <input type="text" id="search-input" placeholder="Buscar departamento o provincia...">
+                    <div id="search-results" class="search-results"></div>
                 </div>
-            </div>
 
-            <!-- Results Counter -->
-            <div class="filter-results">
-                <span id="visible-count">501</span> de <span id="total-count">501</span> departamentos
+                <!-- Git Link -->
+                <a href="https://github.com/vlasvlasvlas/tierras_extranjeras_arg" target="_blank" class="github-link"
+                    title="Ver en GitHub">
+                    <svg height="24" width="24" viewBox="0 0 16 16" fill="currentColor">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                        </path>
+                    </svg>
+                </a>
             </div>
+        </header>
 
-            <!-- Reset Button -->
-            <button class="filter-reset" id="filter-reset" title="Limpiar filtros">✕</button>
+        <!-- Global Filters Panel -->
+        <div class="filters-panel">
+            <div class="filters-container">
+                <!-- Provincia Filter -->
+                <div class="filter-group">
+                    <label for="filter-provincia">Provincia</label>
+                    <select id="filter-provincia">
+                        <option value="">Todas las provincias</option>
+                    </select>
+                </div>
+
+                <!-- Departamento Filter -->
+                <div class="filter-group">
+                    <label for="filter-departamento">Departamento</label>
+                    <select id="filter-departamento">
+                        <option value="">Todos los departamentos</option>
+                    </select>
+                </div>
+
+                <!-- Nivel Filter -->
+                <div class="filter-group">
+                    <label for="filter-nivel">Nivel</label>
+                    <select id="filter-nivel">
+                        <option value="">Todos los niveles</option>
+                        <option value="alto">🔴 Alto (&gt;10%)</option>
+                        <option value="sobre_promedio">🟠 Sobre promedio (6-10%)</option>
+                        <option value="normal">🟢 Normal (&lt;6%)</option>
+                    </select>
+                </div>
+
+                <!-- Porcentaje Slider -->
+                <div class="filter-group filter-group-slider">
+                    <label>% Extranjerización: <span id="filter-value">0% - 100%</span></label>
+                    <div class="slider-container">
+                        <input type="range" id="filter-min" class="slider" min="0" max="100" value="0">
+                        <input type="range" id="filter-max" class="slider" min="0" max="100" value="100">
+                        <div class="slider-track"></div>
+                        <div class="slider-range" id="slider-range"></div>
+                    </div>
+                </div>
+
+                <!-- Results Counter -->
+                <div class="filter-results">
+                    <span id="visible-count">501</span> de <span id="total-count">501</span> departamentos
+                </div>
+
+                <!-- Reset Button -->
+                <button class="filter-reset" id="filter-reset" title="Limpiar filtros">✕</button>
+            </div>
         </div>
     </div>
 
@@ -144,20 +147,6 @@
                         <div class="comparison-content">
                             <div class="comparison-title">= Toda Inglaterra</div>
                             <div class="comparison-subtitle">13 millones de hectáreas</div>
-                        </div>
-                    </div>
-                    <div class="comparison-card">
-                        <span class="comparison-flag">🇧🇪</span>
-                        <div class="comparison-content">
-                            <div class="comparison-title">= 4x Bélgica</div>
-                            <div class="comparison-subtitle">3 millones de hectáreas c/u</div>
-                        </div>
-                    </div>
-                    <div class="comparison-card">
-                        <span class="comparison-flag">🇮🇱</span>
-                        <div class="comparison-content">
-                            <div class="comparison-title">= 6x Israel</div>
-                            <div class="comparison-subtitle">2.2 millones de hectáreas c/u</div>
                         </div>
                     </div>
                     <div class="comparison-card">
@@ -281,6 +270,10 @@
                         Justicia), el <strong>Observatorio de Tierras</strong> de CONICET, y la investigación
                         <strong>"Quiénes son los dueños de las tierras en Argentina"</strong> de Chequeado.
                     </p>
+                    <a href="https://www.magyp.gob.ar/sitio/areas/tierras/ley/" target="_blank" class="info-link">
+                        Secretaría de Agricultura - Ley de Tierras (MAGYP) →
+                    </a>
+                    <br>
                     <a href="https://www.argentina.gob.ar/justicia/tierrasrurales/datos/extranjerizacion-provincia"
                         target="_blank" class="info-link">
                         Datos de Extranjerización por Provincia (Argentina.gob.ar) →
@@ -294,6 +287,16 @@
                         target="_blank" class="info-link">
                         Investigación Chequeado →
                     </a>
+
+                    <div
+                        style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--color-border); font-size: 0.85rem; color: var(--color-text-muted); font-style: italic;">
+                        <strong>Nota sobre los datos:</strong> La superficie visualizada (13.2M ha) corresponde a la
+                        suma de los departamentos con información georeferenciada disponible.
+                        Según datos oficiales de la <a href="https://www.magyp.gob.ar/sitio/areas/tierras/ley/"
+                            target="_blank" style="color: inherit; text-decoration: underline;">Secretaría de
+                            Agricultura</a>,
+                        la superficie total extranjerizada es de <strong>16.253.279 ha (6,09%)</strong>.
+                    </div>
                 </div>
 
                 <div class="info-card impact-card"
@@ -315,22 +318,6 @@
                                 <div>
                                     <strong style="color: #3498db;">= Toda Inglaterra</strong>
                                     <div style="font-size: 0.85rem; color: #7f8c8d;">13 millones de hectáreas</div>
-                                </div>
-                            </div>
-                            <div class="comparison-item"
-                                style="display: flex; align-items: center; gap: 0.8rem; padding: 0.8rem; background: rgba(255,255,255,0.05); border-radius: 8px;">
-                                <span style="font-size: 2rem;">🇧🇪</span>
-                                <div>
-                                    <strong style="color: #3498db;">= 4x Bélgica</strong>
-                                    <div style="font-size: 0.85rem; color: #7f8c8d;">3 millones de hectáreas c/u</div>
-                                </div>
-                            </div>
-                            <div class="comparison-item"
-                                style="display: flex; align-items: center; gap: 0.8rem; padding: 0.8rem; background: rgba(255,255,255,0.05); border-radius: 8px;">
-                                <span style="font-size: 2rem;">🇮🇱</span>
-                                <div>
-                                    <strong style="color: #3498db;">= 6x Israel</strong>
-                                    <div style="font-size: 0.85rem; color: #7f8c8d;">2.2 millones de hectáreas c/u</div>
                                 </div>
                             </div>
                             <div class="comparison-item"
