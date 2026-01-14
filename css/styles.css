@@ -376,8 +376,9 @@ body {
 /* Legend */
 .legend {
     position: absolute;
-    bottom: 30px;
-    right: 10px;
+    top: 30px;
+    right: 20px;
+    bottom: auto;
     background: rgba(22, 33, 62, 0.95);
     backdrop-filter: blur(10px);
     border-radius: var(--radius);
@@ -387,6 +388,7 @@ body {
     max-height: calc(100vh - 200px);
     overflow-y: auto;
 }
+
 
 .legend-title {
     font-size: 0.8rem;
@@ -717,6 +719,7 @@ body {
     }
 
     .legend {
+        top: auto;
         bottom: 1rem;
         left: 1rem;
         right: auto;
@@ -790,6 +793,11 @@ body {
 
     /* Dynamic panel - hide on mobile */
     .impact-panel {
+        display: none !important;
+    }
+
+    /* Hide layer controls on mobile */
+    .layer-controls {
         display: none !important;
     }
 

@@ -2,6 +2,8 @@
 
 ![Screenshot](screenshot.png)
 
+🌐 **[Ver mapa interactivo en vivo](https://vlasvlasvlas.github.io/tierras_extranjeras_arg/)**
+
 ## 🚨 ¿Por qué existe este proyecto?
 
 Todo comienza con un dato llamativo: **el departamento de Campana, en la provincia de Buenos Aires, tiene más del 50% de su territorio rural en manos extranjeras**. 
