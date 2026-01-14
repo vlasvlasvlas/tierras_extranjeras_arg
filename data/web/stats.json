@@ -1,0 +1,4198 @@
+{
+  "provincias": [
+    {
+      "nombre": "San Luis",
+      "nombre_completo": "Provincia de San Luis",
+      "total_ha": 7566383.62,
+      "extranjerizada_ha": 202514.36,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tucumán",
+      "nombre_completo": "Provincia de Tucumán",
+      "total_ha": 2215732.7,
+      "extranjerizada_ha": 89558.94,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Mendoza",
+      "nombre_completo": "Provincia de Mendoza",
+      "total_ha": 14829800.0,
+      "extranjerizada_ha": 1343983.52,
+      "porcentaje": 9,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Jujuy",
+      "nombre_completo": "Provincia de Jujuy",
+      "total_ha": 5284892.88,
+      "extranjerizada_ha": 192680.8,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Santiago del Estero",
+      "nombre_completo": "Provincia de Santiago del Estero",
+      "total_ha": 13571992.42,
+      "extranjerizada_ha": 670174.67,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Córdoba",
+      "nombre_completo": "Provincia de Córdoba",
+      "total_ha": 16269483.71,
+      "extranjerizada_ha": 196834.28,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "La Pampa",
+      "nombre_completo": "Provincia de La Pampa",
+      "total_ha": 14281146.41,
+      "extranjerizada_ha": 340790.3,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Chaco",
+      "nombre_completo": "Provincia del Chaco",
+      "total_ha": 8994746.59,
+      "extranjerizada_ha": 246275.07,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Formosa",
+      "nombre_completo": "Provincia de Formosa",
+      "total_ha": 6382416.0,
+      "extranjerizada_ha": 114933.45,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Santa Cruz",
+      "nombre_completo": "Provincia de Santa Cruz",
+      "total_ha": 23483545.44,
+      "extranjerizada_ha": 1905083.75,
+      "porcentaje": 8,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Chubut",
+      "nombre_completo": "Provincia del Chubut",
+      "total_ha": 22229905.8,
+      "extranjerizada_ha": 882628.45,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Juan",
+      "nombre_completo": "Provincia de San Juan",
+      "total_ha": 8563640.35,
+      "extranjerizada_ha": 887370.49,
+      "porcentaje": 10,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Río Negro",
+      "nombre_completo": "Provincia de Río Negro",
+      "total_ha": 17679594.5,
+      "extranjerizada_ha": 317496.16,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Misiones",
+      "nombre_completo": "Provincia de Misiones",
+      "total_ha": 2886252.94,
+      "extranjerizada_ha": 325756.37,
+      "porcentaje": 11,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Neuquén",
+      "nombre_completo": "Provincia del Neuquén",
+      "total_ha": 9152139.34,
+      "extranjerizada_ha": 504040.95,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "La Rioja",
+      "nombre_completo": "Provincia de La Rioja",
+      "total_ha": 8954885.84,
+      "extranjerizada_ha": 484560.27,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Catamarca",
+      "nombre_completo": "Provincia de Catamarca",
+      "total_ha": 10311732.0,
+      "extranjerizada_ha": 848027.4,
+      "porcentaje": 8,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Salta",
+      "nombre_completo": "Provincia de Salta",
+      "total_ha": 15492908.0,
+      "extranjerizada_ha": 1752523.73,
+      "porcentaje": 11,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Buenos Aires",
+      "nombre_completo": "Provincia de Buenos Aires",
+      "total_ha": 28833860.64,
+      "extranjerizada_ha": 827341.13,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Santa Fe",
+      "nombre_completo": "Provincia de Santa Fe",
+      "total_ha": 12832374.83,
+      "extranjerizada_ha": 219804.32,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Entre Ríos",
+      "nombre_completo": "Provincia de Entre Ríos",
+      "total_ha": 7641341.89,
+      "extranjerizada_ha": 246905.52,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Corrientes",
+      "nombre_completo": "Provincia de Corrientes",
+      "total_ha": 7257517.96,
+      "extranjerizada_ha": 554093.73,
+      "porcentaje": 8,
+      "nivel": "sobre_promedio"
+    }
+  ],
+  "departamentos": [
+    {
+      "nombre": "San Carlos",
+      "provincia": "Salta",
+      "total_ha": 512297.0,
+      "extranjerizada_ha": 306454.25,
+      "porcentaje": 60,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Molinos",
+      "provincia": "Salta",
+      "total_ha": 359894.0,
+      "extranjerizada_ha": 207985.8,
+      "porcentaje": 58,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "General Lamadrid",
+      "provincia": "La Rioja",
+      "total_ha": 617003.65,
+      "extranjerizada_ha": 349858.1,
+      "porcentaje": 57,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Lacar",
+      "provincia": "Neuquen",
+      "total_ha": 475095.11,
+      "extranjerizada_ha": 257346.02,
+      "porcentaje": 54,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Campana",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 23743.2,
+      "extranjerizada_ha": 11935.48,
+      "porcentaje": 50,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Iguazu",
+      "provincia": "Misiones",
+      "total_ha": 286378.35,
+      "extranjerizada_ha": 114406.68,
+      "porcentaje": 40,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Guachipas",
+      "provincia": "Salta",
+      "total_ha": 278408.0,
+      "extranjerizada_ha": 94205.62,
+      "porcentaje": 34,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Ituzaingo",
+      "provincia": "Corrientes",
+      "total_ha": 276890.58,
+      "extranjerizada_ha": 93858.71,
+      "porcentaje": 34,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Beron de Astrada",
+      "provincia": "Corrientes",
+      "total_ha": 71281.88,
+      "extranjerizada_ha": 23325.02,
+      "porcentaje": 33,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "General Guemes",
+      "provincia": "Salta",
+      "total_ha": 234836.0,
+      "extranjerizada_ha": 67685.0,
+      "porcentaje": 29,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "La Viña",
+      "provincia": "Salta",
+      "total_ha": 214943.0,
+      "extranjerizada_ha": 60662.71,
+      "porcentaje": 28,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Tinogasta",
+      "provincia": "Catamarca",
+      "total_ha": 2288319.0,
+      "extranjerizada_ha": 608956.63,
+      "porcentaje": 27,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Magallanes",
+      "provincia": "Santa Cruz",
+      "total_ha": 1976725.16,
+      "extranjerizada_ha": 509486.59,
+      "porcentaje": 26,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Humahuaca",
+      "provincia": "Jujuy",
+      "total_ha": 378793.24,
+      "extranjerizada_ha": 98726.31,
+      "porcentaje": 26,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Cerrillos",
+      "provincia": "Salta",
+      "total_ha": 62863.0,
+      "extranjerizada_ha": 15485.59,
+      "porcentaje": 25,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Zarate",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 48394.72,
+      "extranjerizada_ha": 12003.64,
+      "porcentaje": 25,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Iglesia",
+      "provincia": "San Juan",
+      "total_ha": 1803484.26,
+      "extranjerizada_ha": 450044.61,
+      "porcentaje": 25,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Cushamen",
+      "provincia": "Chubut",
+      "total_ha": 1649975.64,
+      "extranjerizada_ha": 377875.38,
+      "porcentaje": 23,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Cafayate",
+      "provincia": "Salta",
+      "total_ha": 154758.0,
+      "extranjerizada_ha": 35759.34,
+      "porcentaje": 23,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Oran",
+      "provincia": "Salta",
+      "total_ha": 1185676.0,
+      "extranjerizada_ha": 276043.86,
+      "porcentaje": 23,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Paclin",
+      "provincia": "Catamarca",
+      "total_ha": 98373.0,
+      "extranjerizada_ha": 20321.54,
+      "porcentaje": 21,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "San Pedro",
+      "provincia": "Jujuy",
+      "total_ha": 213947.46,
+      "extranjerizada_ha": 44237.58,
+      "porcentaje": 21,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "San Martin",
+      "provincia": "San Juan",
+      "total_ha": 52197.0,
+      "extranjerizada_ha": 10568.96,
+      "porcentaje": 20,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Montecarlo",
+      "provincia": "Misiones",
+      "total_ha": 173606.09,
+      "extranjerizada_ha": 31866.75,
+      "porcentaje": 18,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "General San Martin",
+      "provincia": "Misiones",
+      "total_ha": 148154.47,
+      "extranjerizada_ha": 24858.42,
+      "porcentaje": 17,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Garay",
+      "provincia": "Santa Fe",
+      "total_ha": 391776.85,
+      "extranjerizada_ha": 61629.59,
+      "porcentaje": 16,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Jimenez",
+      "provincia": "Santiago del Estero",
+      "total_ha": 482880.53,
+      "extranjerizada_ha": 77123.85,
+      "porcentaje": 16,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Chicoana",
+      "provincia": "Salta",
+      "total_ha": 90129.0,
+      "extranjerizada_ha": 14456.65,
+      "porcentaje": 16,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Eldorado",
+      "provincia": "Misiones",
+      "total_ha": 192507.84,
+      "extranjerizada_ha": 31266.08,
+      "porcentaje": 16,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Concepcion",
+      "provincia": "Misiones",
+      "total_ha": 71941.96,
+      "extranjerizada_ha": 11795.66,
+      "porcentaje": 16,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Cruz Alta",
+      "provincia": "Tucuman",
+      "total_ha": 112101.35,
+      "extranjerizada_ha": 18404.43,
+      "porcentaje": 16,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Malargue",
+      "provincia": "Mendoza",
+      "total_ha": 4130600.0,
+      "extranjerizada_ha": 608739.78,
+      "porcentaje": 15,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "El Carmen",
+      "provincia": "Jujuy",
+      "total_ha": 89683.91,
+      "extranjerizada_ha": 13270.8,
+      "porcentaje": 15,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Chilecito",
+      "provincia": "La Rioja",
+      "total_ha": 483920.35,
+      "extranjerizada_ha": 71904.29,
+      "porcentaje": 15,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Belgrano",
+      "provincia": "Santiago del Estero",
+      "total_ha": 331057.63,
+      "extranjerizada_ha": 49214.18,
+      "porcentaje": 15,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Aguirre",
+      "provincia": "Santiago del Estero",
+      "total_ha": 368596.28,
+      "extranjerizada_ha": 54866.46,
+      "porcentaje": 15,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Bariloche",
+      "provincia": "Rio Negro",
+      "total_ha": 169391.01,
+      "extranjerizada_ha": 23050.79,
+      "porcentaje": 14,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "San Martin",
+      "provincia": "Mendoza",
+      "total_ha": 147900.0,
+      "extranjerizada_ha": 20476.22,
+      "porcentaje": 14,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Anta",
+      "provincia": "Salta",
+      "total_ha": 2192493.0,
+      "extranjerizada_ha": 307715.1,
+      "porcentaje": 14,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Santo Tome",
+      "provincia": "Corrientes",
+      "total_ha": 657308.36,
+      "extranjerizada_ha": 92471.2,
+      "porcentaje": 14,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "La Paz",
+      "provincia": "Mendoza",
+      "total_ha": 709900.0,
+      "extranjerizada_ha": 89335.3,
+      "porcentaje": 13,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Guer Aike",
+      "provincia": "Santa Cruz",
+      "total_ha": 3363288.49,
+      "extranjerizada_ha": 432371.0,
+      "porcentaje": 13,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Pocito",
+      "provincia": "San Juan",
+      "total_ha": 54319.4,
+      "extranjerizada_ha": 7061.86,
+      "porcentaje": 13,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Juarez",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 507017.54,
+      "extranjerizada_ha": 67951.46,
+      "porcentaje": 13,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Concepcion",
+      "provincia": "Corrientes",
+      "total_ha": 253686.03,
+      "extranjerizada_ha": 34224.91,
+      "porcentaje": 13,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "La Paz",
+      "provincia": "Catamarca",
+      "total_ha": 992305.0,
+      "extranjerizada_ha": 116297.02,
+      "porcentaje": 12,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Almirante Brown",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 4035.15,
+      "extranjerizada_ha": 476.67,
+      "porcentaje": 12,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "General Alvear",
+      "provincia": "Mendoza",
+      "total_ha": 1443000.0,
+      "extranjerizada_ha": 170578.81,
+      "porcentaje": 12,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Calingasta",
+      "provincia": "San Juan",
+      "total_ha": 2138362.42,
+      "extranjerizada_ha": 258809.95,
+      "porcentaje": 12,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Exaltacion de la Cruz",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 57504.48,
+      "extranjerizada_ha": 6963.7,
+      "porcentaje": 12,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "General Jose de San Martin",
+      "provincia": "Salta",
+      "total_ha": 1619368.0,
+      "extranjerizada_ha": 200940.88,
+      "porcentaje": 12,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Las Heras",
+      "provincia": "Mendoza",
+      "total_ha": 890600.0,
+      "extranjerizada_ha": 110796.6,
+      "porcentaje": 12,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Tolhuin",
+      "provincia": "Tierra del Fuego, Ant.Arg e Islas Atl.Sur",
+      "total_ha": 587008.0,
+      "extranjerizada_ha": 73030.93,
+      "porcentaje": 12,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Pte Peron",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 8596.09,
+      "extranjerizada_ha": 1070.84,
+      "porcentaje": 12,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Capital",
+      "provincia": "Mendoza",
+      "total_ha": 1100.0,
+      "extranjerizada_ha": 117.02,
+      "porcentaje": 11,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Cachi",
+      "provincia": "Salta",
+      "total_ha": 292038.0,
+      "extranjerizada_ha": 31185.75,
+      "porcentaje": 11,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Lago Argentino",
+      "provincia": "Santa Cruz",
+      "total_ha": 3104064.84,
+      "extranjerizada_ha": 331748.48,
+      "porcentaje": 11,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Formosa",
+      "provincia": "Formosa",
+      "total_ha": 502819.0,
+      "extranjerizada_ha": 54999.26,
+      "porcentaje": 11,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Ezeiza",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 14632.8,
+      "extranjerizada_ha": 1616.05,
+      "porcentaje": 11,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "La Candelaria",
+      "provincia": "Salta",
+      "total_ha": 152410.0,
+      "extranjerizada_ha": 16868.66,
+      "porcentaje": 11,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "General Belgrano",
+      "provincia": "Misiones",
+      "total_ha": 261345.63,
+      "extranjerizada_ha": 29061.47,
+      "porcentaje": 11,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Catan Lil",
+      "provincia": "Neuquen",
+      "total_ha": 539730.21,
+      "extranjerizada_ha": 60131.3,
+      "porcentaje": 11,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "San Miguel",
+      "provincia": "Corrientes",
+      "total_ha": 171818.02,
+      "extranjerizada_ha": 19642.7,
+      "porcentaje": 11,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Moreno",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 4398.39,
+      "extranjerizada_ha": 420.8,
+      "porcentaje": 10,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Lavalle",
+      "provincia": "Mendoza",
+      "total_ha": 1020200.0,
+      "extranjerizada_ha": 99115.98,
+      "porcentaje": 10,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Mercedes",
+      "provincia": "Corrientes",
+      "total_ha": 812856.06,
+      "extranjerizada_ha": 79262.13,
+      "porcentaje": 10,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Esteban Echeverria",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 5558.35,
+      "extranjerizada_ha": 543.95,
+      "porcentaje": 10,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Florencio Varela",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 11522.14,
+      "extranjerizada_ha": 1144.51,
+      "porcentaje": 10,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "La Plata",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 64122.6,
+      "extranjerizada_ha": 6375.04,
+      "porcentaje": 10,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Goya",
+      "provincia": "Corrientes",
+      "total_ha": 461202.31,
+      "extranjerizada_ha": 45949.41,
+      "porcentaje": 10,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Leandro N. Alem",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 155932.08,
+      "extranjerizada_ha": 16113.37,
+      "porcentaje": 10,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Curuzu Cuatia",
+      "provincia": "Corrientes",
+      "total_ha": 833700.42,
+      "extranjerizada_ha": 86370.46,
+      "porcentaje": 10,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Pilcaniyeu",
+      "provincia": "Rio Negro",
+      "total_ha": 909273.33,
+      "extranjerizada_ha": 95250.41,
+      "porcentaje": 10,
+      "nivel": "alto"
+    },
+    {
+      "nombre": "Gualeguay",
+      "provincia": "Entre Rios",
+      "total_ha": 665333.64,
+      "extranjerizada_ha": 57043.59,
+      "porcentaje": 9,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "La Paz",
+      "provincia": "Entre Rios",
+      "total_ha": 646511.23,
+      "extranjerizada_ha": 56636.41,
+      "porcentaje": 9,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "La Caldera",
+      "provincia": "Salta",
+      "total_ha": 85636.0,
+      "extranjerizada_ha": 7544.22,
+      "porcentaje": 9,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "San Pedro",
+      "provincia": "Misiones",
+      "total_ha": 356810.07,
+      "extranjerizada_ha": 32116.71,
+      "porcentaje": 9,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "San Ignacio",
+      "provincia": "Misiones",
+      "total_ha": 162969.8,
+      "extranjerizada_ha": 14704.95,
+      "porcentaje": 9,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Burruyacu",
+      "provincia": "Tucuman",
+      "total_ha": 361294.0,
+      "extranjerizada_ha": 32718.52,
+      "porcentaje": 9,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Alberdi",
+      "provincia": "Santiago del Estero",
+      "total_ha": 1350105.47,
+      "extranjerizada_ha": 122672.48,
+      "porcentaje": 9,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Pilar",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 18926.84,
+      "extranjerizada_ha": 1742.14,
+      "porcentaje": 9,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Jachal",
+      "provincia": "San Juan",
+      "total_ha": 1357620.63,
+      "extranjerizada_ha": 125485.69,
+      "porcentaje": 9,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Santa Maria",
+      "provincia": "Catamarca",
+      "total_ha": 572729.0,
+      "extranjerizada_ha": 53249.19,
+      "porcentaje": 9,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "San Martin",
+      "provincia": "Santiago del Estero",
+      "total_ha": 209555.0,
+      "extranjerizada_ha": 19485.59,
+      "porcentaje": 9,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Loreto",
+      "provincia": "Santiago del Estero",
+      "total_ha": 333335.5,
+      "extranjerizada_ha": 25042.84,
+      "porcentaje": 8,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Rio Chico",
+      "provincia": "Tucuman",
+      "total_ha": 57533.53,
+      "extranjerizada_ha": 4326.42,
+      "porcentaje": 8,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Ramallo",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 90617.3,
+      "extranjerizada_ha": 6881.03,
+      "porcentaje": 8,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Esquina",
+      "provincia": "Corrientes",
+      "total_ha": 344474.69,
+      "extranjerizada_ha": 26486.12,
+      "porcentaje": 8,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Marcos Paz",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 38041.61,
+      "extranjerizada_ha": 2938.54,
+      "porcentaje": 8,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Monte",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 175697.9,
+      "extranjerizada_ha": 14137.53,
+      "porcentaje": 8,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Collon Cura",
+      "provincia": "Neuquen",
+      "total_ha": 558120.39,
+      "extranjerizada_ha": 45339.53,
+      "porcentaje": 8,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Rosario de la Frontera",
+      "provincia": "Salta",
+      "total_ha": 539002.0,
+      "extranjerizada_ha": 45438.47,
+      "porcentaje": 8,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Los Lagos",
+      "provincia": "Neuquen",
+      "total_ha": 355910.13,
+      "extranjerizada_ha": 23732.15,
+      "porcentaje": 7,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Balcarce",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 401637.36,
+      "extranjerizada_ha": 26841.29,
+      "porcentaje": 7,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "San Roque",
+      "provincia": "Corrientes",
+      "total_ha": 167305.33,
+      "extranjerizada_ha": 11670.75,
+      "porcentaje": 7,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "General Rodriguez",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 26707.04,
+      "extranjerizada_ha": 1863.94,
+      "porcentaje": 7,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "San Carlos",
+      "provincia": "Mendoza",
+      "total_ha": 1156900.0,
+      "extranjerizada_ha": 82508.3,
+      "porcentaje": 7,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "San Cosme",
+      "provincia": "Corrientes",
+      "total_ha": 56151.57,
+      "extranjerizada_ha": 4034.71,
+      "porcentaje": 7,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Merlo",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 6431.03,
+      "extranjerizada_ha": 474.36,
+      "porcentaje": 7,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Atreuco",
+      "provincia": "La Pampa",
+      "total_ha": 357117.3,
+      "extranjerizada_ha": 26586.66,
+      "porcentaje": 7,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "General Pueyrredon",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 126395.94,
+      "extranjerizada_ha": 9474.59,
+      "porcentaje": 7,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Departamento Quebrachos",
+      "provincia": "Santiago del Estero",
+      "total_ha": 350392.47,
+      "extranjerizada_ha": 19279.51,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Confluencia",
+      "provincia": "Neuquen",
+      "total_ha": 644602.49,
+      "extranjerizada_ha": 36020.89,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Pellegrini",
+      "provincia": "Santiago del Estero",
+      "total_ha": 732936.02,
+      "extranjerizada_ha": 41012.72,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "General Villegas",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 690042.05,
+      "extranjerizada_ha": 38657.89,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Guamini",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 445120.4,
+      "extranjerizada_ha": 24946.89,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "San Vicente",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 57787.29,
+      "extranjerizada_ha": 3261.63,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Coronel Pringles",
+      "provincia": "San Luis",
+      "total_ha": 384583.8,
+      "extranjerizada_ha": 21828.95,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Concordia",
+      "provincia": "Entre Rios",
+      "total_ha": 314644.69,
+      "extranjerizada_ha": 17864.55,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Moreno",
+      "provincia": "Santiago del Estero",
+      "total_ha": 1611751.12,
+      "extranjerizada_ha": 91581.4,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Obera",
+      "provincia": "Misiones",
+      "total_ha": 150598.4,
+      "extranjerizada_ha": 8681.42,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "General Alvarado",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 153526.68,
+      "extranjerizada_ha": 8854.96,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Loventue",
+      "provincia": "La Pampa",
+      "total_ha": 922703.65,
+      "extranjerizada_ha": 53277.98,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Sargento Cabral",
+      "provincia": "Chaco",
+      "total_ha": 101200.85,
+      "extranjerizada_ha": 5937.89,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "General Lavalle",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 265700.29,
+      "extranjerizada_ha": 15803.51,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Avellaneda",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 311.11,
+      "extranjerizada_ha": 18.57,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Arrecifes",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 119049.45,
+      "extranjerizada_ha": 7127.49,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Manuel Belgrano",
+      "provincia": "Jujuy",
+      "total_ha": 188685.36,
+      "extranjerizada_ha": 11373.65,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Villa Gesell",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 10608.63,
+      "extranjerizada_ha": 654.66,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "General Guemes",
+      "provincia": "Chaco",
+      "total_ha": 2396166.76,
+      "extranjerizada_ha": 150586.13,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Avellaneda",
+      "provincia": "Santiago del Estero",
+      "total_ha": 389500.23,
+      "extranjerizada_ha": 24489.82,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Tapenaga",
+      "provincia": "Chaco",
+      "total_ha": 509894.92,
+      "extranjerizada_ha": 32400.89,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Lago Buenos Aires",
+      "provincia": "Santa Cruz",
+      "total_ha": 2765444.22,
+      "extranjerizada_ha": 176362.68,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Posadas",
+      "provincia": "Misiones",
+      "total_ha": 79174.15,
+      "extranjerizada_ha": 5064.98,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Maipu",
+      "provincia": "Mendoza",
+      "total_ha": 56800.0,
+      "extranjerizada_ha": 3689.73,
+      "porcentaje": 6,
+      "nivel": "sobre_promedio"
+    },
+    {
+      "nombre": "Figueroa",
+      "provincia": "Santiago del Estero",
+      "total_ha": 666148.6,
+      "extranjerizada_ha": 29990.07,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rivadavia",
+      "provincia": "San Juan",
+      "total_ha": 9020.33,
+      "extranjerizada_ha": 408.36,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Las Heras",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 72101.2,
+      "extranjerizada_ha": 3273.76,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Capital",
+      "provincia": "Santiago del Estero",
+      "total_ha": 206056.47,
+      "extranjerizada_ha": 9402.58,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tandil",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 467532.17,
+      "extranjerizada_ha": 21557.28,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Juan B. Alberdi",
+      "provincia": "Tucuman",
+      "total_ha": 74552.69,
+      "extranjerizada_ha": 3443.94,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Huiliches",
+      "provincia": "Neuquen",
+      "total_ha": 383223.93,
+      "extranjerizada_ha": 17756.65,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Quilmes",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 1178.6,
+      "extranjerizada_ha": 55.55,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "La Cocha",
+      "provincia": "Tucuman",
+      "total_ha": 94678.09,
+      "extranjerizada_ha": 4537.95,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Candelaria",
+      "provincia": "Misiones",
+      "total_ha": 84343.91,
+      "extranjerizada_ha": 4071.14,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Cañuelas",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 115249.08,
+      "extranjerizada_ha": 5578.94,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Valle Viejo",
+      "provincia": "Catamarca",
+      "total_ha": 58961.0,
+      "extranjerizada_ha": 2899.26,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Biedma",
+      "provincia": "Chubut",
+      "total_ha": 1294876.77,
+      "extranjerizada_ha": 63994.52,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Juan Martin de Pueyrredon",
+      "provincia": "San Luis",
+      "total_ha": 1376037.94,
+      "extranjerizada_ha": 68507.15,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "9 de Julio",
+      "provincia": "San Juan",
+      "total_ha": 12983.76,
+      "extranjerizada_ha": 651.47,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Lobos",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 157357.98,
+      "extranjerizada_ha": 7931.95,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Corpen Aike",
+      "provincia": "Santa Cruz",
+      "total_ha": 2624836.03,
+      "extranjerizada_ha": 133830.81,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Palpala",
+      "provincia": "Jujuy",
+      "total_ha": 45798.32,
+      "extranjerizada_ha": 2337.11,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Cayetano",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 294562.69,
+      "extranjerizada_ha": 15120.89,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Pedro",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 114152.9,
+      "extranjerizada_ha": 5898.92,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Pellegrini",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 177019.49,
+      "extranjerizada_ha": 9217.42,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Loberia",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 457870.03,
+      "extranjerizada_ha": 24226.11,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Famailla",
+      "provincia": "Tucuman",
+      "total_ha": 44437.42,
+      "extranjerizada_ha": 2364.19,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Andalgala",
+      "provincia": "Catamarca",
+      "total_ha": 469374.0,
+      "extranjerizada_ha": 25082.16,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Alvear",
+      "provincia": "Corrientes",
+      "total_ha": 191225.44,
+      "extranjerizada_ha": 10429.04,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Ñorquinco",
+      "provincia": "Rio Negro",
+      "total_ha": 637795.04,
+      "extranjerizada_ha": 34843.95,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rio Hondo",
+      "provincia": "Santiago del Estero",
+      "total_ha": 203779.1,
+      "extranjerizada_ha": 11148.91,
+      "porcentaje": 5,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Lopez",
+      "provincia": "Santa Fe",
+      "total_ha": 1123420.54,
+      "extranjerizada_ha": 39320.12,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Deseado",
+      "provincia": "Santa Cruz",
+      "total_ha": 6362156.89,
+      "extranjerizada_ha": 222784.2,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Matanza",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 13354.74,
+      "extranjerizada_ha": 469.0,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "25 De Mayo",
+      "provincia": "Misiones",
+      "total_ha": 166733.81,
+      "extranjerizada_ha": 5867.44,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Olavarria",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 708135.94,
+      "extranjerizada_ha": 25256.27,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Donovan",
+      "provincia": "Chaco",
+      "total_ha": 113192.69,
+      "extranjerizada_ha": 4055.01,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Quemu Quemu",
+      "provincia": "La Pampa",
+      "total_ha": 255218.93,
+      "extranjerizada_ha": 9163.12,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Vinchina",
+      "provincia": "La Rioja",
+      "total_ha": 1028472.53,
+      "extranjerizada_ha": 36936.8,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "El Alto",
+      "provincia": "Catamarca",
+      "total_ha": 193429.0,
+      "extranjerizada_ha": 7031.84,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Robles",
+      "provincia": "Santiago del Estero",
+      "total_ha": 120216.0,
+      "extranjerizada_ha": 4410.75,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Necochea",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 429155.09,
+      "extranjerizada_ha": 15784.02,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Escobar",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 13627.74,
+      "extranjerizada_ha": 505.2,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "2 de Abril",
+      "provincia": "Chaco",
+      "total_ha": 154867.13,
+      "extranjerizada_ha": 5791.25,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Paz",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 116830.57,
+      "extranjerizada_ha": 4410.52,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Federal",
+      "provincia": "Entre Rios",
+      "total_ha": 519447.49,
+      "extranjerizada_ha": 19619.59,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Partido de Rojas",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 199731.91,
+      "extranjerizada_ha": 7614.35,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Rafael",
+      "provincia": "Mendoza",
+      "total_ha": 3116300.0,
+      "extranjerizada_ha": 120721.04,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Avellaneda",
+      "provincia": "Rio Negro",
+      "total_ha": 1784008.47,
+      "extranjerizada_ha": 69506.9,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Sarmiento",
+      "provincia": "San Juan",
+      "total_ha": 279845.42,
+      "extranjerizada_ha": 10968.54,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Partido de Azul",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 637720.38,
+      "extranjerizada_ha": 25343.3,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Pilcomayo",
+      "provincia": "Formosa",
+      "total_ha": 447182.0,
+      "extranjerizada_ha": 18070.58,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Capital",
+      "provincia": "Salta",
+      "total_ha": 146518.0,
+      "extranjerizada_ha": 5993.48,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Chicligasta",
+      "provincia": "Tucuman",
+      "total_ha": 131064.79,
+      "extranjerizada_ha": 5413.66,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Futaleufú",
+      "provincia": "Chubut",
+      "total_ha": 871277.68,
+      "extranjerizada_ha": 36046.38,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Minas",
+      "provincia": "Cordoba",
+      "total_ha": 357653.86,
+      "extranjerizada_ha": 14804.02,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Paso de Indios",
+      "provincia": "Chubut",
+      "total_ha": 2223982.8,
+      "extranjerizada_ha": 93314.63,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Partido de Lincoln",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 552233.49,
+      "extranjerizada_ha": 23380.87,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Mitre",
+      "provincia": "Santiago del Estero",
+      "total_ha": 366540.0,
+      "extranjerizada_ha": 15940.81,
+      "porcentaje": 4,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Navarro",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 157030.73,
+      "extranjerizada_ha": 3954.69,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rivadavia",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 381314.41,
+      "extranjerizada_ha": 9842.47,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Languiñeo",
+      "provincia": "Chubut",
+      "total_ha": 1489250.03,
+      "extranjerizada_ha": 39204.79,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Colón",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 92386.6,
+      "extranjerizada_ha": 2436.08,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rio Grande",
+      "provincia": "Tierra del Fuego, Ant.Arg e Islas Atl.Sur",
+      "total_ha": 637142.0,
+      "extranjerizada_ha": 16817.37,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Coronel Suarez",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 571848.04,
+      "extranjerizada_ha": 15099.73,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Gastre",
+      "provincia": "Chubut",
+      "total_ha": 1611642.2,
+      "extranjerizada_ha": 42579.64,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Partido de Magdalena",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 179454.54,
+      "extranjerizada_ha": 4775.87,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Taboada",
+      "provincia": "Santiago del Estero",
+      "total_ha": 602881.75,
+      "extranjerizada_ha": 16064.0,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Ambato",
+      "provincia": "Catamarca",
+      "total_ha": 173425.0,
+      "extranjerizada_ha": 4859.07,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Nicolas",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 59650.63,
+      "extranjerizada_ha": 1679.93,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Brandsen",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 105800.67,
+      "extranjerizada_ha": 3001.96,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Salto",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 154866.59,
+      "extranjerizada_ha": 4403.15,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Puelen",
+      "provincia": "La Pampa",
+      "total_ha": 1298391.06,
+      "extranjerizada_ha": 36968.78,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Nueve de Julio",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 407907.96,
+      "extranjerizada_ha": 11639.63,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Yerba Buena",
+      "provincia": "Tucuman",
+      "total_ha": 10206.12,
+      "extranjerizada_ha": 292.94,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Villarino",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 1030440.46,
+      "extranjerizada_ha": 29786.36,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Mercedes",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 97868.18,
+      "extranjerizada_ha": 2845.59,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Monte Caseros",
+      "provincia": "Corrientes",
+      "total_ha": 219215.15,
+      "extranjerizada_ha": 6374.96,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Juan F. Ibarra",
+      "provincia": "Santiago del Estero",
+      "total_ha": 908708.0,
+      "extranjerizada_ha": 26523.0,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Roque Perez",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 150496.13,
+      "extranjerizada_ha": 4487.54,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rio Chico",
+      "provincia": "Santa Cruz",
+      "total_ha": 3287029.81,
+      "extranjerizada_ha": 98500.0,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Gualeguaychu",
+      "provincia": "Entre Rios",
+      "total_ha": 739286.96,
+      "extranjerizada_ha": 22460.19,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Villaguay",
+      "provincia": "Entre Rios",
+      "total_ha": 653541.91,
+      "extranjerizada_ha": 19878.97,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Toay",
+      "provincia": "La Pampa",
+      "total_ha": 508508.46,
+      "extranjerizada_ha": 15652.2,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Javier",
+      "provincia": "Santa Fe",
+      "total_ha": 639384.47,
+      "extranjerizada_ha": 19842.27,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Trenque Lauquen",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 516517.49,
+      "extranjerizada_ha": 16103.88,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tunuyan",
+      "provincia": "Mendoza",
+      "total_ha": 330600.0,
+      "extranjerizada_ha": 10352.78,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Gobernador Dupuy",
+      "provincia": "San Luis",
+      "total_ha": 1848093.13,
+      "extranjerizada_ha": 58317.31,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Punilla",
+      "provincia": "Córdoba",
+      "total_ha": 220864.64,
+      "extranjerizada_ha": 6989.12,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Santa Lucia",
+      "provincia": "San Juan",
+      "total_ha": 3545.78,
+      "extranjerizada_ha": 112.71,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Jose C. Paz",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 676.03,
+      "extranjerizada_ha": 21.67,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Escalante",
+      "provincia": "Chubut",
+      "total_ha": 1403535.76,
+      "extranjerizada_ha": 45132.28,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Monteros",
+      "provincia": "Tucuman",
+      "total_ha": 118593.42,
+      "extranjerizada_ha": 3849.51,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Curaco",
+      "provincia": "La Pampa",
+      "total_ha": 1285738.48,
+      "extranjerizada_ha": 41909.28,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Picunches",
+      "provincia": "Neuquen",
+      "total_ha": 594925.24,
+      "extranjerizada_ha": 19546.31,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Telsen",
+      "provincia": "Chubut",
+      "total_ha": 1974290.54,
+      "extranjerizada_ha": 64963.92,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Cainguas",
+      "provincia": "Misiones",
+      "total_ha": 147899.19,
+      "extranjerizada_ha": 4867.97,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tres Arroyos",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 565431.72,
+      "extranjerizada_ha": 18842.17,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Guaymallen",
+      "provincia": "Mendoza",
+      "total_ha": 10000.0,
+      "extranjerizada_ha": 333.51,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Utracan",
+      "provincia": "La Pampa",
+      "total_ha": 1294838.2,
+      "extranjerizada_ha": 43211.54,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Ñorquin",
+      "provincia": "Neuquen",
+      "total_ha": 551766.36,
+      "extranjerizada_ha": 18707.23,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Chimbas",
+      "provincia": "San Juan",
+      "total_ha": 3718.31,
+      "extranjerizada_ha": 126.08,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Maipu",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 260350.89,
+      "extranjerizada_ha": 8857.37,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Leandro N. Alem",
+      "provincia": "Misiones",
+      "total_ha": 101881.38,
+      "extranjerizada_ha": 3521.2,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Antonio de Areco",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 83445.68,
+      "extranjerizada_ha": 2889.2,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Lihuel Calel",
+      "provincia": "La Pampa",
+      "total_ha": 1244777.39,
+      "extranjerizada_ha": 43465.72,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Fernando",
+      "provincia": "Chaco",
+      "total_ha": 181157.23,
+      "extranjerizada_ha": 6328.85,
+      "porcentaje": 3,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Nogoya",
+      "provincia": "Entre Rios",
+      "total_ha": 453637.83,
+      "extranjerizada_ha": 6917.48,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Belgrano",
+      "provincia": "Santa Fe",
+      "total_ha": 237087.33,
+      "extranjerizada_ha": 3648.06,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Ayacucho",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 658151.79,
+      "extranjerizada_ha": 10674.54,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tala",
+      "provincia": "Entre Rios",
+      "total_ha": 263935.54,
+      "extranjerizada_ha": 4320.19,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Coronel Pringles",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 502366.83,
+      "extranjerizada_ha": 8282.79,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Union",
+      "provincia": "Cordoba",
+      "total_ha": 1082148.05,
+      "extranjerizada_ha": 17850.86,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Belgrano",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 178747.87,
+      "extranjerizada_ha": 2963.14,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Lorenzo",
+      "provincia": "Santa Fe",
+      "total_ha": 170492.08,
+      "extranjerizada_ha": 2835.48,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Ameghino",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 177698.21,
+      "extranjerizada_ha": 2978.88,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Leales",
+      "provincia": "Tucuman",
+      "total_ha": 194070.81,
+      "extranjerizada_ha": 3274.66,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Lujan",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 66896.7,
+      "extranjerizada_ha": 1145.09,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Santa Barbara",
+      "provincia": "Jujuy",
+      "total_ha": 443960.24,
+      "extranjerizada_ha": 7637.37,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tehuelches",
+      "provincia": "Chubut",
+      "total_ha": 1458414.2,
+      "extranjerizada_ha": 25113.36,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Alberto",
+      "provincia": "Cordoba",
+      "total_ha": 336643.08,
+      "extranjerizada_ha": 5818.81,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Carmen de Areco",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 97364.8,
+      "extranjerizada_ha": 1721.04,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Junin",
+      "provincia": "Mendoza",
+      "total_ha": 25400.0,
+      "extranjerizada_ha": 449.73,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "La Rioja",
+      "provincia": "La Rioja",
+      "total_ha": 1360963.46,
+      "extranjerizada_ha": 24323.22,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "1 de Mayo",
+      "provincia": "Chaco",
+      "total_ha": 166268.57,
+      "extranjerizada_ha": 2986.29,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "25 de Mayo",
+      "provincia": "San Juan",
+      "total_ha": 590058.82,
+      "extranjerizada_ha": 10633.66,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rivadavia",
+      "provincia": "Salta",
+      "total_ha": 2594003.0,
+      "extranjerizada_ha": 47316.53,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Roca",
+      "provincia": "Cordoba",
+      "total_ha": 1268705.41,
+      "extranjerizada_ha": 23270.9,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Sarmiento",
+      "provincia": "Santiago del Estero",
+      "total_ha": 154775.05,
+      "extranjerizada_ha": 2874.5,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Punta Indio",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 153729.55,
+      "extranjerizada_ha": 2879.98,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tafi Viejo",
+      "provincia": "Tucuman",
+      "total_ha": 111959.58,
+      "extranjerizada_ha": 2114.89,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Pedernera",
+      "provincia": "San Luis",
+      "total_ha": 1482336.82,
+      "extranjerizada_ha": 28043.83,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Bahia Blanca",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 192659.35,
+      "extranjerizada_ha": 3710.72,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Capitan Sarmiento",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 53235.83,
+      "extranjerizada_ha": 1035.3,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Bragado",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 208813.33,
+      "extranjerizada_ha": 4061.59,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Chacabuco",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 207865.04,
+      "extranjerizada_ha": 4091.83,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Metan",
+      "provincia": "Salta",
+      "total_ha": 520256.0,
+      "extranjerizada_ha": 10319.45,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Las Flores",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 323971.96,
+      "extranjerizada_ha": 6429.05,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Andres de Giles",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 110533.67,
+      "extranjerizada_ha": 2203.18,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Pinto",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 245703.39,
+      "extranjerizada_ha": 5002.54,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Lamadrid",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 468766.01,
+      "extranjerizada_ha": 9697.17,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Ameghino",
+      "provincia": "Chubut",
+      "total_ha": 1601375.92,
+      "extranjerizada_ha": 33266.57,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Victoria",
+      "provincia": "Entre Rios",
+      "total_ha": 589646.1,
+      "extranjerizada_ha": 12254.15,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rawson",
+      "provincia": "San Juan",
+      "total_ha": 24633.89,
+      "extranjerizada_ha": 524.2,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Salavina",
+      "provincia": "Santiago del Estero",
+      "total_ha": 356049.58,
+      "extranjerizada_ha": 7635.96,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Saladillo",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 257860.08,
+      "extranjerizada_ha": 5590.06,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Presidente Roque Saenz Peña",
+      "provincia": "Cordoba",
+      "total_ha": 820702.9,
+      "extranjerizada_ha": 17793.23,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Alumine",
+      "provincia": "Neuquen",
+      "total_ha": 459309.46,
+      "extranjerizada_ha": 10033.61,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Berisso",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 9859.57,
+      "extranjerizada_ha": 215.49,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Feliciano",
+      "provincia": "Entre Rios",
+      "total_ha": 316096.05,
+      "extranjerizada_ha": 6992.71,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Chacabuco",
+      "provincia": "San Luis",
+      "total_ha": 235236.14,
+      "extranjerizada_ha": 5212.8,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Laishi",
+      "provincia": "Formosa",
+      "total_ha": 243204.0,
+      "extranjerizada_ha": 5413.3,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tercero Arriba",
+      "provincia": "Cordoba",
+      "total_ha": 511451.96,
+      "extranjerizada_ha": 11394.93,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Coronel Rosales",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 103618.46,
+      "extranjerizada_ha": 2314.16,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Alvear",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 311480.77,
+      "extranjerizada_ha": 7021.97,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tupungato",
+      "provincia": "Mendoza",
+      "total_ha": 247900.0,
+      "extranjerizada_ha": 5667.77,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Antonio",
+      "provincia": "Rio Negro",
+      "total_ha": 1321687.08,
+      "extranjerizada_ha": 30272.8,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Banda",
+      "provincia": "Santiago del Estero",
+      "total_ha": 358883.53,
+      "extranjerizada_ha": 8267.65,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Fernando",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 95910.0,
+      "extranjerizada_ha": 2209.97,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rio Cuarto",
+      "provincia": "Cordoba",
+      "total_ha": 1845697.65,
+      "extranjerizada_ha": 42877.98,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Chascomus",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 299948.64,
+      "extranjerizada_ha": 6981.12,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Comandante Fernandez",
+      "provincia": "Chaco",
+      "total_ha": 148192.6,
+      "extranjerizada_ha": 3479.24,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Mayor Jorge Luis Fontana",
+      "provincia": "Chaco",
+      "total_ha": 356504.73,
+      "extranjerizada_ha": 8490.83,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Chical Co",
+      "provincia": "La Pampa",
+      "total_ha": 911665.4,
+      "extranjerizada_ha": 21763.68,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rauch",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 416431.43,
+      "extranjerizada_ha": 9942.61,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Roca",
+      "provincia": "Rio Negro",
+      "total_ha": 1511976.98,
+      "extranjerizada_ha": 36539.11,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Ayacucho",
+      "provincia": "San Luis",
+      "total_ha": 799122.97,
+      "extranjerizada_ha": 19346.84,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Bermejo",
+      "provincia": "Chaco",
+      "total_ha": 208396.63,
+      "extranjerizada_ha": 5050.01,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Berazategui",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 13949.65,
+      "extranjerizada_ha": 339.54,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "9 de Julio",
+      "provincia": "Santa Fe",
+      "total_ha": 1732256.75,
+      "extranjerizada_ha": 42815.54,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Martin",
+      "provincia": "Corrientes",
+      "total_ha": 558432.14,
+      "extranjerizada_ha": 13826.38,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Lujan de Cuyo",
+      "provincia": "Mendoza",
+      "total_ha": 475400.0,
+      "extranjerizada_ha": 11827.32,
+      "porcentaje": 2,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rivadavia",
+      "provincia": "Santiago del Estero",
+      "total_ha": 337031.75,
+      "extranjerizada_ha": 1692.65,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Itati",
+      "provincia": "Corrientes",
+      "total_ha": 76265.59,
+      "extranjerizada_ha": 405.55,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Sarmiento",
+      "provincia": "Chubut",
+      "total_ha": 1333087.25,
+      "extranjerizada_ha": 7235.62,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rio Primero",
+      "provincia": "Cordoba",
+      "total_ha": 670625.95,
+      "extranjerizada_ha": 3659.26,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Ullum",
+      "provincia": "San Juan",
+      "total_ha": 417025.05,
+      "extranjerizada_ha": 2299.61,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rancul",
+      "provincia": "La Pampa",
+      "total_ha": 492213.55,
+      "extranjerizada_ha": 2795.45,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Alberti",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 107027.63,
+      "extranjerizada_ha": 623.37,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Lezama",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 96138.16,
+      "extranjerizada_ha": 568.61,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Calamuchita",
+      "provincia": "Cordoba",
+      "total_ha": 456319.88,
+      "extranjerizada_ha": 2705.49,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Constitucion",
+      "provincia": "Santa Fe",
+      "total_ha": 302272.58,
+      "extranjerizada_ha": 1806.4,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Guarani",
+      "provincia": "Misiones",
+      "total_ha": 342377.88,
+      "extranjerizada_ha": 2052.87,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Arauco",
+      "provincia": "La Rioja",
+      "total_ha": 198442.47,
+      "extranjerizada_ha": 1191.89,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Chalileo",
+      "provincia": "La Pampa",
+      "total_ha": 891554.47,
+      "extranjerizada_ha": 5429.66,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General San Martin",
+      "provincia": "Cordoba",
+      "total_ha": 494396.0,
+      "extranjerizada_ha": 3011.5,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Choya",
+      "provincia": "Santiago del Estero",
+      "total_ha": 647625.93,
+      "extranjerizada_ha": 3996.71,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "25 de Mayo",
+      "provincia": "Chaco",
+      "total_ha": 194759.34,
+      "extranjerizada_ha": 1218.56,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "O'Higgins",
+      "provincia": "Chaco",
+      "total_ha": 157513.56,
+      "extranjerizada_ha": 985.81,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Picun Leufu",
+      "provincia": "Neuquen",
+      "total_ha": 426155.23,
+      "extranjerizada_ha": 2678.92,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Suipacha",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 90527.06,
+      "extranjerizada_ha": 578.32,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "La Costa",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 12642.76,
+      "extranjerizada_ha": 82.66,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Patagones",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 1328234.44,
+      "extranjerizada_ha": 8783.31,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Ramon Lista",
+      "provincia": "Formosa",
+      "total_ha": 372762.0,
+      "extranjerizada_ha": 2500.0,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Chivilcoy",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 194312.89,
+      "extranjerizada_ha": 1342.49,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Añelo",
+      "provincia": "Neuquen",
+      "total_ha": 1200184.31,
+      "extranjerizada_ha": 8383.63,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Guatrache",
+      "provincia": "La Pampa",
+      "total_ha": 351296.5,
+      "extranjerizada_ha": 2500.0,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Cristobal",
+      "provincia": "Santa Fe",
+      "total_ha": 1426935.98,
+      "extranjerizada_ha": 10180.45,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tornquist",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 393242.44,
+      "extranjerizada_ha": 2882.08,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Limay Mahuida",
+      "provincia": "La Pampa",
+      "total_ha": 997643.96,
+      "extranjerizada_ha": 7421.52,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Bermejo",
+      "provincia": "Formosa",
+      "total_ha": 1245569.0,
+      "extranjerizada_ha": 9422.87,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Salliquelo",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 78070.95,
+      "extranjerizada_ha": 613.96,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tumbaya",
+      "provincia": "Jujuy",
+      "total_ha": 344050.45,
+      "extranjerizada_ha": 2713.85,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Santa Rosa",
+      "provincia": "Mendoza",
+      "total_ha": 850300.0,
+      "extranjerizada_ha": 6708.88,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Zapala",
+      "provincia": "Neuquen",
+      "total_ha": 534488.18,
+      "extranjerizada_ha": 4269.29,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Capayan",
+      "provincia": "Catamarca",
+      "total_ha": 422882.0,
+      "extranjerizada_ha": 3468.11,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Arenales",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 139937.6,
+      "extranjerizada_ha": 1149.26,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Independencia",
+      "provincia": "Chaco",
+      "total_ha": 186560.73,
+      "extranjerizada_ha": 1547.44,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Apostoles",
+      "provincia": "Misiones",
+      "total_ha": 98033.54,
+      "extranjerizada_ha": 816.31,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Lules",
+      "provincia": "Tucuman",
+      "total_ha": 55034.49,
+      "extranjerizada_ha": 465.31,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Martires",
+      "provincia": "Chubut",
+      "total_ha": 1528827.7,
+      "extranjerizada_ha": 12961.71,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Silipica",
+      "provincia": "Santiago del Estero",
+      "total_ha": 117838.0,
+      "extranjerizada_ha": 1004.82,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Guasayan",
+      "provincia": "Santiago del Estero",
+      "total_ha": 258354.9,
+      "extranjerizada_ha": 2236.13,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Gaiman",
+      "provincia": "Chubut",
+      "total_ha": 1149558.45,
+      "extranjerizada_ha": 10354.27,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Santa Rosa",
+      "provincia": "La Pampa",
+      "total_ha": 249761.03,
+      "extranjerizada_ha": 2274.34,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Lorenzo",
+      "provincia": "Chaco",
+      "total_ha": 208235.7,
+      "extranjerizada_ha": 1904.66,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Madariaga",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 290533.86,
+      "extranjerizada_ha": 2671.8,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tigre",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 31348.14,
+      "extranjerizada_ha": 292.36,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Uruguay",
+      "provincia": "Entre Rios",
+      "total_ha": 512732.62,
+      "extranjerizada_ha": 4798.12,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Parana",
+      "provincia": "Entre Rios",
+      "total_ha": 490041.32,
+      "extranjerizada_ha": 4686.57,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Totoral",
+      "provincia": "Cordoba",
+      "total_ha": 303017.69,
+      "extranjerizada_ha": 2919.11,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Federacion",
+      "provincia": "Entre Rios",
+      "total_ha": 347486.01,
+      "extranjerizada_ha": 3385.7,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Graneros",
+      "provincia": "Tucuman",
+      "total_ha": 166696.32,
+      "extranjerizada_ha": 1633.54,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Patiño",
+      "provincia": "Formosa",
+      "total_ha": 2332410.0,
+      "extranjerizada_ha": 22975.77,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Sobremonte",
+      "provincia": "Cordoba",
+      "total_ha": 324031.87,
+      "extranjerizada_ha": 3199.79,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tulumba",
+      "provincia": "Cordoba",
+      "total_ha": 960151.43,
+      "extranjerizada_ha": 9816.13,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Pehuajo",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 437198.59,
+      "extranjerizada_ha": 4501.17,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Adolfo Alsina",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 566624.62,
+      "extranjerizada_ha": 5860.3,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Coronel Dorrego",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 569810.91,
+      "extranjerizada_ha": 5961.24,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Castelli",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 201892.17,
+      "extranjerizada_ha": 2147.45,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Carlos Casares",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 244460.24,
+      "extranjerizada_ha": 2613.09,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "12 de Octubre",
+      "provincia": "Chaco",
+      "total_ha": 253398.72,
+      "extranjerizada_ha": 2720.5,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Monte Hermoso",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 16028.42,
+      "extranjerizada_ha": 174.59,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Santa Rosa",
+      "provincia": "Catamarca",
+      "total_ha": 158668.0,
+      "extranjerizada_ha": 1729.98,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Chacabuco",
+      "provincia": "Chaco",
+      "total_ha": 136930.79,
+      "extranjerizada_ha": 1498.81,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tapalque",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 402552.59,
+      "extranjerizada_ha": 4517.36,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Luis del Palmar",
+      "provincia": "Corrientes",
+      "total_ha": 211708.11,
+      "extranjerizada_ha": 2393.85,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tafi del Valle",
+      "provincia": "Tucuman",
+      "total_ha": 259445.51,
+      "extranjerizada_ha": 2947.74,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Colon",
+      "provincia": "Entre Rios",
+      "total_ha": 262914.66,
+      "extranjerizada_ha": 3004.43,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Trancas",
+      "provincia": "Tucuman",
+      "total_ha": 299480.82,
+      "extranjerizada_ha": 3464.16,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Catrilo",
+      "provincia": "La Pampa",
+      "total_ha": 255192.46,
+      "extranjerizada_ha": 2960.23,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Bolivar",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 471746.38,
+      "extranjerizada_ha": 5501.33,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Javier",
+      "provincia": "Misiones",
+      "total_ha": 61496.47,
+      "extranjerizada_ha": 736.32,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rivadavia",
+      "provincia": "Mendoza",
+      "total_ha": 212800.0,
+      "extranjerizada_ha": 2564.75,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rinconada",
+      "provincia": "Jujuy",
+      "total_ha": 616161.3,
+      "extranjerizada_ha": 7501.41,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Maraco",
+      "provincia": "La Pampa",
+      "total_ha": 254338.97,
+      "extranjerizada_ha": 3135.17,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Malvinas Argentinas",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 474.42,
+      "extranjerizada_ha": 5.9,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tres Lomas",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 117924.59,
+      "extranjerizada_ha": 1470.99,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Libertador General San Martin",
+      "provincia": "Chaco",
+      "total_ha": 569103.18,
+      "extranjerizada_ha": 7226.34,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Hucal",
+      "provincia": "La Pampa",
+      "total_ha": 603000.79,
+      "extranjerizada_ha": 7720.27,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Vera",
+      "provincia": "Santa Fe",
+      "total_ha": 2042619.42,
+      "extranjerizada_ha": 26198.26,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Islas del Ibicuy",
+      "provincia": "Entre Rios",
+      "total_ha": 478679.71,
+      "extranjerizada_ha": 6181.24,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Veinticinco de Mayo",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 455265.41,
+      "extranjerizada_ha": 5906.33,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Pila",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 336780.74,
+      "extranjerizada_ha": 4396.95,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Puan",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 615166.33,
+      "extranjerizada_ha": 8065.52,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Caleu Caleu",
+      "provincia": "La Pampa",
+      "total_ha": 906836.44,
+      "extranjerizada_ha": 11927.15,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Daireaux",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 374901.55,
+      "extranjerizada_ha": 4993.72,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Pergamino",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 291705.1,
+      "extranjerizada_ha": 3913.34,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rio Senguer",
+      "provincia": "Chubut",
+      "total_ha": 2238065.8,
+      "extranjerizada_ha": 30236.57,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Hipolito Yrigoyen",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 163228.56,
+      "extranjerizada_ha": 2275.52,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Baradero",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 107725.18,
+      "extranjerizada_ha": 1512.6,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Valle Fertil",
+      "provincia": "San Juan",
+      "total_ha": 527678.41,
+      "extranjerizada_ha": 7576.9,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Partido de Carlos Tejedor",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 374099.89,
+      "extranjerizada_ha": 5382.97,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Justo",
+      "provincia": "Santa Fe",
+      "total_ha": 535734.6,
+      "extranjerizada_ha": 7709.93,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Mar Chiquita",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 291324.78,
+      "extranjerizada_ha": 4228.84,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Pichi Mahuida",
+      "provincia": "Rio Negro",
+      "total_ha": 1574918.56,
+      "extranjerizada_ha": 23152.67,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Marcos Juarez",
+      "provincia": "Cordoba",
+      "total_ha": 914066.89,
+      "extranjerizada_ha": 13657.85,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Ledesma",
+      "provincia": "Jujuy",
+      "total_ha": 323499.28,
+      "extranjerizada_ha": 4843.49,
+      "porcentaje": 1,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Pinamar",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 3388.21,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Ancasti",
+      "provincia": "Catamarca",
+      "total_ha": 194746.0,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Fernando del Valle de Catamarca",
+      "provincia": "Catamarca",
+      "total_ha": 35633.0,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Fray Mamerto Esquiu",
+      "provincia": "Catamarca",
+      "total_ha": 15670.0,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Bella Vista",
+      "provincia": "Corrientes",
+      "total_ha": 168886.49,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Matacos",
+      "provincia": "Formosa",
+      "total_ha": 440167.0,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Santa Catalina",
+      "provincia": "Jujuy",
+      "total_ha": 294857.43,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Partido de Susques",
+      "provincia": "Jujuy",
+      "total_ha": 919474.11,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Valle Grande",
+      "provincia": "Jujuy",
+      "total_ha": 96099.32,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Yavi",
+      "provincia": "Jujuy",
+      "total_ha": 293533.21,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Juan F. Quiroga",
+      "provincia": "La Rioja",
+      "total_ha": 258391.97,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Independencia",
+      "provincia": "La Rioja",
+      "total_ha": 712000.0,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Godoy Cruz",
+      "provincia": "Mendoza",
+      "total_ha": 4100.0,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Chos Malal",
+      "provincia": "Neuquen",
+      "total_ha": 454562.57,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Loncopue",
+      "provincia": "Neuquen",
+      "total_ha": 546580.28,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "9 de Julio",
+      "provincia": "Rio Negro",
+      "total_ha": 1846444.08,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Iruya",
+      "provincia": "Salta",
+      "total_ha": 351464.0,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "La Poma",
+      "provincia": "Salta",
+      "total_ha": 444671.0,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Santa Victoria",
+      "provincia": "Salta",
+      "total_ha": 391089.0,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Villa Ojo De Agua",
+      "provincia": "Santiago del Estero",
+      "total_ha": 622862.77,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Ushuaia",
+      "provincia": "Tierra del Fuego, Ant.Arg e Islas Atl.Sur",
+      "total_ha": 702769.0,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Miguel de Tucuman",
+      "provincia": "Tucuman",
+      "total_ha": 252.9,
+      "extranjerizada_ha": "",
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General San Martin",
+      "provincia": "La Rioja",
+      "total_ha": 502857.99,
+      "extranjerizada_ha": 0.0,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Sanagasta",
+      "provincia": "La Rioja",
+      "total_ha": 170889.87,
+      "extranjerizada_ha": 0.0,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Belen",
+      "provincia": "Catamarca",
+      "total_ha": 1306015.0,
+      "extranjerizada_ha": 0.02,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Guido",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 229324.9,
+      "extranjerizada_ha": 0.02,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Cochinoca",
+      "provincia": "Jujuy",
+      "total_ha": 783117.07,
+      "extranjerizada_ha": 0.13,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Angel V. Penaloza",
+      "provincia": "La Rioja",
+      "total_ha": 310447.63,
+      "extranjerizada_ha": 0.12,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tordillo",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 120652.25,
+      "extranjerizada_ha": 0.06,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Ocampo",
+      "provincia": "La Rioja",
+      "total_ha": 212876.86,
+      "extranjerizada_ha": 0.37,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Blas De Los Sauces",
+      "provincia": "La Rioja",
+      "total_ha": 158957.63,
+      "extranjerizada_ha": 0.41,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Belgrano",
+      "provincia": "La Rioja",
+      "total_ha": 255343.28,
+      "extranjerizada_ha": 0.82,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Coronel Felipe Varela",
+      "provincia": "La Rioja",
+      "total_ha": 918122.8,
+      "extranjerizada_ha": 3.5,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Chamical",
+      "provincia": "La Rioja",
+      "total_ha": 554533.49,
+      "extranjerizada_ha": 2.45,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rosario Vera Peñaloza",
+      "provincia": "La Rioja",
+      "total_ha": 611089.32,
+      "extranjerizada_ha": 4.26,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Los Andes",
+      "provincia": "Salta",
+      "total_ha": 2563086.0,
+      "extranjerizada_ha": 19.8,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Pehuenches",
+      "provincia": "Neuquen",
+      "total_ha": 830744.99,
+      "extranjerizada_ha": 11.31,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Obligado",
+      "provincia": "Santa Fe",
+      "total_ha": 1045417.85,
+      "extranjerizada_ha": 21.41,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Valcheta",
+      "provincia": "Rio Negro",
+      "total_ha": 1961352.35,
+      "extranjerizada_ha": 40.21,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Sauce",
+      "provincia": "Corrientes",
+      "total_ha": 172995.54,
+      "extranjerizada_ha": 6.2,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Salvador",
+      "provincia": "Entre Rios",
+      "total_ha": 130527.15,
+      "extranjerizada_ha": 4.79,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Tilcara",
+      "provincia": "Jujuy",
+      "total_ha": 184318.31,
+      "extranjerizada_ha": 10.56,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Minas",
+      "provincia": "Neuquen",
+      "total_ha": 596740.45,
+      "extranjerizada_ha": 84.12,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Paso de los Libres",
+      "provincia": "Corrientes",
+      "total_ha": 468950.67,
+      "extranjerizada_ha": 120.0,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Famatina",
+      "provincia": "La Rioja",
+      "total_ha": 458572.53,
+      "extranjerizada_ha": 122.84,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Conesa",
+      "provincia": "Rio Negro",
+      "total_ha": 982632.45,
+      "extranjerizada_ha": 400.0,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Antonio",
+      "provincia": "Jujuy",
+      "total_ha": 68913.86,
+      "extranjerizada_ha": 28.56,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Cruz del Eje",
+      "provincia": "Cordoba",
+      "total_ha": 658165.6,
+      "extranjerizada_ha": 339.86,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Miguel",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 750.38,
+      "extranjerizada_ha": 0.41,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Belgrano",
+      "provincia": "San Luis",
+      "total_ha": 825214.79,
+      "extranjerizada_ha": 493.17,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Martin",
+      "provincia": "Santa Fe",
+      "total_ha": 475407.64,
+      "extranjerizada_ha": 288.83,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Presidente de la Plaza",
+      "provincia": "Chaco",
+      "total_ha": 178671.36,
+      "extranjerizada_ha": 110.17,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Lavalle",
+      "provincia": "Corrientes",
+      "total_ha": 136994.86,
+      "extranjerizada_ha": 87.01,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Iriondo",
+      "provincia": "Santa Fe",
+      "total_ha": 309939.13,
+      "extranjerizada_ha": 219.17,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Almirante Brown",
+      "provincia": "Chaco",
+      "total_ha": 1724437.48,
+      "extranjerizada_ha": 1336.25,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "El Cuy",
+      "provincia": "Rio Negro",
+      "total_ha": 1729219.75,
+      "extranjerizada_ha": 1390.11,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Libertador General San Martin",
+      "provincia": "San Luis",
+      "total_ha": 347577.95,
+      "extranjerizada_ha": 280.72,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Javier",
+      "provincia": "Cordoba",
+      "total_ha": 152377.05,
+      "extranjerizada_ha": 129.5,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Santa Fe",
+      "provincia": "Santa Fe",
+      "total_ha": 243543.63,
+      "extranjerizada_ha": 209.38,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rawson",
+      "provincia": "Chubut",
+      "total_ha": 401745.04,
+      "extranjerizada_ha": 348.8,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rosario de Lerma",
+      "provincia": "Salta",
+      "total_ha": 507070.0,
+      "extranjerizada_ha": 442.57,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Albardon",
+      "provincia": "San Juan",
+      "total_ha": 94259.14,
+      "extranjerizada_ha": 82.27,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Adolfo Alsina",
+      "provincia": "Rio Negro",
+      "total_ha": 835180.88,
+      "extranjerizada_ha": 740.2,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Las Colonias",
+      "provincia": "Santa Fe",
+      "total_ha": 603183.27,
+      "extranjerizada_ha": 573.45,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "25 de Mayo",
+      "provincia": "Rio Negro",
+      "total_ha": 2415714.51,
+      "extranjerizada_ha": 2309.0,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Zonda",
+      "provincia": "San Juan",
+      "total_ha": 215792.12,
+      "extranjerizada_ha": 221.09,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Trenel",
+      "provincia": "La Pampa",
+      "total_ha": 195279.03,
+      "extranjerizada_ha": 203.82,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Castellanos",
+      "provincia": "Santa Fe",
+      "total_ha": 639241.09,
+      "extranjerizada_ha": 676.06,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Caseros",
+      "provincia": "Santa Fe",
+      "total_ha": 335205.1,
+      "extranjerizada_ha": 375.87,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Antofagasta",
+      "provincia": "Catamarca",
+      "total_ha": 2825718.0,
+      "extranjerizada_ha": 3504.69,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Poman",
+      "provincia": "Catamarca",
+      "total_ha": 505485.0,
+      "extranjerizada_ha": 627.89,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rosario",
+      "provincia": "Santa Fe",
+      "total_ha": 161935.38,
+      "extranjerizada_ha": 206.06,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "9 de Julio",
+      "provincia": "Chaco",
+      "total_ha": 209390.62,
+      "extranjerizada_ha": 275.58,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Fray Justo Santa Maria de Oro",
+      "provincia": "Chaco",
+      "total_ha": 212382.69,
+      "extranjerizada_ha": 295.59,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Castro Barros",
+      "provincia": "La Rioja",
+      "total_ha": 142000.0,
+      "extranjerizada_ha": 211.2,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Pirane",
+      "provincia": "Formosa",
+      "total_ha": 576975.0,
+      "extranjerizada_ha": 919.2,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Realico",
+      "provincia": "La Pampa",
+      "total_ha": 244400.89,
+      "extranjerizada_ha": 390.5,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Junin",
+      "provincia": "San Luis",
+      "total_ha": 268180.08,
+      "extranjerizada_ha": 483.57,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Belgrano",
+      "provincia": "Chaco",
+      "total_ha": 121462.13,
+      "extranjerizada_ha": 219.56,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Angaco",
+      "provincia": "San Juan",
+      "total_ha": 243415.36,
+      "extranjerizada_ha": 442.23,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Caucete",
+      "provincia": "San Juan",
+      "total_ha": 735680.25,
+      "extranjerizada_ha": 1352.3,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Saladas",
+      "provincia": "Corrientes",
+      "total_ha": 174596.13,
+      "extranjerizada_ha": 325.52,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Corrientes",
+      "provincia": "Corrientes",
+      "total_ha": 45621.58,
+      "extranjerizada_ha": 91.31,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Justo",
+      "provincia": "Cordoba",
+      "total_ha": 1544690.6,
+      "extranjerizada_ha": 3239.33,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Atamisqui",
+      "provincia": "Santiago del Estero",
+      "total_ha": 224733.67,
+      "extranjerizada_ha": 496.6,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Ensenada",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 7059.53,
+      "extranjerizada_ha": 16.94,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Simoca",
+      "provincia": "Tucuman",
+      "total_ha": 124330.86,
+      "extranjerizada_ha": 307.09,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Conhelo",
+      "provincia": "La Pampa",
+      "total_ha": 504154.66,
+      "extranjerizada_ha": 1271.9,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Viamonte",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 211320.93,
+      "extranjerizada_ha": 551.68,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Gonzalez Chaves",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 372133.72,
+      "extranjerizada_ha": 994.54,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Pocho",
+      "provincia": "Cordoba",
+      "total_ha": 304307.37,
+      "extranjerizada_ha": 834.07,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Empedrado",
+      "provincia": "Corrientes",
+      "total_ha": 190450.42,
+      "extranjerizada_ha": 522.2,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Libertad",
+      "provincia": "Chaco",
+      "total_ha": 99608.69,
+      "extranjerizada_ha": 275.91,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Mburucuya",
+      "provincia": "Corrientes",
+      "total_ha": 76884.65,
+      "extranjerizada_ha": 218.1,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Pilagás",
+      "provincia": "Formosa",
+      "total_ha": 221328.0,
+      "extranjerizada_ha": 632.46,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Junin",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 207380.71,
+      "extranjerizada_ha": 599.07,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Copo",
+      "provincia": "Santiago del Estero",
+      "total_ha": 1259397.07,
+      "extranjerizada_ha": 3720.69,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Chapaleufu",
+      "provincia": "La Pampa",
+      "total_ha": 256514.76,
+      "extranjerizada_ha": 761.33,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "San Jeronimo",
+      "provincia": "Santa Fe",
+      "total_ha": 416521.13,
+      "extranjerizada_ha": 1248.0,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Colon",
+      "provincia": "Cordoba",
+      "total_ha": 221589.06,
+      "extranjerizada_ha": 687.01,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Diamante",
+      "provincia": "Entre Rios",
+      "total_ha": 256878.98,
+      "extranjerizada_ha": 856.84,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rio Seco",
+      "provincia": "Cordoba",
+      "total_ha": 706504.0,
+      "extranjerizada_ha": 2403.02,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Maipu",
+      "provincia": "Chaco",
+      "total_ha": 275657.24,
+      "extranjerizada_ha": 1000.33,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Rio Segundo",
+      "provincia": "Cordoba",
+      "total_ha": 512936.61,
+      "extranjerizada_ha": 2143.91,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Quitilipi",
+      "provincia": "Chaco",
+      "total_ha": 130792.25,
+      "extranjerizada_ha": 553.19,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "General Paz",
+      "provincia": "Corrientes",
+      "total_ha": 458615.95,
+      "extranjerizada_ha": 1997.51,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Juarez Celman",
+      "provincia": "Cordoba",
+      "total_ha": 789111.74,
+      "extranjerizada_ha": 3489.17,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Dolores",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 188450.99,
+      "extranjerizada_ha": 856.02,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Ischilin",
+      "provincia": "Cordoba",
+      "total_ha": 502776.74,
+      "extranjerizada_ha": 2305.08,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Saavedra",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 329441.11,
+      "extranjerizada_ha": 1570.65,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Santa Maria",
+      "provincia": "Cordoba",
+      "total_ha": 310547.69,
+      "extranjerizada_ha": 1487.8,
+      "porcentaje": 0,
+      "nivel": "normal"
+    },
+    {
+      "nombre": "Laprida",
+      "provincia": "Provincia de Buenos Aires",
+      "total_ha": 332109.35,
+      "extranjerizada_ha": 1656.4,
+      "porcentaje": 0,
+      "nivel": "normal"
+    }
+  ],
+  "summary": {
+    "total_departamentos": 501,
+    "total_departamentos_ign": 529,
+    "alto_nivel": 73,
+    "sobre_promedio": 52,
+    "normal": 376,
+    "total_provincias": 22
+  }
+}

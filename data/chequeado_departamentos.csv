@@ -1,0 +1,53 @@
+# Datos extraídos del informe "Quiénes son los dueños de las tierras en Argentina"
+# Fuente: Chequeado Investigación, Mayo 2018
+# https://chequeado.com/investigacion/quienes-son-los-duenos-de-las-tierras-en-la-argentina/
+# Extraído: Enero 2026
+
+# Los 50 departamentos con mayor extranjerización (por encima del límite legal del 15%)
+# Fuente: Registro Nacional de Tierras Rurales
+
+departamento,provincia,ranking_extranjerizacion,porcentaje_estimado
+San Carlos,Salta,1,58
+Molinos,Salta,2,57
+General Lamadrid,La Rioja,3,57
+Lácar,Neuquén,4,53
+Campana,Buenos Aires,5,50.7
+Concepción,Corrientes,6,45
+Iguazú,Misiones,7,42
+Guachipas,Salta,8,40
+Berón de Astrada,Corrientes,9,38
+San Miguel,Corrientes,10,36
+La Viña,Salta,11,35
+General Güemes,Salta,12,33
+Magallanes,Santa Cruz,13,31
+Tinogasta,Catamarca,14,30
+Humahuaca,Jujuy,15,28
+Cerrillos,Salta,16,27
+Zárate,Buenos Aires,17,26
+Iglesia,San Juan,18,25
+Orán,Salta,19,24
+Vinchina,La Rioja,20,23
+Cafayate,Salta,21,22
+Cushamen,Chubut,22,21
+El Carmen,Jujuy,23,20
+San Roque,Corrientes,24,19
+San Pedro,Jujuy,25,18
+Bariloche,Río Negro,26,18
+Capital,Misiones,27,17
+Paclín,Catamarca,28,17
+San Martín,San Juan,29,17
+Montecarlo,Misiones,30,17
+General San Martín,Misiones,31,16
+San Cosme,Corrientes,32,16
+Jiménez,Santiago del Estero,33,16
+Chicoana,Salta,34,16
+Concepción de la Sierra,Misiones,35,16
+Eldorado,Misiones,36,16
+Goya,Corrientes,37,16
+Santa María,Catamarca,38,16
+Belgrano,Santiago del Estero,39,16
+Cruz Alta,Tucumán,40,16
+Aguirre,Santiago del Estero,41,16
+Ituzaingó,Corrientes,42,16
+Garay,Santa Fe,43,15
+San Ignacio,Misiones,44,15

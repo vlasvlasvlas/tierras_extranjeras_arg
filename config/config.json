@@ -1,0 +1,50 @@
+{
+    "app": {
+        "title": "Tierras Extranjerizadas",
+        "subtitle": "Registro Nacional de Tierras Rurales - Argentina",
+        "description": "Visualización de datos de extranjerización de tierras rurales en Argentina",
+        "source": {
+            "name": "Registro Nacional de Tierras Rurales",
+            "url": "https://www.argentina.gob.ar/justicia/registro-nacional-tierras-rurales"
+        },
+        "github": "https://github.com/user/tierras_extranjeras_arg"
+    },
+    "map": {
+        "center": [
+            -38.5,
+            -63.5
+        ],
+        "zoom": 4,
+        "minZoom": 3,
+        "maxZoom": 12,
+        "tiles": {
+            "url": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+            "attribution": "© OpenStreetMap contributors © CARTO"
+        }
+    },
+    "filter": {
+        "field": "porcentaje",
+        "label": "% Extranjerización",
+        "min": 0,
+        "max": 100,
+        "default": [
+            0,
+            100
+        ],
+        "step": 1
+    },
+    "colors": {
+        "alto": "#e74c3c",
+        "sobre_promedio": "#f39c12",
+        "normal": "#27ae60",
+        "background": "#1a1a2e",
+        "surface": "#16213e",
+        "primary": "#0f3460",
+        "text": "#eaeaea",
+        "textMuted": "#a0a0a0"
+    },
+    "thresholds": {
+        "alto": 10,
+        "sobre_promedio": 6
+    }
+}

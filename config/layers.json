@@ -1,0 +1,82 @@
+{
+    "layers": [
+        {
+            "id": "provincias",
+            "name": "Provincias",
+            "file": "data/web/provincias.geojson",
+            "visible": true,
+            "zIndex": 1,
+            "style": {
+                "type": "choropleth",
+                "field": "porcentaje",
+                "opacity": 0.3,
+                "weight": 2,
+                "color": "#ffffff"
+            },
+            "popup": {
+                "title": "nombre",
+                "fields": [
+                    {
+                        "key": "total_ha",
+                        "label": "Total hectáreas",
+                        "format": "number"
+                    },
+                    {
+                        "key": "extranjerizada_ha",
+                        "label": "Hectáreas extranjerizadas",
+                        "format": "number"
+                    },
+                    {
+                        "key": "porcentaje",
+                        "label": "% Extranjerización",
+                        "format": "percent"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "departamentos",
+            "name": "Departamentos",
+            "file": "data/web/departamentos.geojson",
+            "visible": true,
+            "filterable": true,
+            "zIndex": 2,
+            "style": {
+                "type": "choropleth",
+                "field": "porcentaje",
+                "opacity": 0.7,
+                "weight": 1,
+                "color": "#333333"
+            },
+            "popup": {
+                "title": "nombre",
+                "fields": [
+                    {
+                        "key": "provincia",
+                        "label": "Provincia"
+                    },
+                    {
+                        "key": "total_ha",
+                        "label": "Total hectáreas",
+                        "format": "number"
+                    },
+                    {
+                        "key": "extranjerizada_ha",
+                        "label": "Hectáreas extranjerizadas",
+                        "format": "number"
+                    },
+                    {
+                        "key": "porcentaje",
+                        "label": "% Extranjerización",
+                        "format": "percent"
+                    },
+                    {
+                        "key": "nivel",
+                        "label": "Nivel",
+                        "format": "nivel"
+                    }
+                ]
+            }
+        }
+    ]
+}

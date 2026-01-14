@@ -1,0 +1,94 @@
+{
+    "sources": [
+        {
+            "id": "rntr",
+            "name": "Registro Nacional de Tierras Rurales",
+            "description": "Datos oficiales de extranjerización de tierras rurales por departamento y provincia. Incluye hectáreas totales, extranjerizadas y porcentaje.",
+            "organization": "Ministerio de Justicia de la Nación Argentina",
+            "url": "https://www.argentina.gob.ar/justicia/registro-nacional-tierras-rurales",
+            "license": "Datos Públicos Argentina",
+            "updated": "2024-01-15",
+            "format": "GeoPackage",
+            "files": [
+                {
+                    "name": "departamentos.geojson",
+                    "path": "data/web/departamentos.geojson",
+                    "description": "Polígonos de departamentos con datos de extranjerización",
+                    "size": "1.7 MB"
+                },
+                {
+                    "name": "provincias.geojson",
+                    "path": "data/web/provincias.geojson",
+                    "description": "Polígonos de provincias con datos agregados",
+                    "size": "945 KB"
+                },
+                {
+                    "name": "puntos.geojson",
+                    "path": "data/web/puntos.geojson",
+                    "description": "Puntos con datos detallados por departamento",
+                    "size": "137 KB"
+                },
+                {
+                    "name": "stats.json",
+                    "path": "data/web/stats.json",
+                    "description": "Estadísticas agregadas para visualizaciones",
+                    "size": "98 KB"
+                }
+            ]
+        },
+        {
+            "id": "ign",
+            "name": "Instituto Geográfico Nacional",
+            "description": "Geometrías oficiales de provincias y departamentos de Argentina.",
+            "organization": "Instituto Geográfico Nacional (IGN)",
+            "url": "https://www.ign.gob.ar/",
+            "license": "CC BY 4.0",
+            "updated": "2023-06-01",
+            "format": "GeoPackage",
+            "files": []
+        },
+        {
+            "id": "chequeado",
+            "name": "Investigación: Dueños de la Tierra",
+            "description": "Investigación periodística sobre quiénes son los propietarios de las tierras en Argentina, con datos de principales terratenientes y empresas.",
+            "organization": "Chequeado",
+            "url": "https://chequeado.com/investigacion/quienes-son-los-duenos-de-las-tierras-en-la-argentina/",
+            "license": "CC BY-NC-SA",
+            "updated": "2018-05-11",
+            "format": "PDF",
+            "files": [
+                {
+                    "name": "duenostierra.pdf",
+                    "path": "data/duenostierra.pdf",
+                    "description": "Informe original completo",
+                    "size": "4.5 MB"
+                },
+                {
+                    "name": "chequeado_departamentos.csv",
+                    "path": "data/chequeado_departamentos.csv",
+                    "description": "44 departamentos con extranjerización sobre el límite legal (15%)",
+                    "size": "2 KB"
+                },
+                {
+                    "name": "chequeado_propietarios.csv",
+                    "path": "data/chequeado_propietarios.csv",
+                    "description": "Principales propietarios extranjeros (Benetton, Lewis, Glencore)",
+                    "size": "1 KB"
+                },
+                {
+                    "name": "chequeado_nacionalidades.csv",
+                    "path": "data/chequeado_nacionalidades.csv",
+                    "description": "Top 10 nacionalidades y datos de offshore",
+                    "size": "1 KB"
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "project": "Tierras Extranjerizadas Argentina",
+        "version": "1.0",
+        "lastUpdated": "2026-01-14",
+        "contact": "",
+        "repository": ""
+    }
+}

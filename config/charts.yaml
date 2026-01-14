@@ -1,0 +1,81 @@
+# Charts Configuration
+# Edit this file to customize visualizations
+
+charts:
+  - id: top_departamentos
+    type: bar
+    title: "Top 20 Departamentos por Extranjerización"
+    description: "Departamentos con mayor porcentaje de tierras en manos extranjeras"
+    data_source: departamentos
+    sort_by: porcentaje
+    sort_order: desc
+    limit: 20
+    x_field: nombre
+    y_field: porcentaje
+    color_field: nivel
+    options:
+      indexAxis: y
+      plugins:
+        legend:
+          display: false
+
+  - id: provincias_pie
+    type: bar
+    title: "Top 10 Provincias por Hectáreas Extranjerizadas"
+    description: "Provincias con mayor cantidad de hectáreas en manos extranjeras"
+    data_source: provincias
+    x_field: nombre
+    y_field: extranjerizada_ha
+    sort_by: extranjerizada_ha
+    sort_order: desc
+    limit: 10
+    options:
+      indexAxis: y
+      plugins:
+        legend:
+          display: false
+
+  - id: provincias_bar
+    type: bar
+    title: "Provincias por % de Extranjerización"
+    description: "Porcentaje de tierras rurales en manos extranjeras por provincia"
+    data_source: provincias
+    sort_by: porcentaje
+    sort_order: desc
+    x_field: nombre
+    y_field: porcentaje
+    color_field: nivel
+    options:
+      indexAxis: y
+      plugins:
+        legend:
+          display: false
+
+  - id: distribucion_nivel
+    type: doughnut
+    title: "Distribución por Nivel"
+    description: "Cantidad de departamentos según su nivel de extranjerización"
+    data_source: summary
+    custom_data:
+      labels: ["Alto (>10%)", "Sobre promedio (6-10%)", "Normal (<6%)"]
+      fields: ["alto_nivel", "sobre_promedio", "normal"]
+    options:
+      plugins:
+        legend:
+          position: bottom
+
+  - id: propietarios_bar
+    type: bar
+    title: "Principales Propietarios Extranjeros"
+    description: "Terratenientes con mayor cantidad de hectáreas (fuente: Chequeado)"
+    data_source: propietarios
+    x_field: nombre
+    y_field: hectareas
+    sort_by: hectareas
+    sort_order: desc
+    limit: 10
+    options:
+      indexAxis: y
+      plugins:
+        legend:
+          display: false

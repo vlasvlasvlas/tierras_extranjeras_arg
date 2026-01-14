@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Visualización de datos de extranjerización de tierras rurales en Argentina">
+    <title>Tierras Extranjerizadas - Argentina</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">🗺️</span>
+                <div class="logo-text">
+                    <h1 id="app-title">Tierras Extranjerizadas</h1>
+                    <p id="app-subtitle">Argentina</p>
+                </div>
+            </div>
+            <!-- Search -->
+            <div class="header-search">
+                <input type="text" id="search-input" placeholder="Buscar departamento o provincia...">
+                <div id="search-results" class="search-results"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Global Filters Panel -->
+    <div class="filters-panel">
+        <div class="filters-container">
+            <!-- Provincia Filter -->
+            <div class="filter-group">
+                <label for="filter-provincia">Provincia</label>
+                <select id="filter-provincia">
+                    <option value="">Todas las provincias</option>
+                </select>
+            </div>
+
+            <!-- Departamento Filter -->
+            <div class="filter-group">
+                <label for="filter-departamento">Departamento</label>
+                <select id="filter-departamento">
+                    <option value="">Todos los departamentos</option>
+                </select>
+            </div>
+
+            <!-- Nivel Filter -->
+            <div class="filter-group">
+                <label for="filter-nivel">Nivel</label>
+                <select id="filter-nivel">
+                    <option value="">Todos los niveles</option>
+                    <option value="alto">🔴 Alto (&gt;10%)</option>
+                    <option value="sobre_promedio">🟠 Sobre promedio (6-10%)</option>
+                    <option value="normal">🟢 Normal (&lt;6%)</option>
+                </select>
+            </div>
+
+            <!-- Porcentaje Slider -->
+            <div class="filter-group filter-group-slider">
+                <label>% Extranjerización: <span id="filter-value">0% - 100%</span></label>
+                <div class="slider-container">
+                    <input type="range" id="filter-min" class="slider" min="0" max="100" value="0">
+                    <input type="range" id="filter-max" class="slider" min="0" max="100" value="100">
+                    <div class="slider-track"></div>
+                    <div class="slider-range" id="slider-range"></div>
+                </div>
+            </div>
+
+            <!-- Results Counter -->
+            <div class="filter-results">
+                <span id="visible-count">501</span> de <span id="total-count">501</span> departamentos
+            </div>
+
+            <!-- Reset Button -->
+            <button class="filter-reset" id="filter-reset" title="Limpiar filtros">✕</button>
+        </div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <nav class="tabs">
+        <button class="tab active" data-tab="map">
+            <span class="tab-icon">🗺️</span>
+            <span class="tab-text">Mapa</span>
+        </button>
+        <button class="tab" data-tab="table">
+            <span class="tab-icon">📋</span>
+            <span class="tab-text">Tabla</span>
+        </button>
+        <button class="tab" data-tab="charts">
+            <span class="tab-icon">📊</span>
+            <span class="tab-text">Charts</span>
+        </button>
+        <button class="tab" data-tab="data">
+            <span class="tab-icon">📂</span>
+            <span class="tab-text">Datos</span>
+        </button>
+        <button class="tab" data-tab="info">
+            <span class="tab-icon">ℹ️</span>
+            <span class="tab-text">Info</span>
+        </button>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Map View -->
+        <section id="map-view" class="view active">
+            <!-- Map Container -->
+            <div id="map"></div>
+
+            <!-- Legend -->
+            <div class="legend" id="legend">
+                <div class="legend-title">Nivel de Extranjerización</div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background: #e74c3c"></span>
+                    <span>Alto (&gt;10%)</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background: #f39c12"></span>
+                    <span>Sobre promedio (6-10%)</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background: #27ae60"></span>
+                    <span>Normal (&lt;6%)</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background: #555555"></span>
+                    <span>Sin datos</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Table View -->
+        <section id="table-view" class="view">
+            <div class="table-container">
+                <table id="data-table">
+                    <thead>
+                        <tr>
+                            <th data-sort="nombre">Departamento <span class="sort-icon">↕</span></th>
+                            <th data-sort="provincia">Provincia <span class="sort-icon">↕</span></th>
+                            <th data-sort="porcentaje">% Extranjerización <span class="sort-icon">↕</span></th>
+                            <th data-sort="extranjerizada_ha">Ha. Extranjerizadas <span class="sort-icon">↕</span></th>
+                            <th data-sort="total_ha">Ha. Totales <span class="sort-icon">↕</span></th>
+                            <th data-sort="nivel">Nivel <span class="sort-icon">↕</span></th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        <!-- Data will be inserted here -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Charts View -->
+        <section id="charts-view" class="view">
+            <div class="charts-grid" id="charts-container">
+                <!-- Charts will be inserted here dynamically -->
+            </div>
+        </section>
+
+        <!-- Data Sources View -->
+        <section id="data-view" class="view">
+            <div class="data-container" id="data-sources-container">
+                <!-- Data sources will be loaded from config/sources.json -->
+            </div>
+        </section>
+
+        <!-- Info View -->
+        <section id="info-view" class="view">
+            <div class="info-container">
+                <div class="info-card">
+                    <h2>📌 Sobre este proyecto</h2>
+                    <p>
+                        Este visor permite explorar los datos de <strong>extranjerización de tierras rurales</strong>
+                        en Argentina, mostrando qué porcentaje del territorio de cada departamento se encuentra
+                        en manos de propietarios extranjeros.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <h2>📊 Fuentes de datos</h2>
+                    <p>
+                        Los datos provienen del <strong>Registro Nacional de Tierras Rurales</strong> (Ministerio de
+                        Justicia)
+                        y la investigación <strong>"Quiénes son los dueños de las tierras en Argentina"</strong> de
+                        Chequeado.
+                    </p>
+                    <a href="https://www.argentina.gob.ar/justicia/registro-nacional-tierras-rurales" target="_blank"
+                        class="info-link">
+                        Registro Nacional de Tierras Rurales →
+                    </a>
+                    <br>
+                    <a href="https://chequeado.com/investigacion/quienes-son-los-duenos-de-las-tierras-en-la-argentina/"
+                        target="_blank" class="info-link">
+                        Investigación Chequeado →
+                    </a>
+                </div>
+
+                <div class="info-card">
+                    <h2>🎯 Objetivo</h2>
+                    <p>
+                        Facilitar el acceso ciudadano a información pública sobre la distribución
+                        de la propiedad de la tierra en Argentina, permitiendo identificar patrones
+                        territoriales de extranjerización.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <h2>📈 Clasificación por niveles</h2>
+                    <ul class="info-list">
+                        <li>
+                            <span class="nivel-indicator alto"></span>
+                            <strong>Alto nivel (&gt;10%):</strong> Departamentos con más del 10% de tierras
+                            extranjerizadas
+                        </li>
+                        <li>
+                            <span class="nivel-indicator sobre_promedio"></span>
+                            <strong>Sobre promedio (6-10%):</strong> Por encima del promedio nacional (~5.6%)
+                        </li>
+                        <li>
+                            <span class="nivel-indicator normal"></span>
+                            <strong>Normal (&lt;6%):</strong> Dentro o por debajo del promedio nacional
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <h2>⚖️ Marco legal</h2>
+                    <p>
+                        La <strong>Ley 26.737</strong> (Régimen de Protección al Dominio Nacional sobre la Propiedad,
+                        Posesión o Tenencia de las Tierras Rurales) establece límites a la titularidad de tierras
+                        rurales por parte de extranjeros: máximo 15% a nivel nacional y 30% por provincia.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <h2>🔧 Tecnología</h2>
+                    <p>
+                        Visor desarrollado con tecnologías web abiertas: Leaflet para mapas,
+                        Chart.js para visualizaciones, y datos en formato GeoJSON.
+                    </p>
+                    <p class="info-version">Versión 1.0 · Enero 2026</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Datos: <a href="https://www.argentina.gob.ar/justicia/registro-nacional-tierras-rurales"
+                target="_blank">Registro Nacional de Tierras Rurales</a> ·
+            <a href="https://chequeado.com/investigacion/quienes-son-los-duenos-de-las-tierras-en-la-argentina/"
+                target="_blank">Chequeado</a>
+        </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+
+    <script src="js/config.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/table.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/data-sources.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

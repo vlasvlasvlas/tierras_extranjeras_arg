@@ -1,0 +1,15 @@
+# Principales propietarios extranjeros de tierras en Argentina
+# Fuente: Chequeado Investigación "Quiénes son los dueños de las tierras", Mayo 2018
+# https://chequeado.com/investigacion/quienes-son-los-duenos-de-las-tierras-en-la-argentina/
+
+propietario,nacionalidad,hectareas,ubicacion,departamento,provincia,tipo_explotacion,offshore,notas
+Estomonte AG,Suiza,400000,Calingasta,Calingasta,San Juan,Minería,true,"Conflictos con títulos de propiedad"
+Compañía Minera Aguilar (Glencore),Suiza,98000,Humahuaca,Humahuaca,Jujuy,Minería (plata/plomo/zinc),true,"Asociada a Glencore"
+Xstrata Plc (Glencore),Suiza,80000,La Alumbrera,Belén,Catamarca,Minería (cobre/oro),true,"Yacimiento a cielo abierto"
+Estancia La Bodeguita SA,Uruguay,43000,Guachipas,Guachipas,Salta,Agropecuario,true,"Concesión de 4 ríos por decreto"
+Grupo Hess (Hess Family Latin América SA),Suiza,38000,Valles Calchaquíes,Cafayate,Salta,Vitivinícola,true,"Explotación de vinos"
+Xstrata Pachón (Glencore),Bermudas,30000,Calingasta,Calingasta,San Juan,Minería (cobre),true,"Proyecto de extracción de cobre"
+Unicampos SA,Suiza/Italia,20000,Mendoza/San Luis,,Mendoza,Agropecuario,true,
+Hidden Lake SA (Joseph Lewis),Inglaterra,11200,Lago Escondido,Bariloche,Río Negro,Turismo/Residencial,false,"Complejo con mansión golf helipuerto"
+Familia Benetton,Italia,900000,Leleque,Cushamen,Chubut,Ganadería,false,"Conflicto con comunidad mapuche"
+Familia Grehan,Estados Unidos,,Villa Mascardi,Bariloche,Río Negro,Residencial,false,"Conflicto territorial"
